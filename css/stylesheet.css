@@ -1,0 +1,559 @@
+/* General CSS */
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    background: linear-gradient(to right, #83c9ad 0%,#fafffa 4%,#fafffa 96%,#7fc5ae 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.hide{
+    margin-left: -200%;
+}
+
+.noPadding{
+    padding: 0;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.displayNone{
+    display: none;
+}
+
+.typeIcon{
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+}
+
+/* Main screen menus css */
+.pokeListMenus{
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    z-index: 10;
+    background-color: #cccccc;
+    /* border-bottom: solid #878787 1px;     */
+}
+
+.compareMenu{
+    position: absolute;
+    left: 20vw;
+    top: 10px;
+}
+
+.pokemonMenu{
+    position: absolute;
+    right: 20vw;
+    top: 10px;
+}
+
+.selectMenuText{
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 100vw;
+    text-decoration: underline;
+}
+
+.searchIcon{
+    height: 25px;
+    width: auto;
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    z-index: 10;
+    transition: opacity 0.5s;
+}
+
+.searchIcon.hideSearchIcon{
+    opacity: 0;
+}
+
+.searchIcon.removeSearchIcon{
+    display: none;
+}
+
+.closeSearchIcon{
+    height: 25px;
+    width: auto;
+    right: 10px;
+    top: 0px;
+    position: absolute;
+}
+
+.searchBar{
+    background-color: #fafffa;
+    border: none;
+    border-bottom: solid 2px #404040;
+    float: right;
+    padding-right: 10vw;
+}
+
+.searchBarRow{
+    transition: transform .5s;
+    position: absolute;
+    transform: translateX(100vw);
+    position: absolute;
+    right: 0;
+    top: 45px;
+    z-index: 11;
+    background-color: #cccccc;
+    width: 100%;
+}
+
+.searchBarRow.showSearch{
+    transform: translateX(0);
+}
+
+/* Compare select screen CSS */
+.compareSelectScreen{
+    height: 100vh;
+    width: 100vw;
+    /* z-index: 999; */
+    position: fixed;
+    top: 50px;
+    transition: transform 0.5s, opacity 0.5s;
+    transform: translateX(-100vw);
+}
+
+.compareSelectScreen.show{
+    transform: translateX(0);
+}
+
+.compareSelectScreen.fadeOut{
+    opacity: 0;
+}
+
+.compareSelectScreenButtons{
+    background-color: darkgrey;
+    color: #4b4b4b;
+    text-align: center;
+    height: 15vh;
+    margin: 10px auto;
+    font-size: 2rem;
+    line-height: 14vh;
+    border-radius: 5px;
+    border: solid #00000033 2px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.compareSelectButton{
+    background: linear-gradient(to right, #aed89c 0%,#07c9ab 100%);
+    color: white;
+    text-align: center;
+    height: 10vh;
+    margin: 10px auto;
+    font-size: 2rem;
+    line-height: 10vh;
+    border-radius: 50px;
+    border: solid #00000033 2px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.selectedPokeToCompare{
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.closeButton{
+    z-index: 10;
+    position: fixed;
+    width: 75px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -37.5px;
+    transition: transform 0.5s;
+}
+
+.closeButton.hideRight{
+    transform: translateX(100vw);
+}
+
+.closeButton.hideBottom{
+    transform: translateY(100vh);
+}
+
+/* Compare Screen CSS */
+.comparingTitle{
+    margin: 0;
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    top: 0;
+    text-shadow: 0 0 5px black;
+}
+
+.comparedPokes{
+    background-image: url('/img/compareBG.png');
+    background-size: 100% 100%;
+    width: 100vw;
+    margin: 0;
+    height: 45vw;
+    padding-top: 13%;
+    color: white;
+    text-shadow: 0 0 3px black;
+    text-align: center;
+}
+
+.comparedPokes2Selected{
+    height: auto;
+    width: 25vw;;
+}
+
+.compareScreen p{
+    margin: 0;
+}
+
+.compareScreen{
+    background: rgb(46,46,46);
+    background: linear-gradient(135deg, rgb(46,46,46) 0%,rgb(26,26,26) 100%);
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    position: fixed;
+    overflow-x: hidden;
+    padding-bottom: 75px;
+    transition: transform 0.5s;
+    transform: translateY(100vh);
+}
+
+.compareScreen.show{
+    transform: translateY(0);
+    position: absolute;
+}
+
+.compareStatsRow{
+    height: 130px;
+    margin-left: 1px;
+    margin-bottom: 3px;
+}
+
+.compareStatsList li{
+    padding: 8px;
+}
+
+.compareStatsList li:first-child{
+    border-top-left-radius: 0;
+    margin-top: 0;
+}
+
+.compareStatsList li:last-child{
+    border-bottom-left-radius: 0;
+}
+
+.compareStatsList .list-group-item:first-child{
+    padding: 6px;
+}
+
+.compareStatsList .progress-bar{
+    text-align: left;
+    padding-left: 5px;
+}
+
+.compareTypesRow{
+    margin: 0;
+}
+
+.compareType{
+    max-height: 20px;
+    line-height: 16px;
+    font-size: 13px;
+}
+
+.compareSpriteBox{
+    border: solid #dfdfdf 1px;
+    width: 130px;
+    border-radius: .25rem 0 0 .25rem;
+    box-shadow: inset 0 0 5px black;
+    border-radius: 2px;
+}
+
+.compareSpriteBox img{
+    max-height: 85%;
+    max-width: 100%;
+    height: 85%;
+    width: auto;
+    margin-left: 7.5%;
+}
+
+.compareSpriteBox p{
+    margin: 2px 0 0 0;
+    max-height: 15%;
+    text-align: center;
+    line-height: 100%;
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+
+.compareStatsBox{
+    padding-left: 0;
+}
+
+.compareMovesRow{
+    margin-bottom: 4px;
+}
+
+.compareMovesRow li{
+    padding: 2px 0 5px 10px;
+}
+
+.compareMovesSprite{
+    height: 2.25rem;
+    width: 2.25rem;
+    float: left;
+    margin-left: -5px;
+}
+
+.compareMovesRow h5{
+    line-height: 2.2rem;
+    margin-bottom: 0;
+}
+
+/* Main list screen CSS */
+.pokeList{
+    position: absolute;
+    top: 45px;
+    min-width: 100%;
+    background: linear-gradient(to right, #83c9ad 0%,#fafffa 4%,#fafffa 96%,#7fc5ae 100%);
+    padding-top: 10px;
+    transition: transform 0.5s;
+}
+
+.pokeList.fixed{
+    position: fixed;
+}
+
+.pokeList.hideRight{
+    transform: translateX(100vw);
+}
+
+/* .pokeList.compareSelect{
+    top: 0;
+    z-index: 99;
+} */
+
+.pokeList .genTitle{
+    text-shadow: 1px 1px 3px #00000033;
+    /* padding-top: 10px; */
+    margin: 0;
+    text-align: center;
+
+    background: linear-gradient(to right, #aed89c 0%,#07c9ab 100%);
+    border-radius: 100px;
+    /* padding-top: 0; */
+    border: solid #00000033 2px;
+    box-shadow: 1px 1px 5px black;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+    margin-top: 2.5%;
+    width: 30%;
+}
+
+img{
+    width: 100%;
+} 
+
+/* Loading Screen */
+.loadingScreen{
+    background-color: #00000096;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.loadingScreen img{
+    margin-top: 30%;
+}
+
+/* Details Screen */
+.statScreen{
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out;
+    position: fixed;
+    top: 0;
+    /* background-color: red; */
+    /* background: url("../img/typeBackgrounds/Dark.png") no-repeat center center fixed; */
+    background-size: cover !important;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+}
+
+.statScreen.show{
+    transform: translateY(0);
+}
+
+.statScreen.absolute{
+    position: absolute;
+}
+
+.statScreen .list-group{
+    box-shadow: 0px 2px 10px black;
+}
+
+.list-group-item{
+     margin: -1px;
+     width: 100%;
+}
+
+#statScreenName{
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 3px #00000030;
+}
+
+.statScreen p{
+    margin: 0;
+}
+
+.statScreen .col-4{
+    /* text shadow for progress bar labels */
+    text-shadow: 1px 1px 3px #00000015;
+}
+
+.type1, .type2{
+    text-align: center;
+    border-radius: 20px;
+    border: solid #00000030 2px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    box-shadow: 1px 1px 2px black;
+}
+
+.statScreen .progBar{
+    padding-left: 0;
+}
+
+.statScreen .progress, .progress-bar{
+    height: 100%;
+    text-shadow: 0 0 5px black;
+    box-shadow: inset 0px 0px 3px black;
+}
+
+.bg-cp{
+    background-color: #253bff;
+}
+
+.bg-attack{
+    background-color: #ff403a;
+}
+
+.bg-defense{
+    background-color: #22a47b;
+}
+
+.bg-hp{
+    background-color: #ff63c6;
+}
+
+.STAB{
+    color: green;
+}
+
+.chargeBars{
+    height: 3px;
+    margin-top: 1px;
+    margin-bottom: 4px;
+}
+
+.chargeBar{
+    border-radius: 10px;
+}
+
+.chargeBar33{
+    margin: 0 5px 0 5px;
+}
+
+.chargeBar50left{
+    margin-right: 2.5px;
+}
+
+.chargeBar50Right{
+    margin-left: 2.5px;
+}
+
+.statScreen .img-fluid{
+    height: 45vh;
+    width: auto;
+}
+
+#closeButton{
+    height: 70px;
+}
+
+/* Type Colours */
+.Normal{background-color: rgb(168, 167, 125);}	
+.Fire{background-color: rgb(226, 133, 68);}
+.Fighting{background-color: rgb(177, 60, 49);}	
+.Water{background-color: rgb(112, 145, 233);}
+.Flying{background-color: rgb(164, 147, 234);}	
+.Grass{background-color: rgb(139, 197, 96);}
+.Poison{background-color: rgb(148, 73, 155);}	
+.Electric{background-color: rgb(242, 208, 84);}
+.Ground{background-color: rgb(219, 192, 117);}	
+.Psychic{background-color: rgb(230, 100, 136);}
+.Rock{background-color: rgb(180, 160, 75);}	
+.Ice{background-color: rgb(166, 214, 215);}
+.Bug{background-color: rgb(171, 182, 66);}	
+.Dragon{background-color: rgb(104, 68, 239);}
+.Ghost{background-color: rgb(108, 90, 148);}	
+.Dark{background-color: rgb(108, 89, 74);}
+.Steel{background-color: rgb(184, 184, 206);}	
+.Fairy{background-color: rgb(226, 157, 172);}
+
+/* Transparent Type Colours */
+.TransparentNormal{background-color: rgba(168, 167, 125, 0.5);}	
+.TransparentFire{background-color: rgba(226, 133, 68, 0.5);}
+.TransparentFighting{background-color: rgba(177, 60, 49, 0.5);}	
+.TransparentWater{background-color: rgba(112, 145, 233, 0.5);}
+.TransparentFlying{background-color: rgba(164, 147, 234, 0.5);}	
+.TransparentGrass{background-color: rgba(139, 197, 96, 0.5);}
+.TransparentPoison{background-color: rgba(148, 73, 155, 0.5);}	
+.TransparentElectric{background-color: rgba(242, 208, 84, 0.5);}
+.TransparentGround{background-color: rgba(219, 192, 117, 0.5);}	
+.TransparentPsychic{background-color: rgba(230, 100, 136, 0.5);}
+.TransparentRock{background-color: rgba(180, 160, 75, 0.5);}	
+.TransparentIce{background-color: rgba(166, 214, 215, 0.5);}
+.TransparentBug{background-color: rgba(171, 182, 66, 0.5);}	
+.TransparentDragon{background-color: rgba(104, 68, 239, 0.5);}
+.TransparentGhost{background-color: rgba(108, 90, 148, 0.5);}	
+.TransparentDark{background-color: rgba(108, 89, 74, 0.5);}
+.TransparentSteel{background-color: rgba(184, 184, 206, 0.5);}	
+.TransparentFairy{background-color: rgba(226, 157, 172, 0.5);}
+
+/* Type Backgrounds */
+.bgNormal{background: url("../img/typeBackgrounds/Normal.png") no-repeat center center fixed;}	
+.bgFire{background: url("../img/typeBackgrounds/Fire.png") no-repeat center center fixed;}
+.bgFighting{background: url("../img/typeBackgrounds/Fighting.png") no-repeat center center fixed;}	
+.bgWater{background: url("../img/typeBackgrounds/Water.png") no-repeat center center fixed;}
+.bgFlying{background: url("../img/typeBackgrounds/Flying.png") no-repeat center center fixed;}	
+.bgGrass{background: url("../img/typeBackgrounds/Grass.png") no-repeat center center fixed;}
+.bgPoison{background: url("../img/typeBackgrounds/Poison.png") no-repeat center center fixed;}	
+.bgElectric{background: url("../img/typeBackgrounds/Electric.png") no-repeat center center fixed;}
+.bgGround{background: url("../img/typeBackgrounds/Ground.png") no-repeat center center fixed;}	
+.bgPsychic{background: url("../img/typeBackgrounds/Psychic.png") no-repeat center center fixed;}
+.bgRock{background: url("../img/typeBackgrounds/Rock.png") no-repeat center center fixed;}	
+.bgIce{background: url("../img/typeBackgrounds/Ice.png") no-repeat center center fixed;}
+.bgBug{background: url("../img/typeBackgrounds/Bug.png") no-repeat center center fixed;}	
+.bgDragon{background: url("../img/typeBackgrounds/Dragon.png") no-repeat center center fixed;}
+.bgGhost{background: url("../img/typeBackgrounds/Ghost.png") no-repeat center center fixed;}	
+.bgDark{background: url("../img/typeBackgrounds/Dark.png") no-repeat center center fixed;}
+.bgSteel{background: url("../img/typeBackgrounds/Steel.png") no-repeat center center fixed;}	
+.bgFairy{background: url("../img/typeBackgrounds/Fairy.png") no-repeat center center fixed;}
