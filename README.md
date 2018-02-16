@@ -4,6 +4,6 @@ Pokedex Go is a fully featured Pokedex designed to make comparing Pokemon easy i
 As of now the following platforms are supported:
 ```
 iOS,
-Android,
+Android
 ```
-Pokedex Go will be recieving **desktop** and **native app** support soon. Although the current state of the app is a web app, navigating to the site via desktop may result in formatting errors. For full performace please access the app via a mobile device.
+Pokedex Go will be recieving **desktop** and **native app** support soon. Although the current state of the app is a web app, navigating to the site via desktop may result in formatting errors. For full performace please access the app via your mobile device.
