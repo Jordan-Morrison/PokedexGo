@@ -1,0 +1,28 @@
+{
+  "name": "com.jordanmorrison.pokedexgo",
+  "displayName": "Pokedex Go",
+  "version": "2.0.0",
+  "description": "A fully featured Pokedex application for Pokemon Go that allows users to compare Pokemon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Morrison",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^7.0.0",
+    "cordova-ios": "^4.5.4",
+    "cordova-plugin-google-analytics": "^1.8.3",
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-google-analytics": {}
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
