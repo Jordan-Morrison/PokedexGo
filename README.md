@@ -23,7 +23,7 @@ Please visit [Pokedex Go](https://jordan-morrison.github.io/PokedexGo/) on your 
 If you're unfamiliar with adding apps to your home screen from the browser then you can follow the following tutorial:
 [iOS Web App Tutorial](https://streamable.com/aycun) 
 
-I do currently have a working native version for iOS, however have no way of distributing it. Apple does not allow installation of apps from sources other than the App Store unless your phone is jailbroken. There are a few ways of code sigining ipa files to install without jailbreak, however these often vary from person to person and get patched rather quickly. If you know a way to distribute the app then please let me know :) I can also post an unsigned ipa for those interested in installing with a jailbreak or other code signing service.
+I do currently have a working native version for iOS, however have no way of distributing it. Apple does not allow installation of apps from sources other than the App Store. There are a few ways of code sigining ipa files such as [iOS App Signer](https://dantheman827.github.io/ios-app-signer/) or jailbreaking, however these methods are considered un-safe by some and are often patched quite quickly. If you know a way to distribute the app (for free) then please let me know :) I can also post an unsigned ipa for those interested in installing with a jailbreak or other code signing service.
 
 ## Planned Features
 The following are just some of the planned features for Pokedex Go.
