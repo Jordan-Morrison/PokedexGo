@@ -1,10 +1,119 @@
 const app = {
 
     main: function() {
+        app.version = 2;
+        //app info is fetched in checkForUpdates
+        app.info = {};
+        app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
         app.compareScreenActive = false;
-        app.displayList(pokemon);
-        app.addConstantListeners();
-        app.getMaxStats();
+        app.firstVisit();
+        app.checkForUpdates();
+    },
+
+    firstVisit: function(){
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.firstVisit === undefined){
+                localStorage.firstVisit = JSON.stringify(false);
+                document.getElementById("pokeList").classList.add("fixed");
+                document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
+                    document.getElementById("pokeList").classList.remove("fixed");
+                    window.scrollTo(0,0);
+                    document.getElementById("firstVisitScreen").classList.add("displayNone");
+                });
+            }
+            else{
+                document.getElementById("firstVisitScreen").classList.add("displayNone");
+            }
+        } else {
+            document.getElementById("pokeList").classList.add("fixed");
+            document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
+                document.getElementById("pokeList").classList.remove("fixed");
+                window.scrollTo(0,0);
+                document.getElementById("firstVisitScreen").classList.add("displayNone");
+            });
+        }
+    },
+
+    checkForUpdates: function(){
+        fetch(`${app.BASEURL}appInfo.json`)
+        .then(result=>result.json())
+        .then((data)=>{
+            app.info = data;
+            if (app.info.latestVersion.version != app.version){
+                if (app.info.latestVersion.forced){
+                    //You must update to continue
+                    document.getElementById("newsContent").innerHTML = `<a href="https://github.com/Jordan-Morrison/PokedexGo"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE REQUIRED</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
+                    document.getElementById("closeNewsButton").classList.add("displayNone");
+                }
+                else{
+                    //There is an update available
+                    document.getElementById("newsContent").innerHTML = `<a href="https://github.com/Jordan-Morrison/PokedexGo"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE AVAILABLE</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
+                    app.getData();
+                }
+            }
+            else{
+                app.getData();
+            }
+        })
+        .catch(function(err){
+            console.log("Failed to fetch");
+        });
+    },
+
+    getData: function(){
+        document.getElementById("loadingScreen").classList.remove("hide");
+        // let files = ["appInfo.json", "pokemon.json", "futurePokemon.json", "moves.json", "weather.json"];
+
+        fetch(`${app.BASEURL}pokemon.json`)
+        .then(result=>result.json())
+        .then((data)=>{
+            app.pokemon = data.data;
+            fetch(`${app.BASEURL}futurePokemon.json`)
+            .then(result=>result.json())
+            .then((data)=>{
+                app.futurePokemon = data.data;
+                fetch(`${app.BASEURL}moves.json`)
+                .then(result=>result.json())
+                .then((data)=>{
+                    app.moves = data.data;
+
+                    app.getNews(app.BASEURL);
+                    app.displayList(app.pokemon);
+                    app.addConstantListeners();
+                    app.getMaxStats();
+                    document.getElementById("loadingScreen").classList.add("hide");
+                })
+                .catch(function(err){
+                    console.log("Failed to fetch");
+                });
+            })
+            .catch(function(err){
+                console.log("Failed to fetch");
+            });
+        })
+        .catch(function(err){
+            console.log("Failed to fetch");
+        });
+
+    },
+
+    getNews: function(){
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.newsVersion != app.info.news.version){
+                localStorage.newsVersion = app.info.news.version;
+                document.getElementById("newsContent").innerHTML += app.info.news.content;
+                document.getElementById("newsWindow").classList.remove("displayNone");
+            }
+            else if (app.info.latestVersion.version != app.version){
+                localStorage.newsVersion = app.info.news.version;
+                document.getElementById("newsContent").innerHTML += app.info.news.content;
+                document.getElementById("newsWindow").classList.remove("displayNone");
+            }
+        }
+        else{
+            document.getElementById("newsContent").innerHTML += app.info.news.content;
+            document.getElementById("newsWindow").classList.remove("displayNone");
+        }
     },
 
     displayList: function(object){
@@ -17,7 +126,7 @@ const app = {
                 if (counter == 1){
                     outputString += '<div class="row">';
                 }
-                outputString += '<div class="col poke" data-id="' + poke.id + '" data-gen="' + gen.generation +'"><img src="img/sprites/' + poke.id + '.png" alt="a sprite for the Pokemon ' + poke.name + '"/></div>';
+                outputString += '<div class="col poke" data-id="' + poke.id + '" data-gen="' + gen.generation +'"><img src="img/sprites/' + app.getSprite(poke.id, 0, false) + '.png" alt="a sprite for the Pokemon ' + poke.name + '"/></div>';
                 if (counter == 3){
                     outputString += '</div>';
                     counter = 1;
@@ -47,8 +156,39 @@ const app = {
         }
     },
 
+    getSprite: function(dex, form, shiny){
+        //check if pokemon is implemented yet
+        if (app.futurePokemon.pokes.includes(dex)){
+            return `DS/${dex}`;
+        }
+        //check if unown or castform
+        if (dex == 201 || dex == 351){
+            form = 11;
+        }
+
+        if (shiny == true){
+            shiny = "_shiny";
+        }
+        else{
+            shiny = "";
+        }
+        if (form < 10){
+            form = `0${form}`;
+        }
+
+        if (dex < 10){
+            return `pokemon_icon_00${dex}_${form + shiny}`;
+        }
+        else if (dex < 100){
+            return `pokemon_icon_0${dex}_${form + shiny}`;
+        }
+        else{
+            return `pokemon_icon_${dex}_${form + shiny}`;
+        }
+    },
+
     search: function(searchTerm){
-        let searchResults = JSON.parse(JSON.stringify(pokemon));
+        let searchResults = JSON.parse(JSON.stringify(app.pokemon));
         searchResults.forEach(gen => {
             gen.pokemon = gen.pokemon.filter(function(poke){
                 if (poke.name.toLowerCase().includes(searchTerm)){
@@ -92,6 +232,9 @@ const app = {
         document.getElementById("closeButton").addEventListener("click", function(ev){
             ev.preventDefault();
             app.pageTransition(false);
+        });
+        document.getElementById("closeNewsButton").addEventListener("click", function(){
+            document.getElementById("newsWindow").classList.add("displayNone");
         });
     },
 
@@ -166,10 +309,10 @@ const app = {
         let outputString = `<div class="row comparedPokes"><h1 class="comparingTitle">Comparing</h1>`;
         pokes.forEach(poke => {
             if (pokes.length == 2){
-                outputString += `<div class="col-6"><p>${poke.name}</p><img src="img/sprites/${poke.id}.png" class="comparedPokes2Selected" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
+                outputString += `<div class="col-6"><p>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" class="comparedPokes2Selected" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
             }
             else{
-                outputString += `<div class="col"><p>${poke.name}</p><img src="img/sprites/${poke.id}.png" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
+                outputString += `<div class="col"><p>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
             }
         });
         outputString += `</div>`;
@@ -179,7 +322,7 @@ const app = {
     displayComparedStats: function(pokes){
         let outputString = "";
         pokes.forEach(poke => {
-            outputString += `<div class="row compareStatsRow"><div class="compareSpriteBox Transparent${poke.type1}"><p>cp${poke.maxCP}</p><img src="img/sprites/${poke.id}.png" alt="a sprite for the Pokemon ${poke.name}"/></div><div class="col compareStatsBox"><ul class="list-group compareStatsList"><li class="list-group-item"><div class="row compareTypesRow"><div class="col type1 compareType ${poke.type1}"><p>${poke.type1}</p></div>`;
+            outputString += `<div class="row compareStatsRow"><div class="compareSpriteBox Transparent${poke.type1}"><p>cp${poke.maxCP}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div><div class="col compareStatsBox"><ul class="list-group compareStatsList"><li class="list-group-item"><div class="row compareTypesRow"><div class="col type1 compareType ${poke.type1}"><p>${poke.type1}</p></div>`;
             if (poke.type2 != ""){
                 outputString += `<div class="col type2 compareType ${poke.type2}"><p>${poke.type2}</p></div>`;
             }
@@ -189,7 +332,7 @@ const app = {
     },
 
     displayComparedMoves: function(pokes){
-        let outputString = "";
+        let outputString = "<h1 class='compareMovesTitle'>Moves</h1>";
         let moveResults = null;
         pokes.forEach(poke => {
             moveResults = app.displayMoves(poke, true);
@@ -291,7 +434,7 @@ const app = {
 
     getPokeData: function(id, generation){
         let pokeData = null;
-        pokemon[generation - 1].pokemon.forEach(function(poke){
+        app.pokemon[generation - 1].pokemon.forEach(function(poke){
             if (poke.id == id){
                 // app.displayStats(poke);
                 pokeData = poke;
@@ -303,7 +446,7 @@ const app = {
     displayStats: function(poke){
         document.getElementById("statScreen").classList.add("bg" + poke.type1);
 
-        document.getElementById("statScreenImg").src = "img/sprites/" + poke.id + ".png";
+        document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(poke.id, 0, false) + ".png";
         document.getElementById("statScreenImg").alt = "a sprite for the Pokemon " + poke.name;
         document.getElementById("statScreenName").innerText = poke.name;
 
@@ -350,7 +493,7 @@ const app = {
         let quickOutputString = `<div class="row"><div class="col"><h5>Quick Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
         let chargedOutputString = `<div class="row"><div class="col"><h5>Charged Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
         if (forComparing){
-            quickOutputString = `<div class="row"><div class="col"><img src="img/sprites/${poke.id}.png" class="compareMovesSprite" alt="a sprite for the Pokemon ${poke.name}"/><h5>${poke.name}'s Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
+            quickOutputString = `<div class="row"><div class="col"><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" class="compareMovesSprite" alt="a sprite for the Pokemon ${poke.name}"/><h5>${poke.name}'s Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
             chargedOutputString = ``;
         }
         let moveDB = null;
@@ -359,10 +502,10 @@ const app = {
 
         moveTypeArray.forEach(moveType => {
             if (moveType === poke.quickMoves || moveType === poke.quickLegacy){
-                moveDB = moves[0].quick;
+                moveDB = app.moves[0].quick;
             }
             else{
-                moveDB = moves[1].charged;
+                moveDB = app.moves[1].charged;
             }
             if (moveType === poke.quickLegacy || moveType === poke.chargedLegacy){
                 if (moveType === poke.quickLegacy && poke.quickLegacy == []){
@@ -428,7 +571,7 @@ const app = {
         app.maxAttack = 0;
         app.maxDefense = 0;
         app.maxHP = 0;
-        pokemon.forEach(function(gen){
+        app.pokemon.forEach(function(gen){
             gen.pokemon.forEach(function(poke){
                 if (poke.maxCP > app.maxCP){
                     app.maxCP = poke.maxCP;
@@ -447,6 +590,12 @@ const app = {
     }
 
 };
+
+// //ONLY Native
+// document.addEventListener("deviceready", function(){
+//     window.ga.startTrackerWithId('UA-114276551-1', 30);
+//     window.ga.trackView('Pokedex Go Android');
+// });
 
 let loadEvent = ("deviceready" in document)?"deviceready":"DOMContentLoaded";
 document.addEventListener(loadEvent, app.main);
