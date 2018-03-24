@@ -6,33 +6,33 @@ const app = {
         app.info = {};
         app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
         app.compareScreenActive = false;
-        app.firstVisit();
+        // app.firstVisit();
         app.checkForUpdates();
     },
 
-    firstVisit: function(){
-        if (typeof(Storage) !== "undefined") {
-            if (localStorage.firstVisit === undefined){
-                localStorage.firstVisit = JSON.stringify(false);
-                document.getElementById("pokeList").classList.add("fixed");
-                document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
-                    document.getElementById("pokeList").classList.remove("fixed");
-                    window.scrollTo(0,0);
-                    document.getElementById("firstVisitScreen").classList.add("displayNone");
-                });
-            }
-            else{
-                document.getElementById("firstVisitScreen").classList.add("displayNone");
-            }
-        } else {
-            document.getElementById("pokeList").classList.add("fixed");
-            document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
-                document.getElementById("pokeList").classList.remove("fixed");
-                window.scrollTo(0,0);
-                document.getElementById("firstVisitScreen").classList.add("displayNone");
-            });
-        }
-    },
+    // firstVisit: function(){
+    //     if (typeof(Storage) !== "undefined") {
+    //         if (localStorage.firstVisit === undefined){
+    //             localStorage.firstVisit = JSON.stringify(false);
+    //             document.getElementById("pokeList").classList.add("fixed");
+    //             document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
+    //                 document.getElementById("pokeList").classList.remove("fixed");
+    //                 window.scrollTo(0,0);
+    //                 document.getElementById("firstVisitScreen").classList.add("displayNone");
+    //             });
+    //         }
+    //         else{
+    //             document.getElementById("firstVisitScreen").classList.add("displayNone");
+    //         }
+    //     } else {
+    //         document.getElementById("pokeList").classList.add("fixed");
+    //         document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
+    //             document.getElementById("pokeList").classList.remove("fixed");
+    //             window.scrollTo(0,0);
+    //             document.getElementById("firstVisitScreen").classList.add("displayNone");
+    //         });
+    //     }
+    // },
 
     checkForUpdates: function(){
         fetch(`${app.BASEURL}appInfo.json`)
