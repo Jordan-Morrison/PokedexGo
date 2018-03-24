@@ -31,6 +31,19 @@ body{
     vertical-align: middle;
 }
 
+.bigButton{
+    background: linear-gradient(to right, #aed89c 0%,#07c9ab 100%);
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    line-height: 55px;
+    border-radius: 50px;
+    border: solid #00000033 2px;
+    box-shadow: 1px 1px 5px black;
+    width: 85%;
+}
+
 /* Main screen menus css */
 .pokeListMenus{
     position: fixed;
@@ -192,7 +205,7 @@ body{
 }
 
 .comparedPokes{
-    background-image: url('https://jordan-morrison.github.io/PokedexGo/img/compareBG.png');
+    background-image: url('/img/compareBG.png');
     background-size: 100% 100%;
     width: 100vw;
     margin: 0;
@@ -233,7 +246,7 @@ body{
 .compareStatsRow{
     height: 130px;
     margin-left: 1px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 .compareStatsList li{
@@ -297,8 +310,14 @@ body{
     padding-left: 0;
 }
 
+.compareMovesTitle{
+    color: white;
+    font-size: 1.5rem;
+    text-indent: 5px;
+}
+
 .compareMovesRow{
-    margin-bottom: 4px;
+    margin-bottom: 7px;
 }
 
 .compareMovesRow li{
@@ -375,7 +394,7 @@ img{
     min-height: 100%;
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 100;
 }
 
 .loadingScreen img{
@@ -496,6 +515,75 @@ img{
 
 #closeButton{
     height: 70px;
+}
+
+/* First Visit Screen */
+#firstVisitScreen{
+    position: absolute;
+    background: linear-gradient(to right, #83c9ad 0%,#fafffa 4%,#fafffa 96%,#7fc5ae 100%);
+    width: 100%;
+    z-index: 100;
+    padding-bottom: 80px;
+}
+
+#firstVisitScreen video{
+    background-color: black;
+}
+
+#firstVisitScreen img{
+    border-radius: 15%;
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+#firstVisitScreen p:first-of-type{
+    padding: 20px;
+    text-align: justify;
+}
+
+#firstVisitScreen p{
+    padding-left: 20px;
+}
+
+#firstVisitScreen h1{
+    text-align: center;
+}
+
+#firstVisitScreenButton{
+    position: fixed;
+    z-index: 100;
+    bottom: 5px;
+    left: 7.5%;
+}
+
+/* News Window */
+.newsWindowBg{
+    position: fixed;
+    background-color: black;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    z-index: 89;
+    left: 0;
+    top: 0;
+}
+#newsContent{
+    position: fixed;
+    background-color: white;
+    height: 75%;
+    width: 85%;
+    z-index: 90;
+    left: 7.5%;
+    top: 7%;
+    box-shadow: 0 0 20px 0px black;
+    overflow-y: scroll;
+}
+
+#closeNewsButton{
+    position: fixed;
+    bottom: 5%;
+    left: 7.5%;
+    z-index: 90;
 }
 
 /* Type Colours */

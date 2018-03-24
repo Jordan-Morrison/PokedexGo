@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
-        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'self' data: gap: 'unsafe-eval' ws: ; style-src * 'self' 'unsafe-inline'; media-src *; img-src * 'self' data: content:;"> -->
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -35,6 +26,29 @@
 
         </header>
         <main>
+
+            <div id="firstVisitScreen">
+                <h1>Pokedex Go</h1>
+                <img src="img/icon.png" alt="Pokedex Go icon"/>
+                <p>Pokedex Go is best experienced as a web app. Simply add a shortcut to this page on your homescreen to install. If you're unfamiliar with adding a web app then just check out the videos below!</p>
+                <p>How to install on iOS</p>
+                <video width="100%" height="220" controls>
+                    <source src="vids/PokedexGo_iOS_Tutorial.MOV" type="video/mp4">
+                </video>
+                <p>How to install on Android</p>
+                <video width="100%" height="220" controls>
+                    <source src="vids/PokedexGo_Android_Tutorial.mp4" type="video/mp4">
+                </video>
+                <div id="firstVisitScreenButton" class="bigButton">Continue to Pokedex Go</div>
+            </div>
+
+            <div id="newsWindow" class="displayNone">
+                <div class="newsWindowBg"></div>
+                <div id="newsContent">
+                </div>
+                <div id="closeNewsButton" class="bigButton">Done</div>
+            </div>
+
             <div class="loadingScreen hide" id="loadingScreen">
                 <img src="img/loader.svg"/>
             </div>
@@ -53,24 +67,13 @@
             <div class="compareScreen" id="compareScreen">
 
                 <div class="row comparedPokes">
-                    <div class="col">
-                        <p>Venusaur</p>
-                        <img src="img/sprites/3.png" alt="Venusaur sprite"/>
-                    </div>
-                    <div class="col">
-                        <p>Charizard</p>
-                        <img src="img/sprites/6.png" alt="Charizard sprite"/>
-                    </div>
-                    <div class="col">
-                        <p>Blastoise</p>
-                        <img src="img/sprites/9.png" alt="Blastoise sprite"/>
-                    </div>
+                    
                 </div>
 
                 <div class="row compareStatsRow">
                     <div class="compareSpriteBox TransparentGrass">
                         <p>cp2110</p>
-                        <img src="img/sprites/3.png" alt="Venusaur sprite"/>
+                        <img src="img/sprites/DS/3.png" alt="Venusaur sprite"/>
                     </div>
                     <div class="col compareStatsBox">
                         <ul class="list-group compareStatsList">
@@ -106,7 +109,7 @@
                 <div class="row compareStatsRow">
                         <div class="compareSpriteBox TransparentFire">
                              <p>cp2987</p>
-                            <img src="img/sprites/6.png" alt="Charizard sprite"/>
+                            <img src="img/sprites/DS/6.png" alt="Charizard sprite"/>
                         </div>
                         <div class="col compareStatsBox">
                             <ul class="list-group compareStatsList">
@@ -142,7 +145,7 @@
                     <div class="row compareStatsRow">
                             <div class="compareSpriteBox TransparentWater">
                                 <p>cp2547</p>
-                                <img src="img/sprites/9.png" alt="Blastoise sprite"/>
+                                <img src="img/sprites/DS/9.png" alt="Blastoise sprite"/>
                             </div>
                             <div class="col compareStatsBox">
                                 <ul class="list-group compareStatsList">
@@ -178,7 +181,7 @@
                             <li class="list-group-item">
                                 <div class="row">
                                     <div class="col">
-                                        <img src="img/sprites/3.png" class="compareMovesSprite" alt="Venusaur sprite"/>
+                                        <img src="img/sprites/DS/3.png" class="compareMovesSprite" alt="Venusaur sprite"/>
                                         <h5>Quick Moves</h5>
                                     </div>
                                     <div class="col-3">
@@ -205,7 +208,7 @@
                             <li class="list-group-item">
                                 <div class="row">
                                     <div class="col">
-                                        <img src="img/sprites/3.png" class="compareMovesSprite" alt="Venusaur sprite"/>
+                                        <img src="img/sprites/DS/3.png" class="compareMovesSprite" alt="Venusaur sprite"/>
                                         <h5>Charged Moves</h5>
                                     </div>
                                     <div class="col-3">
@@ -288,44 +291,12 @@
             </div>
 
             <div class="container pokeList" id="pokeList">
-                <div class="row">
-                    <div class="col">
-                        <h2 class="genTitle">Generation 1</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col poke" data-id="1">
-                        <img src="img/sprites/1.png" alt="Pokemon sprite" data-name="Bulbasaur"/>
-                        <p>Bulbasaur</p>
-                    </div>
-                    <div class="col poke" data-id="2">
-                        <img src="img/sprites/2.png" alt="Pokemon sprite" data-name="Ivysaur"/>
-                        <p>Ivysaur</p>
-                    </div>
-                    <div class="col">
-                        <img src="img/sprites/3.png" alt="Pokemon sprite"/>
-                        <p>Venusaur</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <img src="img/sprites/4.png" alt="Pokemon sprite"/>
-                        <p>Charmander</p>
-                    </div>
-                    <div class="col">
-                        <img src="img/sprites/5.png" alt="Pokemon sprite"/>
-                        <p>Charmeleon</p>
-                    </div>
-                    <div class="col">
-                        <img src="img/sprites/6.png" alt="Pokemon sprite"/>
-                        <p>Charizard</p>
-                    </div>
-                </div>
+                
             </div>
 
             <div class="container statScreen hide" id="statScreen">
                 <center>
-                    <img class="img-fluid" id="statScreenImg" src="img/sprites/6.png" alt="Pokemon sprite"/>
+                    <img class="img-fluid" id="statScreenImg" src="img/sprites/DS/6.png" alt="Pokemon sprite"/>
                     <!-- <h1 id="statScreenName">Charizard</h1> -->
                 </center>
                 <ul class="list-group">
@@ -486,9 +457,6 @@
         <script src="js/jquery-3.2.1.slim.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/weather.js"></script>
-        <script type="text/javascript" src="js/pokemon.js"></script>
-        <script type="text/javascript" src="js/moves.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
