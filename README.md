@@ -15,7 +15,7 @@ Pokedex Go will be recieving **desktop** support soon. Although the current stat
 If you're running Android then your best bet is to install the **native** verion of Pokedex Go.
 You can download the APK [here](https://raw.githubusercontent.com/Jordan-Morrison/PokedexGo/master/Pokedex%20Go.apk).
 
-If you're uncomfortable installing an APK from the internet then you can access Pokedex Go as a web site, or even better the web app! Just visit [Pokedex Go](https://jordan-morrison.github.io/PokedexGo/) on your phone and if you'd like, add the shortcut to your home screen. If you're having issues installing the web app I've posted a tutorial below!
+If you're uncomfortable installing an APK from the internet then you can access Pokedex Go as a web site, or even better the web app! Just visit [Pokedex Go](https://jordan-morrison.github.io/PokedexGo/) on your phone and if you'd like, add the shortcut to your home screen. If you're having issues installing the web app I've posted a tutorial here:
 [Android Web App Tutorial](https://streamable.com/466wd)
 ### iOS
 Please visit [Pokedex Go](https://jordan-morrison.github.io/PokedexGo/) on your mobile device and add the shortcut to your home screen. Pokedex Go is setup as a web app and will install itself when the shortcut is added.
