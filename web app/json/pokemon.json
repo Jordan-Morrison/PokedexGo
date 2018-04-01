@@ -1,5 +1,5 @@
 {
-    "version": 3.1,
+    "version": 3.2,
     "data": [{
         "id": 1001,
         "generation": 1,
@@ -2114,10 +2114,10 @@
             "defense": 210,
             "minCP": 2688,
             "maxCP": 3091,
-            "quickMoves": ["pound"],
-            "chargedMoves": ["blizzard", "earthquake", "fire_blast", "focus_blast", "hyper_beam", "moonblast", "psychic", "solar_beam", "thunder"],
+            "quickMoves": ["pound", "cut", "rock_smash", "poison_jab", "struggle_bug", "infestation", "shadow_claw", "steel_wing", "waterfall", "volt_switch", "charge_beam", "frost_breath", "dragon_tail", "snarl"],
+            "chargedMoves": ["hyper_beam", "focus_blast", "low_sweep", "bulldoze", "stone_edge", "rock_slide", "ancient_power", "flash_cannon", "gyro_ball", "overheat", "flame_charge", "solar_beam", "grass_knot", "energy_ball", "thunder", "wild_charge", "thunderbolt", "psychic", "psyshock", "blizzard", "ice_beam", "dragon_claw", "dark_pulse", "dazzling_gleam"],
             "quickLegacy": "",
-            "chargedLegacy": ["dragon_pulse", "hurricane"]
+            "chargedLegacy": ""
         }]
     }, {
         "id": 1002,
