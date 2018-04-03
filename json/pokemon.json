@@ -1,5 +1,5 @@
 {
-    "version": 3.2,
+    "version": 3.3,
     "data": [{
         "id": 1001,
         "generation": 1,
@@ -5331,7 +5331,7 @@
             "minCP": 2949,
             "maxCP": 3378,
             "quickMoves": ["dragon_breath", "zen_headbutt"],
-            "chargedMoves": ["dragon_claw", "psychic", "thunder"],
+            "chargedMoves": ["outrage", "psychic", "thunder"],
             "quickLegacy": "",
             "chargedLegacy": ""
         }, {
