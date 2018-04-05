@@ -1,5 +1,5 @@
 {
-    "version": 3.4,
+    "version": 3.5,
     "data": [{
         "id": 1,
         "quick": [{
@@ -411,7 +411,7 @@
         }, {
             "id": "hidden_power",
             "name": "Hidden Power",
-            "type": "random",
+            "type": "Random",
             "power": 15,
             "durationMS": 1500,
             "energyGPS": 10
@@ -569,6 +569,13 @@
             "power": 5,
             "durationMS": 1300,
             "energyGPS": 15.38
+        }, {
+            "id": "future_quick_move",
+            "name": "???",
+            "type": "Random",
+            "power": 0,
+            "durationMS": 1000,
+            "energyGPS": 1
         }]
     }, {
         "id": 2,
@@ -1433,6 +1440,13 @@
             "power": 100,
             "durationMS": 2600,
             "energyCost": 50
+        }, {
+            "id": "future_charged_move",
+            "name": "???",
+            "type": "Random",
+            "power": 0,
+            "durationMS": 1000,
+            "energyCost": 100
         }]
     }]
 }
