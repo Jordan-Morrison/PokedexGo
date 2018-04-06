@@ -1,7 +1,7 @@
 const app = {
 
     main: function() {
-        app.version = 2.4;
+        app.version = 2.41;
         //app info is fetched in checkForUpdates
         app.info = {};
         app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
