@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Apr 05 20:12:12 EDT 2018
+#Thu Apr 05 20:19:12 EDT 2018
 1073.file=/Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/build/intermediates/assets/debug/www/img/sprites/pokemon_icon_197_00.png
 1090.base=/Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/build/intermediates/assets/debug
 1007.base=/Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/build/intermediates/assets/debug

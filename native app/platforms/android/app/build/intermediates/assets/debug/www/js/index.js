@@ -42,12 +42,12 @@ const app = {
             if (app.info.latestVersion.version != app.version){
                 if (app.info.latestVersion.forced){
                     //You must update to continue
-                    document.getElementById("newsContent").innerHTML = `<a href="https://github.com/Jordan-Morrison/PokedexGo"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE REQUIRED</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
+                    document.getElementById("newsContent").innerHTML = `<a href="https://raw.githubusercontent.com/Jordan-Morrison/PokedexGo/master/Pokedex%20Go.apk"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE REQUIRED</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
                     document.getElementById("closeNewsButton").classList.add("displayNone");
                 }
                 else{
                     //There is an update available
-                    document.getElementById("newsContent").innerHTML = `<a href="https://github.com/Jordan-Morrison/PokedexGo"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE AVAILABLE</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
+                    document.getElementById("newsContent").innerHTML = `<a href="https://raw.githubusercontent.com/Jordan-Morrison/PokedexGo/master/Pokedex%20Go.apk"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE AVAILABLE</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
                     app.getData();
                 }
             }
