@@ -1,98 +1,98 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:17:1-47:12
-MERGED from [:CordovaLib] /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.0.aar/4f6413ec8b87f88330b13cdc94bac2b2/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.0.aar/dc024a5377a08b47ab5bf29c274f0005/AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/c5b4419114403deee0a5eb174e762ec4/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/52d790370fb5b28a0bf2d99a3b60c3cf/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/9350b6f546c8b1b4559418f64bc89ecb/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-analytics-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.0.aar/1f163a42b549f429df333c02cbe292cc/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.0.aar/777af860cabb8906be6fac2f3777823b/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/644d1bc9a754a95063770eca7a706bf8/AndroidManifest.xml:2:1-8:12
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:17:1-47:12
+MERGED from [:CordovaLib] /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.1.aar/df242e8856634307272dced8d5d1f3aa/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/bb12889f57b5402c4682a80777243832/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/bf0e3544e82a401157d031686da7382e/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/372ac04ee082a61f66e8e8d1eade405c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/bb5be5426d915f6583b4bfc067cd62b5/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.1.aar/b8f6a9bb44a5dc4a7ac2da0d95cdefae/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.1.aar/c67b0a9a4b9cb57c66d0469a9c3d94c7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/f0e12c9e17cb937b3379f7384e12d7e8/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cd1470d797c8d035cd059b6880d72cf4/AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/827f1458e98de4df1994e0dced21b204/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.0.aar/ec625c7a519e7450186ac1f64aef1872/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/b6c5dd114a6298f5d4dd836689cb2454/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/7684b9a0d5d7049400fd6f162c372774/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.1.aar/b90920a4a842a30db87e0c52f057cd5e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/3bb17648455d9be0eadd401fc90a40d3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/31672ae60446dc1de78440b78aa3176a/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/6c0b253ac2f090722da7d0bcaa562ea0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/77b77a4b311db6f49ffc784c8b5d6524/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c78e055f14e7a18f302f1ee5b5572963/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4fa3b9dd3dd0768ec5ab251c37ecd50a/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a02f9fb25252aa853e38d004b9dd0ce8/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:102-140
-		INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:102-140
+		INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:74-101
-		INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:74-101
+		INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml
 	android:hardwareAccelerated
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:141-199
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:141-199
 	android:versionCode
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
-		INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
+		INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml
 supports-screens
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
 	android:largeScreens
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
 	android:smallScreens
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
 	android:normalScreens
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
 	android:xlargeScreens
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
 	android:resizeable
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
 	android:anyDensity
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.0.aar/dc024a5377a08b47ab5bf29c274f0005/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.0.aar/dc024a5377a08b47ab5bf29c274f0005/AndroidManifest.xml:23:5-67
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/bb12889f57b5402c4682a80777243832/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/bb12889f57b5402c4682a80777243832/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:5:5-24:19
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:29:5-45:19
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:29:5-45:19
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.0.aar/4f6413ec8b87f88330b13cdc94bac2b2/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.0.aar/4f6413ec8b87f88330b13cdc94bac2b2/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.0.aar/dc024a5377a08b47ab5bf29c274f0005/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.0.aar/dc024a5377a08b47ab5bf29c274f0005/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/c5b4419114403deee0a5eb174e762ec4/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/c5b4419114403deee0a5eb174e762ec4/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/52d790370fb5b28a0bf2d99a3b60c3cf/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/52d790370fb5b28a0bf2d99a3b60c3cf/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/9350b6f546c8b1b4559418f64bc89ecb/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/9350b6f546c8b1b4559418f64bc89ecb/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-analytics-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.0.aar/1f163a42b549f429df333c02cbe292cc/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-analytics-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.0.aar/1f163a42b549f429df333c02cbe292cc/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.0.aar/777af860cabb8906be6fac2f3777823b/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.0.aar/777af860cabb8906be6fac2f3777823b/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/644d1bc9a754a95063770eca7a706bf8/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/644d1bc9a754a95063770eca7a706bf8/AndroidManifest.xml:5:5-6:19
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.1.aar/df242e8856634307272dced8d5d1f3aa/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.1.aar/df242e8856634307272dced8d5d1f3aa/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/bb12889f57b5402c4682a80777243832/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/bb12889f57b5402c4682a80777243832/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/bf0e3544e82a401157d031686da7382e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/bf0e3544e82a401157d031686da7382e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/372ac04ee082a61f66e8e8d1eade405c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/372ac04ee082a61f66e8e8d1eade405c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/bb5be5426d915f6583b4bfc067cd62b5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/bb5be5426d915f6583b4bfc067cd62b5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.1.aar/b8f6a9bb44a5dc4a7ac2da0d95cdefae/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.1.aar/b8f6a9bb44a5dc4a7ac2da0d95cdefae/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.1.aar/c67b0a9a4b9cb57c66d0469a9c3d94c7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.1.aar/c67b0a9a4b9cb57c66d0469a9c3d94c7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/f0e12c9e17cb937b3379f7384e12d7e8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/f0e12c9e17cb937b3379f7384e12d7e8/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cd1470d797c8d035cd059b6880d72cf4/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cd1470d797c8d035cd059b6880d72cf4/AndroidManifest.xml:25:5-29:19
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/827f1458e98de4df1994e0dced21b204/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/827f1458e98de4df1994e0dced21b204/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.0.aar/ec625c7a519e7450186ac1f64aef1872/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.0.aar/ec625c7a519e7450186ac1f64aef1872/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/b6c5dd114a6298f5d4dd836689cb2454/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/b6c5dd114a6298f5d4dd836689cb2454/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/7684b9a0d5d7049400fd6f162c372774/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/7684b9a0d5d7049400fd6f162c372774/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.1.aar/b90920a4a842a30db87e0c52f057cd5e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.1.aar/b90920a4a842a30db87e0c52f057cd5e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/3bb17648455d9be0eadd401fc90a40d3/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/3bb17648455d9be0eadd401fc90a40d3/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/31672ae60446dc1de78440b78aa3176a/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/31672ae60446dc1de78440b78aa3176a/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/6c0b253ac2f090722da7d0bcaa562ea0/AndroidManifest.xml:25:5-29:19
@@ -106,105 +106,117 @@ MERGED from [com.android.support:support-compat:26.1.0] /Users/jordanmorrison/.g
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a02f9fb25252aa853e38d004b9dd0ce8/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a02f9fb25252aa853e38d004b9dd0ce8/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
 	android:label
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
 	android:hardwareAccelerated
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
 	android:icon
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
 activity#com.jordanmorrison.pokedexgo.MainActivity
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
 	android:label
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
 	android:launchMode
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
 	android:windowSoftInputMode
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
 	android:configChanges
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
 	android:theme
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
 	android:name
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
 	android:label
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
 action#android.intent.action.MAIN
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
 	android:name
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
 	android:name
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
 receiver#com.google.android.gms.analytics.AnalyticsReceiver
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:12:9-16:20
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:30:9-34:20
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:30:9-34:20
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:12:9-16:20
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:30:9-34:20
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:30:9-34:20
 	android:enabled
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:12:19-41
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:12:19-41
 	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:33:13-37
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:12:42-107
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:12:42-107
 intent-filter#com.google.android.gms.analytics.ANALYTICS_DISPATCH
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:13:13-15:29
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:13:13-15:29
 action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:14:17-94
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:14:17-94
 	android:name
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:14:25-91
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:14:25-91
 service#com.google.android.gms.analytics.AnalyticsService
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:17:9-133
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:36:9-39:40
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:36:9-39:40
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:17:9-133
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:36:9-39:40
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:36:9-39:40
 	android:enabled
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:17:18-40
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:17:18-40
 	android:exported
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:17:41-65
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:17:41-65
 	android:name
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:17:66-130
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:17:66-130
 receiver#com.google.android.gms.analytics.CampaignTrackingReceiver
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:18:9-22:20
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:18:9-22:20
 	android:enabled
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:18:19-41
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:18:19-41
 	android:exported
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:18:42-65
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:18:42-65
 	android:name
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:18:66-138
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:18:66-138
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:19:13-21:29
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:19:13-21:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:20:17-79
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:20:17-79
 	android:name
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:20:25-76
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:20:25-76
 service#com.google.android.gms.analytics.CampaignTrackingService
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:23:9-140
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:23:9-140
 	android:enabled
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:23:18-40
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:23:18-40
 	android:exported
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:23:41-65
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:23:41-65
 	android:name
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:23:66-137
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:23:66-137
 uses-sdk
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:25:5-74
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:20:5-44
-MERGED from [:CordovaLib] /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
-MERGED from [:CordovaLib] /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.0.aar/4f6413ec8b87f88330b13cdc94bac2b2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.0.aar/4f6413ec8b87f88330b13cdc94bac2b2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.0.aar/dc024a5377a08b47ab5bf29c274f0005/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.0.aar/dc024a5377a08b47ab5bf29c274f0005/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/c5b4419114403deee0a5eb174e762ec4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/c5b4419114403deee0a5eb174e762ec4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/52d790370fb5b28a0bf2d99a3b60c3cf/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/52d790370fb5b28a0bf2d99a3b60c3cf/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/9350b6f546c8b1b4559418f64bc89ecb/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/9350b6f546c8b1b4559418f64bc89ecb/AndroidManifest.xml:20:5-44
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:25:5-74
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:20:5-44
+MERGED from [:CordovaLib] /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.1.aar/df242e8856634307272dced8d5d1f3aa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.1.aar/df242e8856634307272dced8d5d1f3aa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/bb12889f57b5402c4682a80777243832/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/bb12889f57b5402c4682a80777243832/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/bf0e3544e82a401157d031686da7382e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/bf0e3544e82a401157d031686da7382e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/372ac04ee082a61f66e8e8d1eade405c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/372ac04ee082a61f66e8e8d1eade405c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/bb5be5426d915f6583b4bfc067cd62b5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/bb5be5426d915f6583b4bfc067cd62b5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.1.aar/b8f6a9bb44a5dc4a7ac2da0d95cdefae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.1.aar/b8f6a9bb44a5dc4a7ac2da0d95cdefae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.1.aar/c67b0a9a4b9cb57c66d0469a9c3d94c7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.1.aar/c67b0a9a4b9cb57c66d0469a9c3d94c7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/f0e12c9e17cb937b3379f7384e12d7e8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/f0e12c9e17cb937b3379f7384e12d7e8/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cd1470d797c8d035cd059b6880d72cf4/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cd1470d797c8d035cd059b6880d72cf4/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/7684b9a0d5d7049400fd6f162c372774/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/7684b9a0d5d7049400fd6f162c372774/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.1.aar/b90920a4a842a30db87e0c52f057cd5e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.1.aar/b90920a4a842a30db87e0c52f057cd5e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/3bb17648455d9be0eadd401fc90a40d3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/3bb17648455d9be0eadd401fc90a40d3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/31672ae60446dc1de78440b78aa3176a/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/31672ae60446dc1de78440b78aa3176a/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/6c0b253ac2f090722da7d0bcaa562ea0/AndroidManifest.xml:21:5-23:60
@@ -220,53 +232,47 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cd1470d797c8d035cd059b6880d72cf4/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:25:42-71
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:25:42-71
 	android:minSdkVersion
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:25:15-41
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:25:15-41
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:26:5-79
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.0.aar/dc024a5377a08b47ab5bf29c274f0005/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.0.aar/dc024a5377a08b47ab5bf29c274f0005/AndroidManifest.xml:24:5-79
+ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/bb12889f57b5402c4682a80777243832/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/bb12889f57b5402c4682a80777243832/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:26:22-76
+		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:26:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.0.aar/dc024a5377a08b47ab5bf29c274f0005/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.0.aar/dc024a5377a08b47ab5bf29c274f0005/AndroidManifest.xml:27:5-68
+ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/bb12889f57b5402c4682a80777243832/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/bb12889f57b5402c4682a80777243832/AndroidManifest.xml:27:5-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:27:22-65
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:27:22-65
 service#com.google.android.gms.analytics.AnalyticsJobService
-ADDED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:40:9-44:72
+ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:40:9-44:72
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:42:13-35
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:42:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:43:13-37
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:43:13-37
 	android:permission
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:44:13-69
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:44:13-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.0.aar/320566a673f05fe5ddcc6cccc34140a0/AndroidManifest.xml:41:13-80
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/8e847c317611cf486062e40fb42334e2/AndroidManifest.xml:41:13-80
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/c5b4419114403deee0a5eb174e762ec4/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/bf0e3544e82a401157d031686da7382e/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/c5b4419114403deee0a5eb174e762ec4/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/bf0e3544e82a401157d031686da7382e/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/c5b4419114403deee0a5eb174e762ec4/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/bf0e3544e82a401157d031686da7382e/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/c5b4419114403deee0a5eb174e762ec4/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/bf0e3544e82a401157d031686da7382e/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/9350b6f546c8b1b4559418f64bc89ecb/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/bb5be5426d915f6583b4bfc067cd62b5/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/9350b6f546c8b1b4559418f64bc89ecb/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/bb5be5426d915f6583b4bfc067cd62b5/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:12.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/9350b6f546c8b1b4559418f64bc89ecb/AndroidManifest.xml:24:13-58
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
-uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12 reason: com.google.android.gms.license requested WRITE_EXTERNAL_STORAGE
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/bb5be5426d915f6583b4bfc067cd62b5/AndroidManifest.xml:24:13-58
 meta-data#android.support.VERSION
 ADDED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cd1470d797c8d035cd059b6880d72cf4/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/31672ae60446dc1de78440b78aa3176a/AndroidManifest.xml:26:9-28:38

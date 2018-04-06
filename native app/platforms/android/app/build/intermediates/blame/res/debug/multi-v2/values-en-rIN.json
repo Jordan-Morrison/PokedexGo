@@ -1,22 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jordanmorrison/Documents/Development/Pokedex Go/Version 3.5 (to Publish)/native app/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
-            "map": [
-                {
-                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4fa3b9dd3dd0768ec5ab251c37ecd50a/res/values-en-rIN/values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/jordanmorrison/Documents/Development/Pokedex Go/Version_3.5_(to Publish)/native app/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "/Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4fa3b9dd3dd0768ec5ab251c37ecd50a/res/values-en-rIN/values-en-rIN.xml",

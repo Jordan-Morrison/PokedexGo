@@ -8,10 +8,10 @@
   },
   "installed_plugins": {
     "cordova-plugin-google-analytics": {
-      "PACKAGE_NAME": "com.algonquin.morr0560.pokedex"
+      "PACKAGE_NAME": "com.jordanmorrison.pokedexgo"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.algonquin.morr0560.pokedex"
+      "PACKAGE_NAME": "com.jordanmorrison.pokedexgo"
     }
   },
   "dependent_plugins": {}

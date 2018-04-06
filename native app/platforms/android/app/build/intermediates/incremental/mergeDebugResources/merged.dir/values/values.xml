@@ -79,7 +79,7 @@
     <item name="text2" type="id"/>
     <item name="title" type="id"/>
     <integer name="cancel_button_image_alpha">127</integer>
-    <integer name="google_play_services_version">12210000</integer>
+    <integer name="google_play_services_version">12211000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="activity_name">@string/launcher_name</string>
     <string name="app_name">Pokedex Go</string>
