@@ -158,7 +158,7 @@ const app = {
 
     getSprite: function(dex, form, shiny){
         //check if pokemon is implemented yet
-        if (app.futurePokemon.pokes.includes(dex)){
+        if (app.futurePokemon.pokes.includes(dex) || dex >= 387){
             return `DS/${dex}`;
         }
         //check if unown or castform
