@@ -4,7 +4,7 @@
             "outputFile": "/Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
             "map": [
                 {
-                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/bf0e3544e82a401157d031686da7382e/res/values-mk/values.xml",
+                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/984ffd15aadc672eb3373ed61c064220/res/values-mk/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/bb5be5426d915f6583b4bfc067cd62b5/res/values-mk/values.xml",
+                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/348dc9aa368f5590cfc5c82932fd86c4/res/values-mk/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
