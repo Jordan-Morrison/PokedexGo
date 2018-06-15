@@ -1,7 +1,7 @@
 const app = {
 
     main: function() {
-        app.version = 2.5;
+        app.version = 2.51;
         //app info is fetched in checkForUpdates
         app.info = {};
         app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
@@ -307,12 +307,14 @@ const app = {
 
     displayComparedPokes: function(pokes){
         let outputString = `<div class="row comparedPokes"><h1 class="comparingTitle">Comparing</h1>`;
+        let longNamedPoke = null;
         pokes.forEach(poke => {
             if (pokes.length == 2){
                 outputString += `<div class="col-6"><p>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" class="comparedPokes2Selected" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
             }
             else{
-                outputString += `<div class="col"><p>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
+                longNamedPoke = poke.name.length > 10 ? `class="longNamedPoke"` : null;
+                outputString += `<div class="col"><p ${longNamedPoke}>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
             }
         });
         outputString += `</div>`;
