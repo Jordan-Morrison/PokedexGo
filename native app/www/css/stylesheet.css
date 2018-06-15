@@ -205,7 +205,7 @@ body{
 }
 
 .comparedPokes{
-    background-image: url('../img/compareBG.png');
+    background-image: url('https://jordan-morrison.github.io/PokedexGo/img/compareBG.png');
     background-size: 100% 100%;
     width: 100vw;
     margin: 0;
@@ -214,6 +214,10 @@ body{
     color: white;
     text-shadow: 0 0 3px black;
     text-align: center;
+}
+
+.longNamedPoke{
+    line-height: 15px;
 }
 
 .comparedPokes2Selected{

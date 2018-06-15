@@ -1,38 +1,38 @@
 const app = {
 
     main: function() {
-        app.version = 2.5;
+        app.version = 2.51;
         //app info is fetched in checkForUpdates
         app.info = {};
         app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
         app.compareScreenActive = false;
-        // app.firstVisit();
+        app.firstVisit();
         app.checkForUpdates();
     },
 
-    // firstVisit: function(){
-    //     if (typeof(Storage) !== "undefined") {
-    //         if (localStorage.firstVisit === undefined){
-    //             localStorage.firstVisit = JSON.stringify(false);
-    //             document.getElementById("pokeList").classList.add("fixed");
-    //             document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
-    //                 document.getElementById("pokeList").classList.remove("fixed");
-    //                 window.scrollTo(0,0);
-    //                 document.getElementById("firstVisitScreen").classList.add("displayNone");
-    //             });
-    //         }
-    //         else{
-    //             document.getElementById("firstVisitScreen").classList.add("displayNone");
-    //         }
-    //     } else {
-    //         document.getElementById("pokeList").classList.add("fixed");
-    //         document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
-    //             document.getElementById("pokeList").classList.remove("fixed");
-    //             window.scrollTo(0,0);
-    //             document.getElementById("firstVisitScreen").classList.add("displayNone");
-    //         });
-    //     }
-    // },
+    firstVisit: function(){
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.firstVisit === undefined){
+                localStorage.firstVisit = JSON.stringify(false);
+                document.getElementById("pokeList").classList.add("fixed");
+                document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
+                    document.getElementById("pokeList").classList.remove("fixed");
+                    window.scrollTo(0,0);
+                    document.getElementById("firstVisitScreen").classList.add("displayNone");
+                });
+            }
+            else{
+                document.getElementById("firstVisitScreen").classList.add("displayNone");
+            }
+        } else {
+            document.getElementById("pokeList").classList.add("fixed");
+            document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
+                document.getElementById("pokeList").classList.remove("fixed");
+                window.scrollTo(0,0);
+                document.getElementById("firstVisitScreen").classList.add("displayNone");
+            });
+        }
+    },
 
     checkForUpdates: function(){
         fetch(`${app.BASEURL}appInfo.json`)
@@ -42,12 +42,12 @@ const app = {
             if (app.info.latestVersion.version != app.version){
                 if (app.info.latestVersion.forced){
                     //You must update to continue
-                    document.getElementById("newsContent").innerHTML = `<a href="https://raw.githubusercontent.com/Jordan-Morrison/PokedexGo/master/Pokedex%20Go.apk"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE REQUIRED</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
+                    document.getElementById("newsContent").innerHTML = `<a href="https://github.com/Jordan-Morrison/PokedexGo"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE REQUIRED</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
                     document.getElementById("closeNewsButton").classList.add("displayNone");
                 }
                 else{
                     //There is an update available
-                    document.getElementById("newsContent").innerHTML = `<a href="https://raw.githubusercontent.com/Jordan-Morrison/PokedexGo/master/Pokedex%20Go.apk"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE AVAILABLE</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
+                    document.getElementById("newsContent").innerHTML = `<a href="https://github.com/Jordan-Morrison/PokedexGo"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE AVAILABLE</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
                     app.getData();
                 }
             }
@@ -307,12 +307,14 @@ const app = {
 
     displayComparedPokes: function(pokes){
         let outputString = `<div class="row comparedPokes"><h1 class="comparingTitle">Comparing</h1>`;
+        let longNamedPoke = null;
         pokes.forEach(poke => {
             if (pokes.length == 2){
                 outputString += `<div class="col-6"><p>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" class="comparedPokes2Selected" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
             }
             else{
-                outputString += `<div class="col"><p>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
+                longNamedPoke = poke.name.length > 10 ? `class="longNamedPoke"` : null;
+                outputString += `<div class="col"><p ${longNamedPoke}>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
             }
         });
         outputString += `</div>`;
@@ -592,10 +594,10 @@ const app = {
 };
 
 // //ONLY Native
-document.addEventListener("deviceready", function(){
-    window.ga.startTrackerWithId('UA-114276551-1', 30);
-    window.ga.trackView('Pokedex Go Android');
-});
+// document.addEventListener("deviceready", function(){
+//     window.ga.startTrackerWithId('UA-114276551-1', 30);
+//     window.ga.trackView('Pokedex Go Android');
+// });
 
 let loadEvent = ("deviceready" in document)?"deviceready":"DOMContentLoaded";
 document.addEventListener(loadEvent, app.main);
