@@ -1,5 +1,5 @@
 {
-    "version": 3.6,
+    "version": 3.7,
     "data": [{
         "id": 1,
         "quick": [{
@@ -1453,6 +1453,13 @@
             "type": "Fire",
             "power": 110,
             "durationMS": 3300,
+            "energyCost": 50
+        }, {
+            "id": "hydro_cannon",
+            "name": "Hydro Cannon",
+            "type": "Water",
+            "power": 90,
+            "durationMS": 1900,
             "energyCost": 50
         }, {
             "id": "future_charged_move",
