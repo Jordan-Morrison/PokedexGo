@@ -296,9 +296,17 @@
 
             <div class="container statScreen hide" id="statScreen">
                 <center>
-                    <img class="img-fluid" id="statScreenImg" src="img/sprites/DS/6.png" alt="Pokemon sprite"/>
+                    <img class="img-fluid" id="statScreenImg" onerror="app.spriteErrorHandler()" src="img/sprites/DS/6.png" alt="Pokemon sprite"/>
                     <!-- <h1 id="statScreenName">Charizard</h1> -->
                 </center>
+                <div class="genderIconsContainer" data-form="">
+                    <img class="genderIcons" id="maleGenderIcon" data-shiny="false" src="img/male.png" alt="Male icon"/>
+                    <img class="genderIcons" id="maleShinyGenderIcon" data-shiny="true" src="img/maleShiny.png" alt="Male shiny icon"/>
+                    <img class="genderIcons" id="femaleGenderIcon" data-shiny="false" src="img/female.png" alt="Female icon"/>
+                    <img class="genderIcons" id="femaleShinyGenderIcon" data-shiny="true" src="img/femaleShiny.png" alt="Female shiny icon"/>
+                    <img class="genderIcons" id="genderlessGenderIcon" data-shiny="false" src="img/genderless.png" alt="Genderless icon"/>
+                    <img class="genderIcons" id="genderlessShinyGenderIcon" data-shiny="true" src="img/genderlessShiny.png" alt="Genderless shiny icon"/>
+                </div>
                 <ul class="list-group">
                     <li class="list-group-item noPadding">
                         <div class="row">
@@ -441,6 +449,54 @@
                             <div class="col chargeBar chargeBar33 Grass"></div>
                             <div class="col chargeBar Grass"></div>
                             <div class="col-1"></div>
+                        </div>
+                    </li>
+                    <li id="formList" class="list-group-item">
+                        <div class="row">
+                            <div class="col">
+                                <h5>Forms</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <center>
+                                    <img class="shinyIcon" src="img/shinyIcon.png"/>
+                                    <img src="img/sprites/pokemon_icon_025_00.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Normal</p>
+                                </center>
+                            </div>
+                            <div class="col-3">
+                                <center>
+                                    <img src="img/sprites/pokemon_icon_025_00_01.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Santa Hat</p>
+                                </center>
+                            </div>
+                            <div class="col-3">
+                                <center>
+                                    <img src="img/sprites/pokemon_icon_025_00_02.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Party Hat</p>
+                                </center>
+                            </div>
+                            <div class="col-3">
+                                <center>
+                                    <img src="img/sprites/pokemon_icon_025_00_03.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Ash Hat</p>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <center>
+                                    <img src="img/sprites/pokemon_icon_025_00_04.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Witch Hat</p>
+                                </center>
+                            </div>
+                            <div class="col-3">
+                                <center>
+                                    <img src="img/sprites/pokemon_icon_025_00_05.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Summer</p>
+                                </center>
+                            </div>
                         </div>
                     </li>
                 </ul>

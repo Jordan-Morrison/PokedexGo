@@ -4,8 +4,10 @@ const app = {
         app.version = 2.52;
         //app info is fetched in checkForUpdates
         app.info = {};
-        app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
+        // app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
+        app.BASEURL = "http://localhost:8080/json/";
         app.compareScreenActive = false;
+        app.currentPoke = {};
         app.firstVisit();
         app.checkForUpdates();
     },
@@ -126,7 +128,7 @@ const app = {
                 if (counter == 1){
                     outputString += '<div class="row">';
                 }
-                outputString += '<div class="col poke" data-id="' + poke.id + '" data-gen="' + gen.generation +'"><img src="img/sprites/' + app.getSprite(poke.id, 0, false) + '.png" alt="a sprite for the Pokemon ' + poke.name + '"/></div>';
+                outputString += '<div class="col poke" data-id="' + poke.id + '" data-gen="' + gen.generation +'"><img src="img/sprites/' + app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false) + '.png" alt="a sprite for the Pokemon ' + poke.name + '"/></div>';
                 if (counter == 3){
                     outputString += '</div>';
                     counter = 1;
@@ -156,14 +158,10 @@ const app = {
         }
     },
 
-    getSprite: function(dex, form, shiny){
+    getSprite: function(dex, gender, form, shiny){
         //check if pokemon is implemented yet
         if (app.futurePokemon.pokes.includes(dex) || dex >= 387){
             return `DS/${dex}`;
-        }
-        //check if unown or castform
-        if (dex == 201 || dex == 351){
-            form = 11;
         }
 
         if (shiny == true){
@@ -172,18 +170,35 @@ const app = {
         else{
             shiny = "";
         }
-        if (form < 10){
-            form = `0${form}`;
+
+        if (form == null){
+            form = "";
+        }
+        else if (form < 10){
+            form = `_0${form}`;
+        }
+        else{
+            form = `_${form}`;
+        }
+
+        if (gender == null){
+            gender = "";
+        }
+        else if (gender < 10){
+            gender = `_0${gender}`;
+        }
+        else{
+            gender = `_${gender}`;
         }
 
         if (dex < 10){
-            return `pokemon_icon_00${dex}_${form + shiny}`;
+            return `pokemon_icon_00${dex + gender + form + shiny}`;
         }
         else if (dex < 100){
-            return `pokemon_icon_0${dex}_${form + shiny}`;
+            return `pokemon_icon_0${dex + gender + form + shiny}`;
         }
         else{
-            return `pokemon_icon_${dex}_${form + shiny}`;
+            return `pokemon_icon_${dex + gender + form + shiny}`;
         }
     },
 
@@ -199,7 +214,32 @@ const app = {
         app.displayList(searchResults);
     },
 
+    spriteErrorHandler: async function(){
+        console.log("error handled");
+        document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(app.currentPoke.id, app.currentPoke.defaultGender, app.currentPoke.defaultForm, app.currentPoke.shinySelected) + ".png";
+    },
+
     addConstantListeners: function(){
+        [].forEach.call(document.querySelectorAll(".genderIcons"), (icon)=>{
+            icon.addEventListener("click", function(ev){
+                [].forEach.call(document.querySelectorAll(".genderIcons"), (icon)=>{
+                    icon.classList.remove("active");
+                });
+                ev.target.classList.add("active");
+                // console.log(ev.target);
+
+                // app.currentPoke = {
+                //     id: document.getElementById("statScreenImg").getAttribute("data-id"),
+                //     gender: JSON.parse(ev.target.getAttribute("data-gender")),
+                //     form: null,
+                //     shiny: JSON.parse(ev.target.getAttribute("data-shiny"))
+                // }
+                app.currentPoke.genderSelected = JSON.parse(ev.target.getAttribute("data-gender"));
+                app.currentPoke.shinySelected = JSON.parse(ev.target.getAttribute("data-shiny"));
+                
+                document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(app.currentPoke.id, app.currentPoke.genderSelected, app.currentPoke.defaultForm, app.currentPoke.shinySelected) + ".png";
+            });
+        });
         [].forEach.call(document.querySelectorAll("#compareSelectScreen .compareSelectScreenButtons"), (button)=>{
             button.addEventListener("click", app.compareSelectButtonHandler);
         });
@@ -256,6 +296,8 @@ const app = {
         let poke = clickedPoke.currentTarget;
         let id = poke.getAttribute("data-id");
         let generation = poke.getAttribute("data-gen");
+        app.currentPoke = Object.assign({}, app.getPokeData(id, generation));
+        console.log(app.currentPoke);
         app.displayStats(app.getPokeData(id, generation));
         app.pageTransition(true);
     },
@@ -310,11 +352,11 @@ const app = {
         let longNamedPoke = null;
         pokes.forEach(poke => {
             if (pokes.length == 2){
-                outputString += `<div class="col-6"><p>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" class="comparedPokes2Selected" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
+                outputString += `<div class="col-6"><p>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" class="comparedPokes2Selected" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
             }
             else{
                 longNamedPoke = poke.name.length > 10 ? `class="longNamedPoke"` : null;
-                outputString += `<div class="col"><p ${longNamedPoke}>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
+                outputString += `<div class="col"><p ${longNamedPoke}>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
             }
         });
         outputString += `</div>`;
@@ -324,7 +366,7 @@ const app = {
     displayComparedStats: function(pokes){
         let outputString = "";
         pokes.forEach(poke => {
-            outputString += `<div class="row compareStatsRow"><div class="compareSpriteBox Transparent${poke.type1}"><p>cp${poke.maxCP}</p><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div><div class="col compareStatsBox"><ul class="list-group compareStatsList"><li class="list-group-item"><div class="row compareTypesRow"><div class="col type1 compareType ${poke.type1}"><p>${poke.type1}</p></div>`;
+            outputString += `<div class="row compareStatsRow"><div class="compareSpriteBox Transparent${poke.type1}"><p>cp${poke.maxCP}</p><img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div><div class="col compareStatsBox"><ul class="list-group compareStatsList"><li class="list-group-item"><div class="row compareTypesRow"><div class="col type1 compareType ${poke.type1}"><p>${poke.type1}</p></div>`;
             if (poke.type2 != ""){
                 outputString += `<div class="col type2 compareType ${poke.type2}"><p>${poke.type2}</p></div>`;
             }
@@ -448,8 +490,12 @@ const app = {
     displayStats: function(poke){
         document.getElementById("statScreen").classList.add("bg" + poke.type1);
 
-        document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(poke.id, 0, false) + ".png";
+        document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false) + ".png";
+        document.getElementById("statScreenImg").setAttribute("data-id", poke.id);
         document.getElementById("statScreenImg").alt = "a sprite for the Pokemon " + poke.name;
+
+        app.displayGenderIcons(poke.gender.male, poke.gender.female, poke.shiny);
+
         document.getElementById("statScreenName").innerText = poke.name;
 
         document.getElementById("statScreenType1").innerText = poke.type1;
@@ -485,7 +531,98 @@ const app = {
 
         let movesOutput = app.displayMoves(poke, false);
         document.getElementById("quickMovesID").innerHTML = movesOutput[0];
-        document.getElementById("chargeMovesID").innerHTML = movesOutput[1];  
+        document.getElementById("chargeMovesID").innerHTML = movesOutput[1];
+
+        document.getElementById("formList").innerHTML = app.displayForms(poke);
+    },
+
+    displayGenderIcons: function(male, female, shiny){
+        [].forEach.call(document.querySelectorAll(".genderIcons"), (icon)=>{
+            icon.classList.add("displayNone");
+            icon.classList.remove("active");
+            icon.removeAttribute("data-gender");
+        });
+        if (male){
+            document.getElementById("maleGenderIcon").classList.replace("displayNone", "active")
+            document.getElementById("maleGenderIcon").setAttribute("data-gender", 0);
+            if (shiny){
+                document.getElementById("maleShinyGenderIcon").classList.remove("displayNone")
+                document.getElementById("maleShinyGenderIcon").setAttribute("data-gender", 0);
+            }   
+        }
+        if (female){
+            document.getElementById("femaleGenderIcon").classList.remove("displayNone")
+            document.getElementById("femaleGenderIcon").setAttribute("data-gender", 1);
+            if (!male){
+                document.getElementById("femaleGenderIcon").classList.add("active");
+                document.getElementById("femaleGenderIcon").setAttribute("data-gender", 0);
+            }
+            if (shiny){
+                document.getElementById("femaleShinyGenderIcon").classList.remove("displayNone")
+                document.getElementById("femaleShinyGenderIcon").setAttribute("data-gender", document.getElementById("femaleGenderIcon").getAttribute("data-gender"));
+            }   
+        }
+        if (!female && !male){
+            document.getElementById("genderlessGenderIcon").classList.replace("displayNone", "active")
+            document.getElementById("genderlessGenderIcon").setAttribute("data-gender", 0);
+            if (shiny){
+                document.getElementById("genderlessShinyGenderIcon").classList.remove("displayNone")
+                document.getElementById("genderlessShinyGenderIcon").setAttribute("data-gender", 0);
+            }   
+        }
+    },
+
+    displayForms: function(poke){
+        console.log(poke.forms);
+        let forms = [{
+            "name": "Normal",
+            "formId": poke.defaultForm,
+            "shiny": poke.shiny,
+            "sameStats": true
+        }].concat(poke.forms);
+        console.log(forms);
+
+        let counter = 0;
+        let outputString = `<div class="row"><div class="col"><h5>Forms</h5></div></div>`;
+
+        forms.forEach(function(form){
+            if (counter == 0){
+                outputString += `<div class="row">`;
+            }
+            if (counter == 4){
+                outputString += `</div><div class="row">`;
+                counter = 1;
+            }
+            
+            outputString += `<div class="col-3"><center>`;
+            if (form.shiny == true){
+                outputString += `<img class="shinyIcon" src="img/shinyIcon.png"/>`;
+            }
+
+            console.log(form);
+            if (!form.sameStats){
+                console.log(form.sameStats);
+                outputString += `<img src="img/sprites/${app.getSprite(form.sameStats[1].id, poke.defaultGender, form.formId, false)}.png" alt="${form.name} ${poke.name} sprite"/><p class="formName">${form.name}</p></center></div>`;
+            }
+            else{
+                outputString += `<img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, form.formId, false)}.png" alt="${form.name} ${poke.name} sprite"/><p class="formName">${form.name}</p></center></div>`;
+            }
+
+            counter ++;
+        });
+
+        outputString += `</div>`;
+
+        
+        // outputString += `<div class="row">
+        // <div class="col-3">
+        //     <center>
+        //         <img class="shinyIcon" src="img/shinyIcon.png"/>
+        //         <img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" alt="Normal ${poke.name} sprite"/>
+        //         <p class="formName">Normal</p>
+        //     </center>
+        // </div>`;
+        return outputString;
     },
 
     displayMoves: function(poke, forComparing){
@@ -495,7 +632,7 @@ const app = {
         let quickOutputString = `<div class="row"><div class="col"><h5>Quick Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
         let chargedOutputString = `<div class="row"><div class="col"><h5>Charged Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
         if (forComparing){
-            quickOutputString = `<div class="row"><div class="col"><img src="img/sprites/${app.getSprite(poke.id, 0, false)}.png" class="compareMovesSprite" alt="a sprite for the Pokemon ${poke.name}"/><h5>${poke.name}'s Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
+            quickOutputString = `<div class="row"><div class="col"><img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" class="compareMovesSprite" alt="a sprite for the Pokemon ${poke.name}"/><h5>${poke.name}'s Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
             chargedOutputString = ``;
         }
         let moveDB = null;
