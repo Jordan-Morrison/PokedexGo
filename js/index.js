@@ -6,8 +6,8 @@ const app = {
         app.version = 2.52;
         //app info is fetched in checkForUpdates
         app.info = {};
-        // app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
-        app.BASEURL = "http://localhost:8080/json/";
+        app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
+        //app.BASEURL = "http://localhost:8080/json/";
         app.compareScreenActive = false;
         app.currentPoke = {};
         app.firstVisit();
