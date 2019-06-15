@@ -4,24 +4,24 @@
             "outputFile": "/Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml",
             "map": [
                 {
-                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4fa3b9dd3dd0768ec5ab251c37ecd50a/res/values-am/values-am.xml",
+                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/5f9ab8d984ed9003bfc81c4273b4accc/res/values-am/values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "190",
+                        "endOffsets": "437"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "2600",
-                        "endColumns": "100",
-                        "endOffsets": "2696"
+                        "startOffsets": "1188",
+                        "endColumns": "190",
+                        "endOffsets": "1374"
                     }
                 },
                 {
-                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/984ffd15aadc672eb3373ed61c064220/res/values-am/values.xml",
+                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3df9a40ee732b5575c329006e25d5e49/res/values-am/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/348dc9aa368f5590cfc5c82932fd86c4/res/values-am/values.xml",
+                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/483cc3707f9c9d94499030312febfe17/res/values-am/values-am.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "190",
-                        "endOffsets": "437"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1188",
-                        "endColumns": "190",
-                        "endOffsets": "1374"
+                        "startOffsets": "2600",
+                        "endColumns": "100",
+                        "endOffsets": "2696"
                     }
                 }
             ]

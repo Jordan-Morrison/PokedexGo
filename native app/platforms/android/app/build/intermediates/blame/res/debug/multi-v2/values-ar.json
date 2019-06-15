@@ -4,24 +4,7 @@
             "outputFile": "/Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml",
             "map": [
                 {
-                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/984ffd15aadc672eb3373ed61c064220/res/values-ar/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,347,523,643,746,943,1069,1206,1333,1529,1631,1812,1932,2130,2302,2392,2484",
-                        "endColumns": "101,175,119,102,196,125,136,126,195,101,180,119,197,171,89,91,108",
-                        "endOffsets": "346,522,642,745,942,1068,1205,1332,1528,1630,1811,1931,2129,2301,2391,2483,2592"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,211,387,511,618,815,945,1086,1406,1602,1708,1889,2013,2211,2387,2481,2577",
-                        "endColumns": "105,175,123,106,196,129,140,130,195,105,180,123,197,175,93,95,112",
-                        "endOffsets": "206,382,506,613,810,940,1081,1212,1597,1703,1884,2008,2206,2382,2476,2572,2685"
-                    }
-                },
-                {
-                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4fa3b9dd3dd0768ec5ab251c37ecd50a/res/values-ar/values-ar.xml",
+                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/483cc3707f9c9d94499030312febfe17/res/values-ar/values-ar.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/348dc9aa368f5590cfc5c82932fd86c4/res/values-ar/values.xml",
+                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/5f9ab8d984ed9003bfc81c4273b4accc/res/values-ar/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,6 +35,23 @@
                         "startOffsets": "1217",
                         "endColumns": "188",
                         "endOffsets": "1401"
+                    }
+                },
+                {
+                    "source": "/Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3df9a40ee732b5575c329006e25d5e49/res/values-ar/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,347,523,643,746,943,1069,1206,1333,1529,1631,1812,1932,2130,2302,2392,2484",
+                        "endColumns": "101,175,119,102,196,125,136,126,195,101,180,119,197,171,89,91,108",
+                        "endOffsets": "346,522,642,745,942,1068,1205,1332,1528,1630,1811,1931,2129,2301,2391,2483,2592"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,211,387,511,618,815,945,1086,1406,1602,1708,1889,2013,2211,2387,2481,2577",
+                        "endColumns": "105,175,123,106,196,129,140,130,195,105,180,123,197,175,93,95,112",
+                        "endOffsets": "206,382,506,613,810,940,1081,1212,1597,1703,1884,2008,2206,2382,2476,2572,2685"
                     }
                 }
             ]
