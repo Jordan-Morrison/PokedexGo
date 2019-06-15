@@ -1,5 +1,7 @@
 const app = {
 
+    RELEASEDPOKEMON: 494,
+
     main: function() {
         app.version = 2.52;
         //app info is fetched in checkForUpdates
@@ -128,7 +130,7 @@ const app = {
                 if (counter == 1){
                     outputString += '<div class="row">';
                 }
-                outputString += '<div class="col poke" data-id="' + poke.id + '" data-gen="' + gen.generation +'"><img src="img/sprites/' + app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false) + '.png" alt="a sprite for the Pokemon ' + poke.name + '"/></div>';
+                outputString += '<div class="col poke" data-id="' + poke.id + '" data-gen="' + gen.generation +'"><img src="img/sprites/' + app.getSprite(poke.id, poke.gender, poke.forms, false) + '.png" alt="a sprite for the Pokemon ' + poke.name + '"/></div>';
                 if (counter == 3){
                     outputString += '</div>';
                     counter = 1;
@@ -160,7 +162,7 @@ const app = {
 
     getSprite: function(dex, gender, form, shiny){
         //check if pokemon is implemented yet
-        if (app.futurePokemon.pokes.includes(dex) || dex >= 387){
+        if (app.futurePokemon.pokes.includes(dex) || (dex >= app.RELEASEDPOKEMON && dex < 808)){
             return `DS/${dex}`;
         }
 
@@ -171,25 +173,49 @@ const app = {
             shiny = "";
         }
 
-        if (form == null){
-            form = "";
-        }
-        else if (form < 10){
-            form = `_0${form}`;
+        // if (form == null){
+        //     form = "";
+        // }
+        // else if (form < 10){
+        //     form = `_0${form}`;
+        // }
+        // else{
+        //     form = `_${form}`;
+        // }
+
+        // if (typeof gender != "number"){
+        //     gender = "";
+        // }
+        
+        
+        if (typeof gender != "number"){
+            if (typeof dex == "string"){
+                gender = "";
+            }
+            else{
+                gender = "_00";
+            }
         }
         else{
-            form = `_${form}`;
+            if (gender < 10){
+                gender = `_0${gender}`;
+            }
+            else{
+                gender = `_${gender}`;
+            }
         }
 
-        if (gender == null){
-            gender = "";
-        }
-        else if (gender < 10){
-            gender = `_0${gender}`;
-        }
-        else{
-            gender = `_${gender}`;
-        }
+        // if (gender.male == true || gender.female == true){
+        //     gender = "_00";
+        // }
+        // else if (form != null){
+        //     gender = "";
+        // }
+        // else{
+        //     gender = "_00";
+        // }
+
+        form = "";
 
         if (dex < 10){
             return `pokemon_icon_00${dex + gender + form + shiny}`;
@@ -216,7 +242,7 @@ const app = {
 
     spriteErrorHandler: async function(){
         console.log("error handled");
-        document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(app.currentPoke.id, app.currentPoke.defaultGender, app.currentPoke.defaultForm, app.currentPoke.shinySelected) + ".png";
+        document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(app.currentPoke.id, app.currentPoke.gender, app.currentPoke.forms, app.currentPoke.shinySelected) + ".png";
     },
 
     addConstantListeners: function(){
@@ -237,7 +263,7 @@ const app = {
                 app.currentPoke.genderSelected = JSON.parse(ev.target.getAttribute("data-gender"));
                 app.currentPoke.shinySelected = JSON.parse(ev.target.getAttribute("data-shiny"));
                 
-                document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(app.currentPoke.id, app.currentPoke.genderSelected, app.currentPoke.defaultForm, app.currentPoke.shinySelected) + ".png";
+                document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(app.currentPoke.id, app.currentPoke.genderSelected, app.currentPoke.forms, app.currentPoke.shinySelected) + ".png";
             });
         });
         [].forEach.call(document.querySelectorAll("#compareSelectScreen .compareSelectScreenButtons"), (button)=>{
@@ -352,11 +378,11 @@ const app = {
         let longNamedPoke = null;
         pokes.forEach(poke => {
             if (pokes.length == 2){
-                outputString += `<div class="col-6"><p>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" class="comparedPokes2Selected" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
+                outputString += `<div class="col-6"><p>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, poke.gender, poke.forms, false)}.png" class="comparedPokes2Selected" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
             }
             else{
                 longNamedPoke = poke.name.length > 10 ? `class="longNamedPoke"` : null;
-                outputString += `<div class="col"><p ${longNamedPoke}>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
+                outputString += `<div class="col"><p ${longNamedPoke}>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, poke.gender, poke.forms, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
             }
         });
         outputString += `</div>`;
@@ -366,7 +392,7 @@ const app = {
     displayComparedStats: function(pokes){
         let outputString = "";
         pokes.forEach(poke => {
-            outputString += `<div class="row compareStatsRow"><div class="compareSpriteBox Transparent${poke.type1}"><p>cp${poke.maxCP}</p><img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div><div class="col compareStatsBox"><ul class="list-group compareStatsList"><li class="list-group-item"><div class="row compareTypesRow"><div class="col type1 compareType ${poke.type1}"><p>${poke.type1}</p></div>`;
+            outputString += `<div class="row compareStatsRow"><div class="compareSpriteBox Transparent${poke.type1}"><p>cp${poke.maxCP}</p><img src="img/sprites/${app.getSprite(poke.id, poke.gender, poke.forms, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div><div class="col compareStatsBox"><ul class="list-group compareStatsList"><li class="list-group-item"><div class="row compareTypesRow"><div class="col type1 compareType ${poke.type1}"><p>${poke.type1}</p></div>`;
             if (poke.type2 != ""){
                 outputString += `<div class="col type2 compareType ${poke.type2}"><p>${poke.type2}</p></div>`;
             }
@@ -490,7 +516,7 @@ const app = {
     displayStats: function(poke){
         document.getElementById("statScreen").classList.add("bg" + poke.type1);
 
-        document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false) + ".png";
+        document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(poke.id, poke.gender, poke.forms, false) + ".png";
         document.getElementById("statScreenImg").setAttribute("data-id", poke.id);
         document.getElementById("statScreenImg").alt = "a sprite for the Pokemon " + poke.name;
 
@@ -533,7 +559,7 @@ const app = {
         document.getElementById("quickMovesID").innerHTML = movesOutput[0];
         document.getElementById("chargeMovesID").innerHTML = movesOutput[1];
 
-        document.getElementById("formList").innerHTML = app.displayForms(poke);
+        //document.getElementById("formList").innerHTML = app.displayForms(poke);
     },
 
     displayGenderIcons: function(male, female, shiny){
@@ -572,58 +598,58 @@ const app = {
         }
     },
 
-    displayForms: function(poke){
-        console.log(poke.forms);
-        let forms = [{
-            "name": "Normal",
-            "formId": poke.defaultForm,
-            "shiny": poke.shiny,
-            "sameStats": true
-        }].concat(poke.forms);
-        console.log(forms);
+    // displayForms: function(poke){
+    //     console.log(poke.forms);
+    //     let forms = [{
+    //         "name": "Normal",
+    //         "formId": poke.defaultForm,
+    //         "shiny": poke.shiny,
+    //         "sameStats": true
+    //     }].concat(poke.forms);
+    //     console.log(forms);
 
-        let counter = 0;
-        let outputString = `<div class="row"><div class="col"><h5>Forms</h5></div></div>`;
+    //     let counter = 0;
+    //     let outputString = `<div class="row"><div class="col"><h5>Forms</h5></div></div>`;
 
-        forms.forEach(function(form){
-            if (counter == 0){
-                outputString += `<div class="row">`;
-            }
-            if (counter == 4){
-                outputString += `</div><div class="row">`;
-                counter = 1;
-            }
+    //     forms.forEach(function(form){
+    //         if (counter == 0){
+    //             outputString += `<div class="row">`;
+    //         }
+    //         if (counter == 4){
+    //             outputString += `</div><div class="row">`;
+    //             counter = 1;
+    //         }
             
-            outputString += `<div class="col-3"><center>`;
-            if (form.shiny == true){
-                outputString += `<img class="shinyIcon" src="img/shinyIcon.png"/>`;
-            }
+    //         outputString += `<div class="col-3"><center>`;
+    //         if (form.shiny == true){
+    //             outputString += `<img class="shinyIcon" src="img/shinyIcon.png"/>`;
+    //         }
 
-            console.log(form);
-            if (!form.sameStats){
-                console.log(form.sameStats);
-                outputString += `<img src="img/sprites/${app.getSprite(form.sameStats[1].id, poke.defaultGender, form.formId, false)}.png" alt="${form.name} ${poke.name} sprite"/><p class="formName">${form.name}</p></center></div>`;
-            }
-            else{
-                outputString += `<img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, form.formId, false)}.png" alt="${form.name} ${poke.name} sprite"/><p class="formName">${form.name}</p></center></div>`;
-            }
+    //         console.log(form);
+    //         if (!form.sameStats){
+    //             console.log(form.sameStats);
+    //             outputString += `<img src="img/sprites/${app.getSprite(form.sameStats[1].id, poke.gender, form.formId, false)}.png" alt="${form.name} ${poke.name} sprite"/><p class="formName">${form.name}</p></center></div>`;
+    //         }
+    //         else{
+    //             outputString += `<img src="img/sprites/${app.getSprite(poke.id, poke.gender, form.formId, false)}.png" alt="${form.name} ${poke.name} sprite"/><p class="formName">${form.name}</p></center></div>`;
+    //         }
 
-            counter ++;
-        });
+    //         counter ++;
+    //     });
 
-        outputString += `</div>`;
+    //     outputString += `</div>`;
 
         
-        // outputString += `<div class="row">
-        // <div class="col-3">
-        //     <center>
-        //         <img class="shinyIcon" src="img/shinyIcon.png"/>
-        //         <img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" alt="Normal ${poke.name} sprite"/>
-        //         <p class="formName">Normal</p>
-        //     </center>
-        // </div>`;
-        return outputString;
-    },
+    //     // outputString += `<div class="row">
+    //     // <div class="col-3">
+    //     //     <center>
+    //     //         <img class="shinyIcon" src="img/shinyIcon.png"/>
+    //     //         <img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" alt="Normal ${poke.name} sprite"/>
+    //     //         <p class="formName">Normal</p>
+    //     //     </center>
+    //     // </div>`;
+    //     return outputString;
+    // },
 
     displayMoves: function(poke, forComparing){
         let moveTypeArray = [poke.quickMoves, poke.quickLegacy, poke.chargedMoves, poke.chargedLegacy];
@@ -632,7 +658,7 @@ const app = {
         let quickOutputString = `<div class="row"><div class="col"><h5>Quick Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
         let chargedOutputString = `<div class="row"><div class="col"><h5>Charged Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
         if (forComparing){
-            quickOutputString = `<div class="row"><div class="col"><img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" class="compareMovesSprite" alt="a sprite for the Pokemon ${poke.name}"/><h5>${poke.name}'s Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
+            quickOutputString = `<div class="row"><div class="col"><img src="img/sprites/${app.getSprite(poke.id, poke.gender, poke.forms, false)}.png" class="compareMovesSprite" alt="a sprite for the Pokemon ${poke.name}"/><h5>${poke.name}'s Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
             chargedOutputString = ``;
         }
         let moveDB = null;

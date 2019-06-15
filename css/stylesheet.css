@@ -291,12 +291,13 @@ body{
     border-radius: .25rem 0 0 .25rem;
     box-shadow: inset 0 0 5px black;
     border-radius: 2px;
+    height: 100%;
 }
 
 .compareSpriteBox img{
     max-height: 85%;
     max-width: 100%;
-    height: 85%;
+    /* height: 85%; */
     width: auto;
     margin-left: 7.5%;
 }
