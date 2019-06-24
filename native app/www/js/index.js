@@ -1,7 +1,7 @@
 const app = {
 
     main: function() {
-        app.version = 4;
+        app.version = 4.05;
         //app info is fetched in checkForUpdates
         app.info = {};
         app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
@@ -284,12 +284,12 @@ const app = {
         document.getElementById("closeSearchIcon").addEventListener("click",function(ev){
             ev.preventDefault();
             document.getElementById("searchBar").value = "";
-            app.search("");
+            search.search("");
             document.getElementById("searchBarRow").classList.remove("showSearch");
         });
         document.getElementById("searchBar").addEventListener("keyup",function(ev){
             ev.preventDefault();
-            app.search(ev.target.value.toLowerCase());
+            search.search(ev.target.value.toLowerCase());
         });
         document.getElementById("closeButton").addEventListener("click", function(ev){
             ev.preventDefault();

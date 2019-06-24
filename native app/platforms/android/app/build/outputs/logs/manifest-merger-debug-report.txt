@@ -5,21 +5,37 @@ INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platfo
 INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [:CordovaLib] /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:1-27:12
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-16.0.8.aar/915bb89fe8959d62fdf7c2ef9b9a4602/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/40f835e8122f4acace34f69687888fe5/AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3df9a40ee732b5575c329006e25d5e49/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7aeae44bca1e651a6466860b5c4c1e28/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/28139d29d724b08b9aa766376e91ebbc/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/54ad306f4600cb9e81e241b1cc34e98e/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/5f9ab8d984ed9003bfc81c4273b4accc/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cc6ea348b53ced8929f136cdd089a479/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a800989a37137759e6422800aa3d2dd6/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2726cc5e1ff02dfdbf297764ddc2b9c1/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/15576fbc5bdd49513393d5dffa0d8e80/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/89baa7705fd763a29248e7bc90196d03/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/483cc3707f9c9d94499030312febfe17/AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9b903b54c582e078e30fe740a512bec5/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-17.0.0.aar/2a3ae12e483ff0333cd4c107297cd81f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-17.0.0.aar/f4eeb09f1ec0e220397422a46a9dfb6a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/67e33dee0557794f20ac737174fb781d/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/f36b9e0c872850f309e702c598789ef3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/631987bd101d327342eb351c01dc9339/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/91d03a8166c1a637c0de2600e95545e0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/b936df1c7b2012d3223c96a943a6cff7/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/7a481ffd0c511b58de63ae4162634e3a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/c55b670ea20306602016022fd12e3efb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/1a8e9f18d80ed8012ed170dde58a1436/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/cf7acda02272bf38f5255b489bf65859/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/7a42774acb1560b1ebcffcec8fe88fb9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/87b9ff02a84f4c307d7a6fd97a07444f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/cfeba99643164f67fc610e7ac6f3c596/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/15e0b1c64682fd795fbf2d6f9cb6e8bb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/6348dd7a7461e85fb125dd46a087dfce/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/3713c8ff5cd5e5e343c9c1e60bbdd7f1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/72ce05ca65a94ee59eafd871b75db487/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/fcb4585dbfbb12a62f74c48107fd17a0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/a9ce1c07cf7fc7be46b9ef5baf0a596d/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/90b12647ee0574695be977a981403314/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/594ea35e2e1dfa5c679d4c40efc5cc90/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/3cbca6a7b0e67729e532d5bf5206cb6e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/896aa3e7b23d42a0d34d0305b1adec22/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/b0c8709d10fe627de881bd78cf6bc099/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/aebf22f24ce32971444d7ba002846254/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a0f6650d63127ee6b56248f150d61f64/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/09e06d340b3bdb29fdccac71e791e80f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/03c9ec159e2d109aa420bbb428023808/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/70250e73f1d6b24ed95d5c5d87e027c2/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
@@ -55,44 +71,36 @@ ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms
 		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
 ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/40f835e8122f4acace34f69687888fe5/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/40f835e8122f4acace34f69687888fe5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-17.0.0.aar/f4eeb09f1ec0e220397422a46a9dfb6a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-17.0.0.aar/f4eeb09f1ec0e220397422a46a9dfb6a/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
 ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:5:5-24:19
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:29:5-45:19
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:29:5-45:19
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-16.0.8.aar/915bb89fe8959d62fdf7c2ef9b9a4602/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-16.0.8.aar/915bb89fe8959d62fdf7c2ef9b9a4602/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/40f835e8122f4acace34f69687888fe5/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/40f835e8122f4acace34f69687888fe5/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3df9a40ee732b5575c329006e25d5e49/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3df9a40ee732b5575c329006e25d5e49/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7aeae44bca1e651a6466860b5c4c1e28/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7aeae44bca1e651a6466860b5c4c1e28/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/28139d29d724b08b9aa766376e91ebbc/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/28139d29d724b08b9aa766376e91ebbc/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/54ad306f4600cb9e81e241b1cc34e98e/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/54ad306f4600cb9e81e241b1cc34e98e/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/5f9ab8d984ed9003bfc81c4273b4accc/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/5f9ab8d984ed9003bfc81c4273b4accc/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cc6ea348b53ced8929f136cdd089a479/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cc6ea348b53ced8929f136cdd089a479/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a800989a37137759e6422800aa3d2dd6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a800989a37137759e6422800aa3d2dd6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2726cc5e1ff02dfdbf297764ddc2b9c1/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2726cc5e1ff02dfdbf297764ddc2b9c1/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/15576fbc5bdd49513393d5dffa0d8e80/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/15576fbc5bdd49513393d5dffa0d8e80/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/89baa7705fd763a29248e7bc90196d03/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/89baa7705fd763a29248e7bc90196d03/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/483cc3707f9c9d94499030312febfe17/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/483cc3707f9c9d94499030312febfe17/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9b903b54c582e078e30fe740a512bec5/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9b903b54c582e078e30fe740a512bec5/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-17.0.0.aar/2a3ae12e483ff0333cd4c107297cd81f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-17.0.0.aar/2a3ae12e483ff0333cd4c107297cd81f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-17.0.0.aar/f4eeb09f1ec0e220397422a46a9dfb6a/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-17.0.0.aar/f4eeb09f1ec0e220397422a46a9dfb6a/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/67e33dee0557794f20ac737174fb781d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/67e33dee0557794f20ac737174fb781d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/f36b9e0c872850f309e702c598789ef3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/f36b9e0c872850f309e702c598789ef3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/631987bd101d327342eb351c01dc9339/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/631987bd101d327342eb351c01dc9339/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/91d03a8166c1a637c0de2600e95545e0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/91d03a8166c1a637c0de2600e95545e0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/b936df1c7b2012d3223c96a943a6cff7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/b936df1c7b2012d3223c96a943a6cff7/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/fcb4585dbfbb12a62f74c48107fd17a0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/fcb4585dbfbb12a62f74c48107fd17a0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/a9ce1c07cf7fc7be46b9ef5baf0a596d/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/a9ce1c07cf7fc7be46b9ef5baf0a596d/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/fcb4585dbfbb12a62f74c48107fd17a0/AndroidManifest.xml:22:18-86
 	android:supportsRtl
 		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:5:121-147
 	android:label
@@ -129,12 +137,12 @@ ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms
 		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
 receiver#com.google.android.gms.analytics.AnalyticsReceiver
 ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:12:9-16:20
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:30:9-34:20
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:30:9-34:20
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:30:9-34:20
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:30:9-34:20
 	android:enabled
 		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:12:19-41
 	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:33:13-37
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:33:13-37
 	android:name
 		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:12:42-107
 intent-filter#action:name:com.google.android.gms.analytics.ANALYTICS_DISPATCH
@@ -145,8 +153,8 @@ ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms
 		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:14:25-91
 service#com.google.android.gms.analytics.AnalyticsService
 ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:17:9-133
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:36:9-39:40
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:36:9-39:40
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:36:9-39:40
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:36:9-39:40
 	android:enabled
 		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:17:18-40
 	android:exported
@@ -180,39 +188,69 @@ ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms
 INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:25:5-74
 MERGED from [:CordovaLib] /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-16.0.8.aar/915bb89fe8959d62fdf7c2ef9b9a4602/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-16.0.8.aar/915bb89fe8959d62fdf7c2ef9b9a4602/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/40f835e8122f4acace34f69687888fe5/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/40f835e8122f4acace34f69687888fe5/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3df9a40ee732b5575c329006e25d5e49/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3df9a40ee732b5575c329006e25d5e49/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7aeae44bca1e651a6466860b5c4c1e28/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7aeae44bca1e651a6466860b5c4c1e28/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/28139d29d724b08b9aa766376e91ebbc/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/28139d29d724b08b9aa766376e91ebbc/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/54ad306f4600cb9e81e241b1cc34e98e/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/54ad306f4600cb9e81e241b1cc34e98e/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/5f9ab8d984ed9003bfc81c4273b4accc/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/5f9ab8d984ed9003bfc81c4273b4accc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cc6ea348b53ced8929f136cdd089a479/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cc6ea348b53ced8929f136cdd089a479/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a800989a37137759e6422800aa3d2dd6/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a800989a37137759e6422800aa3d2dd6/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2726cc5e1ff02dfdbf297764ddc2b9c1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2726cc5e1ff02dfdbf297764ddc2b9c1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/15576fbc5bdd49513393d5dffa0d8e80/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/15576fbc5bdd49513393d5dffa0d8e80/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/89baa7705fd763a29248e7bc90196d03/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/89baa7705fd763a29248e7bc90196d03/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/483cc3707f9c9d94499030312febfe17/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/483cc3707f9c9d94499030312febfe17/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9b903b54c582e078e30fe740a512bec5/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9b903b54c582e078e30fe740a512bec5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-17.0.0.aar/2a3ae12e483ff0333cd4c107297cd81f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-17.0.0.aar/2a3ae12e483ff0333cd4c107297cd81f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-17.0.0.aar/f4eeb09f1ec0e220397422a46a9dfb6a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-17.0.0.aar/f4eeb09f1ec0e220397422a46a9dfb6a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/67e33dee0557794f20ac737174fb781d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/67e33dee0557794f20ac737174fb781d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/f36b9e0c872850f309e702c598789ef3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/f36b9e0c872850f309e702c598789ef3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/631987bd101d327342eb351c01dc9339/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/631987bd101d327342eb351c01dc9339/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/91d03a8166c1a637c0de2600e95545e0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/91d03a8166c1a637c0de2600e95545e0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/b936df1c7b2012d3223c96a943a6cff7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/b936df1c7b2012d3223c96a943a6cff7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/7a481ffd0c511b58de63ae4162634e3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/7a481ffd0c511b58de63ae4162634e3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/c55b670ea20306602016022fd12e3efb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/c55b670ea20306602016022fd12e3efb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/1a8e9f18d80ed8012ed170dde58a1436/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/1a8e9f18d80ed8012ed170dde58a1436/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/cf7acda02272bf38f5255b489bf65859/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/cf7acda02272bf38f5255b489bf65859/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/7a42774acb1560b1ebcffcec8fe88fb9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/7a42774acb1560b1ebcffcec8fe88fb9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/87b9ff02a84f4c307d7a6fd97a07444f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/87b9ff02a84f4c307d7a6fd97a07444f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/cfeba99643164f67fc610e7ac6f3c596/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/cfeba99643164f67fc610e7ac6f3c596/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/15e0b1c64682fd795fbf2d6f9cb6e8bb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/15e0b1c64682fd795fbf2d6f9cb6e8bb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/6348dd7a7461e85fb125dd46a087dfce/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/6348dd7a7461e85fb125dd46a087dfce/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/3713c8ff5cd5e5e343c9c1e60bbdd7f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/3713c8ff5cd5e5e343c9c1e60bbdd7f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/72ce05ca65a94ee59eafd871b75db487/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/72ce05ca65a94ee59eafd871b75db487/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/fcb4585dbfbb12a62f74c48107fd17a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/fcb4585dbfbb12a62f74c48107fd17a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/a9ce1c07cf7fc7be46b9ef5baf0a596d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/a9ce1c07cf7fc7be46b9ef5baf0a596d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/90b12647ee0574695be977a981403314/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/90b12647ee0574695be977a981403314/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/594ea35e2e1dfa5c679d4c40efc5cc90/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/594ea35e2e1dfa5c679d4c40efc5cc90/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/3cbca6a7b0e67729e532d5bf5206cb6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/3cbca6a7b0e67729e532d5bf5206cb6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/896aa3e7b23d42a0d34d0305b1adec22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/896aa3e7b23d42a0d34d0305b1adec22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/b0c8709d10fe627de881bd78cf6bc099/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/b0c8709d10fe627de881bd78cf6bc099/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/aebf22f24ce32971444d7ba002846254/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/aebf22f24ce32971444d7ba002846254/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a0f6650d63127ee6b56248f150d61f64/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a0f6650d63127ee6b56248f150d61f64/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/09e06d340b3bdb29fdccac71e791e80f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/09e06d340b3bdb29fdccac71e791e80f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/03c9ec159e2d109aa420bbb428023808/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/03c9ec159e2d109aa420bbb428023808/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/70250e73f1d6b24ed95d5c5d87e027c2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/70250e73f1d6b24ed95d5c5d87e027c2/AndroidManifest.xml:20:5-44
 INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:25:5-74
-	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cc6ea348b53ced8929f136cdd089a479/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:25:42-71
 	android:minSdkVersion
@@ -221,61 +259,39 @@ INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platfo
 		INJECTED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:26:5-79
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/40f835e8122f4acace34f69687888fe5/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/40f835e8122f4acace34f69687888fe5/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-17.0.0.aar/f4eeb09f1ec0e220397422a46a9dfb6a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-17.0.0.aar/f4eeb09f1ec0e220397422a46a9dfb6a/AndroidManifest.xml:24:5-79
 	android:name
 		ADDED from /Users/jordanmorrison/Documents/GitHub/PokedexGo/native app/platforms/android/app/src/main/AndroidManifest.xml:26:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/40f835e8122f4acace34f69687888fe5/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/40f835e8122f4acace34f69687888fe5/AndroidManifest.xml:27:5-68
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-17.0.0.aar/f4eeb09f1ec0e220397422a46a9dfb6a/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-17.0.0.aar/f4eeb09f1ec0e220397422a46a9dfb6a/AndroidManifest.xml:27:5-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:27:22-65
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:27:22-65
 service#com.google.android.gms.analytics.AnalyticsJobService
-ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:40:9-44:72
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:40:9-44:72
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:42:13-35
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:42:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:43:13-37
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:43:13-37
 	android:permission
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:44:13-69
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:44:13-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/da990268bc946551dcd483b2d8971ba0/AndroidManifest.xml:41:13-80
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-analytics-17.0.0.aar/ee7a8a7abbbfa8877824662a84fabef8/AndroidManifest.xml:41:13-80
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3df9a40ee732b5575c329006e25d5e49/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/67e33dee0557794f20ac737174fb781d/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3df9a40ee732b5575c329006e25d5e49/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/67e33dee0557794f20ac737174fb781d/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3df9a40ee732b5575c329006e25d5e49/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/67e33dee0557794f20ac737174fb781d/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3df9a40ee732b5575c329006e25d5e49/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/67e33dee0557794f20ac737174fb781d/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/5f9ab8d984ed9003bfc81c4273b4accc/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/b936df1c7b2012d3223c96a943a6cff7/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/5f9ab8d984ed9003bfc81c4273b4accc/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/b936df1c7b2012d3223c96a943a6cff7/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/5f9ab8d984ed9003bfc81c4273b4accc/AndroidManifest.xml:24:13-58
-meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cc6ea348b53ced8929f136cdd089a479/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a800989a37137759e6422800aa3d2dd6/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a800989a37137759e6422800aa3d2dd6/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2726cc5e1ff02dfdbf297764ddc2b9c1/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2726cc5e1ff02dfdbf297764ddc2b9c1/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/15576fbc5bdd49513393d5dffa0d8e80/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/15576fbc5bdd49513393d5dffa0d8e80/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/89baa7705fd763a29248e7bc90196d03/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/89baa7705fd763a29248e7bc90196d03/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/483cc3707f9c9d94499030312febfe17/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/483cc3707f9c9d94499030312febfe17/AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cc6ea348b53ced8929f136cdd089a479/AndroidManifest.xml:28:13-35
-	android:name
-		ADDED from [com.android.support:support-v4:26.1.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cc6ea348b53ced8929f136cdd089a479/AndroidManifest.xml:27:13-51
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9b903b54c582e078e30fe740a512bec5/AndroidManifest.xml:25:9-27:47
-	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9b903b54c582e078e30fe740a512bec5/AndroidManifest.xml:27:13-44
-	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9b903b54c582e078e30fe740a512bec5/AndroidManifest.xml:26:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jordanmorrison/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/b936df1c7b2012d3223c96a943a6cff7/AndroidManifest.xml:24:13-58
