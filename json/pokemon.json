@@ -1,5 +1,5 @@
 {
-    "version": 4,
+    "version": 4.1,
     "data": [
         {
             "id": 1001,
@@ -690,7 +690,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "RATTATA_NORMAL"
@@ -760,7 +760,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "RATICATE_NORMAL"
@@ -1054,7 +1054,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "SANDSHREW_NORMAL"
@@ -1124,7 +1124,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "SANDSLASH_NORMAL"
@@ -1417,7 +1417,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "VULPIX_NORMAL"
@@ -1493,7 +1493,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "NINETALES_NORMAL"
@@ -1877,7 +1877,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "DIGLETT_NORMAL"
@@ -1949,7 +1949,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "DUGTRIO_NORMAL"
@@ -2021,7 +2021,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "MEOWTH_NORMAL"
@@ -2093,7 +2093,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "PERSIAN_NORMAL"
@@ -2763,7 +2763,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "GEODUDE_NORMAL"
@@ -2837,7 +2837,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "GRAVELER_NORMAL"
@@ -2911,7 +2911,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "GOLEM_NORMAL"
@@ -3327,7 +3327,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "GRIMER_NORMAL"
@@ -3402,7 +3402,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "MUK_NORMAL"
@@ -3882,7 +3882,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "EXEGGUTOR_NORMAL"
@@ -8276,7 +8276,7 @@
                         "male": false,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Electric",
                     "type2": "",
@@ -10856,7 +10856,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "SPINDA_00",
