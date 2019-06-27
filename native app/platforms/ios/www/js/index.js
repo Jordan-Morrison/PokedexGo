@@ -1,10 +1,119 @@
 const app = {
 
     main: function() {
+        app.version = 4.05;
+        //app info is fetched in checkForUpdates
+        app.info = {};
+        app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
         app.compareScreenActive = false;
-        app.displayList(pokemon);
-        app.addConstantListeners();
-        app.getMaxStats();
+        // app.firstVisit();
+        app.checkForUpdates();
+    },
+
+    // firstVisit: function(){
+    //     if (typeof(Storage) !== "undefined") {
+    //         if (localStorage.firstVisit === undefined){
+    //             localStorage.firstVisit = JSON.stringify(false);
+    //             document.getElementById("pokeList").classList.add("fixed");
+    //             document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
+    //                 document.getElementById("pokeList").classList.remove("fixed");
+    //                 window.scrollTo(0,0);
+    //                 document.getElementById("firstVisitScreen").classList.add("displayNone");
+    //             });
+    //         }
+    //         else{
+    //             document.getElementById("firstVisitScreen").classList.add("displayNone");
+    //         }
+    //     } else {
+    //         document.getElementById("pokeList").classList.add("fixed");
+    //         document.getElementById("firstVisitScreenButton").addEventListener("click", function(){
+    //             document.getElementById("pokeList").classList.remove("fixed");
+    //             window.scrollTo(0,0);
+    //             document.getElementById("firstVisitScreen").classList.add("displayNone");
+    //         });
+    //     }
+    // },
+
+    checkForUpdates: function(){
+        fetch(`${app.BASEURL}appInfo.json`)
+        .then(result=>result.json())
+        .then((data)=>{
+            app.info = data;
+            if (app.info.latestVersion.version != app.version){
+                if (app.info.latestVersion.forced){
+                    //You must update to continue
+                    document.getElementById("newsContent").innerHTML = `<a href="https://raw.githubusercontent.com/Jordan-Morrison/PokedexGo/master/Pokedex%20Go.apk"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE REQUIRED</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
+                    document.getElementById("closeNewsButton").classList.add("displayNone");
+                }
+                else{
+                    //There is an update available
+                    document.getElementById("newsContent").innerHTML = `<a href="https://raw.githubusercontent.com/Jordan-Morrison/PokedexGo/master/Pokedex%20Go.apk"><div style=" background-color: #d20707; background: linear-gradient(180deg, #ff3019 0%,#cf0404 100%); color: white; height: 80px; font-size: 28px; text-align: center; border: dashed;"> <p style=" margin: 0;">UPDATE AVAILABLE</p><p style=" font-size: 15px; margin: 0; font-style: italic;">Tap here to download</p></div></a>`;
+                    app.getData();
+                }
+            }
+            else{
+                app.getData();
+            }
+        })
+        .catch(function(err){
+            console.log("Failed to fetch");
+        });
+    },
+
+    getData: function(){
+        document.getElementById("loadingScreen").classList.remove("hide");
+        // let files = ["appInfo.json", "pokemon.json", "futurePokemon.json", "moves.json", "weather.json"];
+
+        fetch(`${app.BASEURL}pokemon.json`)
+        .then(result=>result.json())
+        .then((data)=>{
+            app.pokemon = data.data;
+            fetch(`${app.BASEURL}futurePokemon.json`)
+            .then(result=>result.json())
+            .then((data)=>{
+                app.futurePokemon = data.data;
+                fetch(`${app.BASEURL}moves.json`)
+                .then(result=>result.json())
+                .then((data)=>{
+                    app.moves = data.data;
+
+                    app.getNews(app.BASEURL);
+                    app.displayList(app.pokemon);
+                    app.addConstantListeners();
+                    app.getMaxStats();
+                    document.getElementById("loadingScreen").classList.add("hide");
+                })
+                .catch(function(err){
+                    console.log("Failed to fetch");
+                });
+            })
+            .catch(function(err){
+                console.log("Failed to fetch");
+            });
+        })
+        .catch(function(err){
+            console.log("Failed to fetch");
+        });
+
+    },
+
+    getNews: function(){
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.newsVersion != app.info.news.version){
+                localStorage.newsVersion = app.info.news.version;
+                document.getElementById("newsContent").innerHTML += app.info.news.content;
+                document.getElementById("newsWindow").classList.remove("displayNone");
+            }
+            else if (app.info.latestVersion.version != app.version){
+                localStorage.newsVersion = app.info.news.version;
+                document.getElementById("newsContent").innerHTML += app.info.news.content;
+                document.getElementById("newsWindow").classList.remove("displayNone");
+            }
+        }
+        else{
+            document.getElementById("newsContent").innerHTML += app.info.news.content;
+            document.getElementById("newsWindow").classList.remove("displayNone");
+        }
     },
 
     displayList: function(object){
@@ -17,7 +126,7 @@ const app = {
                 if (counter == 1){
                     outputString += '<div class="row">';
                 }
-                outputString += '<div class="col poke" data-id="' + poke.id + '" data-gen="' + gen.generation +'"><img src="img/sprites/' + poke.id + '.png" alt="a sprite for the Pokemon ' + poke.name + '"/></div>';
+                outputString += '<div class="col poke" data-id="' + poke.id + '" data-gen="' + gen.generation +'"><img src="img/sprites/' + app.getSprite(poke.id, poke.gender, poke.forms, false) + '.png" alt="a sprite for the Pokemon ' + poke.name + '"/></div>';
                 if (counter == 3){
                     outputString += '</div>';
                     counter = 1;
@@ -47,8 +156,76 @@ const app = {
         }
     },
 
+    getSprite: function(dex, gender, form, shiny){
+        //check if pokemon is implemented yet
+        if (app.futurePokemon.pokes.includes(dex) || (dex >= app.RELEASEDPOKEMON && dex < 808)){
+            return `DS/${dex}`;
+        }
+
+        if (shiny == true){
+            shiny = "_shiny";
+        }
+        else{
+            shiny = "";
+        }
+
+        // if (form == null){
+        //     form = "";
+        // }
+        // else if (form < 10){
+        //     form = `_0${form}`;
+        // }
+        // else{
+        //     form = `_${form}`;
+        // }
+
+        // if (typeof gender != "number"){
+        //     gender = "";
+        // }
+        
+        
+        if (typeof gender != "number"){
+            if (typeof dex == "string"){
+                gender = "";
+            }
+            else{
+                gender = "_00";
+            }
+        }
+        else{
+            if (gender < 10){
+                gender = `_0${gender}`;
+            }
+            else{
+                gender = `_${gender}`;
+            }
+        }
+
+        // if (gender.male == true || gender.female == true){
+        //     gender = "_00";
+        // }
+        // else if (form != null){
+        //     gender = "";
+        // }
+        // else{
+        //     gender = "_00";
+        // }
+
+        form = "";
+
+        if (dex < 10){
+            return `pokemon_icon_00${dex + gender + form + shiny}`;
+        }
+        else if (dex < 100){
+            return `pokemon_icon_0${dex + gender + form + shiny}`;
+        }
+        else{
+            return `pokemon_icon_${dex + gender + form + shiny}`;
+        }
+    },
+
     search: function(searchTerm){
-        let searchResults = JSON.parse(JSON.stringify(pokemon));
+        let searchResults = JSON.parse(JSON.stringify(app.pokemon));
         searchResults.forEach(gen => {
             gen.pokemon = gen.pokemon.filter(function(poke){
                 if (poke.name.toLowerCase().includes(searchTerm)){
@@ -59,7 +236,32 @@ const app = {
         app.displayList(searchResults);
     },
 
+    spriteErrorHandler: async function(){
+        console.log("error handled");
+        document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(app.currentPoke.id, app.currentPoke.gender, app.currentPoke.forms, app.currentPoke.shinySelected) + ".png";
+    },
+
     addConstantListeners: function(){
+        [].forEach.call(document.querySelectorAll(".genderIcons"), (icon)=>{
+            icon.addEventListener("click", function(ev){
+                [].forEach.call(document.querySelectorAll(".genderIcons"), (icon)=>{
+                    icon.classList.remove("active");
+                });
+                ev.target.classList.add("active");
+                // console.log(ev.target);
+
+                // app.currentPoke = {
+                //     id: document.getElementById("statScreenImg").getAttribute("data-id"),
+                //     gender: JSON.parse(ev.target.getAttribute("data-gender")),
+                //     form: null,
+                //     shiny: JSON.parse(ev.target.getAttribute("data-shiny"))
+                // }
+                app.currentPoke.genderSelected = JSON.parse(ev.target.getAttribute("data-gender"));
+                app.currentPoke.shinySelected = JSON.parse(ev.target.getAttribute("data-shiny"));
+                
+                document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(app.currentPoke.id, app.currentPoke.genderSelected, app.currentPoke.forms, app.currentPoke.shinySelected) + ".png";
+            });
+        });
         [].forEach.call(document.querySelectorAll("#compareSelectScreen .compareSelectScreenButtons"), (button)=>{
             button.addEventListener("click", app.compareSelectButtonHandler);
         });
@@ -68,6 +270,8 @@ const app = {
             ev.preventDefault();
             app.compareTransition(true, ev);
         });
+        document.getElementById("compareSelectButton").addEventListener("click", app.compareButtonHandler);
+        document.getElementById("compareScreenCloseButton").addEventListener("click", app.compareScreenCloseButtonHandler);
         document.querySelector("p.pokemonMenu").addEventListener("click",function(ev){
             ev.preventDefault();
             app.compareTransition(false, ev);
@@ -80,16 +284,19 @@ const app = {
         document.getElementById("closeSearchIcon").addEventListener("click",function(ev){
             ev.preventDefault();
             document.getElementById("searchBar").value = "";
-            app.search("");
+            search.search("");
             document.getElementById("searchBarRow").classList.remove("showSearch");
         });
         document.getElementById("searchBar").addEventListener("keyup",function(ev){
             ev.preventDefault();
-            app.search(ev.target.value.toLowerCase());
+            search.search(ev.target.value.toLowerCase());
         });
         document.getElementById("closeButton").addEventListener("click", function(ev){
             ev.preventDefault();
             app.pageTransition(false);
+        });
+        document.getElementById("closeNewsButton").addEventListener("click", function(){
+            document.getElementById("newsWindow").classList.add("displayNone");
         });
     },
 
@@ -111,7 +318,9 @@ const app = {
         let poke = clickedPoke.currentTarget;
         let id = poke.getAttribute("data-id");
         let generation = poke.getAttribute("data-gen");
-        app.getPokeData(id, generation);
+        app.currentPoke = Object.assign({}, app.getPokeData(id, generation));
+        console.log(app.currentPoke);
+        app.displayStats(app.getPokeData(id, generation));
         app.pageTransition(true);
     },
 
@@ -130,8 +339,83 @@ const app = {
         }, 0);
     },
 
+    compareButtonHandler: function(ev){
+        ev.preventDefault();
+        let pokes = [];
+        let counter = 0;
+        document.querySelectorAll(".compareSelectScreenButtons").forEach(button => {
+            if (button.getAttribute("data-id")){
+                counter++;
+                pokes.push(app.getPokeData(button.getAttribute("data-id"), button.getAttribute("data-gen")));
+            }
+        });
+        if (counter >= 2){
+            app.displayComparedPokes(pokes);
+            app.displayComparedStats(pokes);
+            app.displayComparedMoves(pokes);
+            document.getElementById("compareScreen").classList.add("show");
+            document.getElementById("compareScreenCloseButton").classList.remove("hideBottom");
+            document.getElementById("compareScreen").scrollTo(0,0);
+            setTimeout(() => {
+                [].forEach.call(document.querySelectorAll("#compareSelectScreen .compareSelectScreenButtons"), (button)=>{
+                    button.innerHTML = "&#43;";
+                    button.removeAttribute("data-id");
+                    button.removeAttribute("data-gen");
+                });
+            }, 500);
+        }
+        else{
+            alert("You must choose at least 2 Pokemon to compare!");
+        }
+    },
+
+    displayComparedPokes: function(pokes){
+        let outputString = `<div class="row comparedPokes"><h1 class="comparingTitle">Comparing</h1>`;
+        let longNamedPoke = null;
+        pokes.forEach(poke => {
+            if (pokes.length == 2){
+                outputString += `<div class="col-6"><p>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, poke.gender, poke.forms, false)}.png" class="comparedPokes2Selected" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
+            }
+            else{
+                longNamedPoke = poke.name.length > 10 ? `class="longNamedPoke"` : null;
+                outputString += `<div class="col"><p ${longNamedPoke}>${poke.name}</p><img src="img/sprites/${app.getSprite(poke.id, poke.gender, poke.forms, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div>`;
+            }
+        });
+        outputString += `</div>`;
+        document.getElementById("compareScreen").innerHTML = outputString;
+    },
+
+    displayComparedStats: function(pokes){
+        let outputString = "";
+        pokes.forEach(poke => {
+            outputString += `<div class="row compareStatsRow"><div class="compareSpriteBox Transparent${poke.type1}"><p>cp${poke.maxCP}</p><img src="img/sprites/${app.getSprite(poke.id, poke.gender, poke.forms, false)}.png" alt="a sprite for the Pokemon ${poke.name}"/></div><div class="col compareStatsBox"><ul class="list-group compareStatsList"><li class="list-group-item"><div class="row compareTypesRow"><div class="col type1 compareType ${poke.type1}"><p>${poke.type1}</p></div>`;
+            if (poke.type2 != ""){
+                outputString += `<div class="col type2 compareType ${poke.type2}"><p>${poke.type2}</p></div>`;
+            }
+            outputString += `</div></li><li class="list-group-item"><div class="progress"><div class="progress-bar progress-bar-striped bg-attack" role="progressbar" style="width: ${(poke.attack / app.maxAttack) * 100}%" aria-valuenow="${poke.attack}" aria-valuemin="0" aria-valuemax="${app.maxAttack}">Attack:&nbsp;${poke.attack}</div></div></li><li class="list-group-item"><div class="progress"><div class="progress-bar progress-bar-striped bg-defense" role="progressbar" style="width: ${(poke.defense / app.maxDefense) * 100}%" aria-valuenow="${poke.defense}" aria-valuemin="0" aria-valuemax="${app.maxDefense}">Defense:&nbsp;${poke.defense}</div></div></li><li class="list-group-item"><div class="progress"><div class="progress-bar progress-bar-striped bg-hp" role="progressbar" style="width: ${(poke.hp / app.maxHP) * 100}%" aria-valuenow="${poke.hp}" aria-valuemin="0" aria-valuemax="${app.maxHP}">HP:&nbsp;${poke.hp}</div></div></li></ul></div></div>`;
+        });
+        document.getElementById("compareScreen").innerHTML += outputString;
+    },
+
+    displayComparedMoves: function(pokes){
+        let outputString = "<h1 class='compareMovesTitle'>Moves</h1>";
+        let moveResults = null;
+        pokes.forEach(poke => {
+            moveResults = app.displayMoves(poke, true);
+            outputString += "<ul class='list-group compareMovesRow'><li class='list-group-item'>" + moveResults[0] + "</li><li class='list-group-item'>" + moveResults[1] + "</li></ul>";
+        });
+        document.getElementById("compareScreen").innerHTML +=  outputString;
+    },
+
+    compareScreenCloseButtonHandler: function(ev){
+        ev.preventDefault();
+        document.getElementById("compareScreen").classList.remove("show");
+        document.getElementById("compareScreenCloseButton").classList.add("hideBottom");
+    },
+
     compareSelectPokemonHandler: function(clickedPoke){
         clickedPoke.preventDefault();
+        document.getElementById("closeSearchIcon").click();
         if (app.clickedCompareButton.toElement.localName == "div"){
             app.clickedCompareButton.target.innerHTML = `<img src="${this.firstElementChild.getAttribute("src")}" class="selectedPokeToCompare" alt="${this.firstElementChild.getAttribute("alt")}"/>`;
             app.clickedCompareButton.target.setAttribute("data-id", this.getAttribute("data-id"));
@@ -147,6 +431,7 @@ const app = {
     },
 
     compareSelectCloseButtonHandler: function(ev){
+        document.getElementById("closeSearchIcon").click();
         document.querySelector("p.pokemonMenu").classList.remove("displayNone");
         document.querySelector("p.compareMenu").classList.remove("displayNone");
         document.querySelector("p.selectMenuText").classList.add("displayNone");
@@ -162,6 +447,7 @@ const app = {
     compareTransition: function(showCompareScreen, ev){
         ev.target.classList.add("underline");
         if (showCompareScreen){
+            document.getElementById("closeSearchIcon").click();
             app.scrollPosition = ev.pageY - ev.clientY;
             app.compareScreenActive = true;
             app.addPokeListeners(false, app.pokeClickHandler);
@@ -213,18 +499,25 @@ const app = {
     },
 
     getPokeData: function(id, generation){
-        pokemon[generation - 1].pokemon.forEach(function(poke){
+        let pokeData = null;
+        app.pokemon[generation - 1].pokemon.forEach(function(poke){
             if (poke.id == id){
-                app.displayStats(poke);
+                // app.displayStats(poke);
+                pokeData = poke;
             }
         });
+        return pokeData;
     },
 
     displayStats: function(poke){
         document.getElementById("statScreen").classList.add("bg" + poke.type1);
 
-        document.getElementById("statScreenImg").src = "img/sprites/" + poke.id + ".png";
+        document.getElementById("statScreenImg").src = "img/sprites/" + app.getSprite(poke.id, poke.gender, poke.forms, false) + ".png";
+        document.getElementById("statScreenImg").setAttribute("data-id", poke.id);
         document.getElementById("statScreenImg").alt = "a sprite for the Pokemon " + poke.name;
+
+        app.displayGenderIcons(poke.gender.male, poke.gender.female, poke.shiny);
+
         document.getElementById("statScreenName").innerText = poke.name;
 
         document.getElementById("statScreenType1").innerText = poke.type1;
@@ -257,25 +550,123 @@ const app = {
         document.getElementById("statScreenHP").setAttribute("aria-valuenow", poke.hp);
         document.getElementById("statScreenHP").setAttribute("aria-valuemax", app.maxHP);
         document.getElementById("statScreenHP").innerText = poke.hp;
-        app.displayMoves(poke);  
+
+        let movesOutput = app.displayMoves(poke, false);
+        document.getElementById("quickMovesID").innerHTML = movesOutput[0];
+        document.getElementById("chargeMovesID").innerHTML = movesOutput[1];
+
+        //document.getElementById("formList").innerHTML = app.displayForms(poke);
     },
 
-    displayMoves: function(poke){
+    displayGenderIcons: function(male, female, shiny){
+        [].forEach.call(document.querySelectorAll(".genderIcons"), (icon)=>{
+            icon.classList.add("displayNone");
+            icon.classList.remove("active");
+            icon.removeAttribute("data-gender");
+        });
+        if (male){
+            document.getElementById("maleGenderIcon").classList.replace("displayNone", "active")
+            document.getElementById("maleGenderIcon").setAttribute("data-gender", 0);
+            if (shiny){
+                document.getElementById("maleShinyGenderIcon").classList.remove("displayNone")
+                document.getElementById("maleShinyGenderIcon").setAttribute("data-gender", 0);
+            }   
+        }
+        if (female){
+            document.getElementById("femaleGenderIcon").classList.remove("displayNone")
+            document.getElementById("femaleGenderIcon").setAttribute("data-gender", 1);
+            if (!male){
+                document.getElementById("femaleGenderIcon").classList.add("active");
+                document.getElementById("femaleGenderIcon").setAttribute("data-gender", 0);
+            }
+            if (shiny){
+                document.getElementById("femaleShinyGenderIcon").classList.remove("displayNone")
+                document.getElementById("femaleShinyGenderIcon").setAttribute("data-gender", document.getElementById("femaleGenderIcon").getAttribute("data-gender"));
+            }   
+        }
+        if (!female && !male){
+            document.getElementById("genderlessGenderIcon").classList.replace("displayNone", "active")
+            document.getElementById("genderlessGenderIcon").setAttribute("data-gender", 0);
+            if (shiny){
+                document.getElementById("genderlessShinyGenderIcon").classList.remove("displayNone")
+                document.getElementById("genderlessShinyGenderIcon").setAttribute("data-gender", 0);
+            }   
+        }
+    },
+
+    // displayForms: function(poke){
+    //     console.log(poke.forms);
+    //     let forms = [{
+    //         "name": "Normal",
+    //         "formId": poke.defaultForm,
+    //         "shiny": poke.shiny,
+    //         "sameStats": true
+    //     }].concat(poke.forms);
+    //     console.log(forms);
+
+    //     let counter = 0;
+    //     let outputString = `<div class="row"><div class="col"><h5>Forms</h5></div></div>`;
+
+    //     forms.forEach(function(form){
+    //         if (counter == 0){
+    //             outputString += `<div class="row">`;
+    //         }
+    //         if (counter == 4){
+    //             outputString += `</div><div class="row">`;
+    //             counter = 1;
+    //         }
+            
+    //         outputString += `<div class="col-3"><center>`;
+    //         if (form.shiny == true){
+    //             outputString += `<img class="shinyIcon" src="img/shinyIcon.png"/>`;
+    //         }
+
+    //         console.log(form);
+    //         if (!form.sameStats){
+    //             console.log(form.sameStats);
+    //             outputString += `<img src="img/sprites/${app.getSprite(form.sameStats[1].id, poke.gender, form.formId, false)}.png" alt="${form.name} ${poke.name} sprite"/><p class="formName">${form.name}</p></center></div>`;
+    //         }
+    //         else{
+    //             outputString += `<img src="img/sprites/${app.getSprite(poke.id, poke.gender, form.formId, false)}.png" alt="${form.name} ${poke.name} sprite"/><p class="formName">${form.name}</p></center></div>`;
+    //         }
+
+    //         counter ++;
+    //     });
+
+    //     outputString += `</div>`;
+
+        
+    //     // outputString += `<div class="row">
+    //     // <div class="col-3">
+    //     //     <center>
+    //     //         <img class="shinyIcon" src="img/shinyIcon.png"/>
+    //     //         <img src="img/sprites/${app.getSprite(poke.id, poke.defaultGender, poke.defaultForm, false)}.png" alt="Normal ${poke.name} sprite"/>
+    //     //         <p class="formName">Normal</p>
+    //     //     </center>
+    //     // </div>`;
+    //     return outputString;
+    // },
+
+    displayMoves: function(poke, forComparing){
         let moveTypeArray = [poke.quickMoves, poke.quickLegacy, poke.chargedMoves, poke.chargedLegacy];
         let stab = 1;
         let stabClass = null;
         let quickOutputString = `<div class="row"><div class="col"><h5>Quick Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
         let chargedOutputString = `<div class="row"><div class="col"><h5>Charged Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
+        if (forComparing){
+            quickOutputString = `<div class="row"><div class="col"><img src="img/sprites/${app.getSprite(poke.id, poke.gender, poke.forms, false)}.png" class="compareMovesSprite" alt="a sprite for the Pokemon ${poke.name}"/><h5>${poke.name}'s Moves</h5></div><div class="col-3"><h5>DPS</h5></div></div>`;
+            chargedOutputString = ``;
+        }
         let moveDB = null;
         let legacyText = "";
         let skip = false;
 
         moveTypeArray.forEach(moveType => {
             if (moveType === poke.quickMoves || moveType === poke.quickLegacy){
-                moveDB = moves[0].quick;
+                moveDB = app.moves[0].quick;
             }
             else{
-                moveDB = moves[1].charged;
+                moveDB = app.moves[1].charged;
             }
             if (moveType === poke.quickLegacy || moveType === poke.chargedLegacy){
                 if (moveType === poke.quickLegacy && poke.quickLegacy == []){
@@ -316,9 +707,7 @@ const app = {
             }
             skip = false;
         });
-
-        document.getElementById("quickMovesID").innerHTML = quickOutputString;
-        document.getElementById("chargeMovesID").innerHTML = chargedOutputString;
+        return [quickOutputString, chargedOutputString];
     },
 
     getChargeBars: function(energyCost, type){
@@ -343,7 +732,7 @@ const app = {
         app.maxAttack = 0;
         app.maxDefense = 0;
         app.maxHP = 0;
-        pokemon.forEach(function(gen){
+        app.pokemon.forEach(function(gen){
             gen.pokemon.forEach(function(poke){
                 if (poke.maxCP > app.maxCP){
                     app.maxCP = poke.maxCP;
@@ -362,6 +751,12 @@ const app = {
     }
 
 };
+
+// //ONLY Native
+document.addEventListener("deviceready", function(){
+    window.ga.startTrackerWithId('UA-114276551-1', 30);
+    window.ga.trackView('Pokedex Go Android');
+});
 
 let loadEvent = ("deviceready" in document)?"deviceready":"DOMContentLoaded";
 document.addEventListener(loadEvent, app.main);

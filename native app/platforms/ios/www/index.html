@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'self' data: gap: 'unsafe-eval' ws: ; style-src * 'self' 'unsafe-inline'; media-src *; img-src * 'self' data: content:;"> -->
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-icon" href="img/icon.png">
+        <meta name="mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-        <title>Pokedex</title>
+        <title>Pokedex Go</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114276551-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-114276551-1');
+        </script> -->
     </head>
     <body>
         <header>
 
         </header>
         <main>
+
+            <!-- <div id="firstVisitScreen">
+                <h1>Pokedex Go</h1>
+                <img src="img/icon.png" alt="Pokedex Go icon"/>
+                <p>Pokedex Go is best experienced as a web app. Simply add a shortcut to this page on your homescreen to install. If you're unfamiliar with adding a web app then just check out the videos below!</p>
+                <p>How to install on iOS</p>
+                <video width="100%" height="220" controls>
+                    <source src="vids/PokedexGo_iOS_Tutorial.MOV" type="video/mp4">
+                </video>
+                <p>How to install on Android</p>
+                <video width="100%" height="220" controls>
+                    <source src="vids/PokedexGo_Android_Tutorial.mp4" type="video/mp4">
+                </video>
+                <div id="firstVisitScreenButton" class="bigButton">Continue to Pokedex Go</div>
+            </div> -->
+
+            <div id="newsWindow" class="displayNone">
+                <div class="newsWindowBg"></div>
+                <div id="newsContent">
+                </div>
+                <div id="closeNewsButton" class="bigButton">Done</div>
+            </div>
+
             <div class="loadingScreen hide" id="loadingScreen">
                 <img src="img/loader.svg"/>
             </div>
@@ -38,7 +64,208 @@
                 </div>
             </div>
 
-            <img class="img-fluid compareSelectScreenCloseButton hideRight" id="compareSelectScreenCloseButton" src="img/closeButton.png" alt="close screen icon"/>
+            <div class="compareScreen" id="compareScreen">
+
+                <div class="row comparedPokes">
+                    
+                </div>
+
+                <div class="row compareStatsRow">
+                    <div class="compareSpriteBox TransparentGrass">
+                        <p>cp2110</p>
+                        <img src="img/sprites/DS/3.png" alt="Venusaur sprite"/>
+                    </div>
+                    <div class="col compareStatsBox">
+                        <ul class="list-group compareStatsList">
+                            <li class="list-group-item">
+                                <div class="row compareTypesRow">
+                                    <div class="col type1 compareType Grass">
+                                        <p>Grass</p>
+                                    </div>
+                                    <div class="col type2 compareType Poison">
+                                        <p>Poison</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-attack" role="progressbar" style="width: 74%" aria-valuenow="223" aria-valuemin="0" aria-valuemax="300">Attack: 223</div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-defense" role="progressbar" style="width: 59%" aria-valuenow="176" aria-valuemin="0" aria-valuemax="300">Defense: 176</div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-hp" role="progressbar" style="width: 52%" aria-valuenow="156" aria-valuemin="0" aria-valuemax="300">HP: 156</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row compareStatsRow">
+                        <div class="compareSpriteBox TransparentFire">
+                             <p>cp2987</p>
+                            <img src="img/sprites/DS/6.png" alt="Charizard sprite"/>
+                        </div>
+                        <div class="col compareStatsBox">
+                            <ul class="list-group compareStatsList">
+                                <li class="list-group-item">
+                                    <div class="row compareTypesRow">
+                                        <div class="col type1 compareType Fire">
+                                            <p>Fire</p>
+                                        </div>
+                                        <div class="col type2 compareType Flying">
+                                            <p>Flying</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-attack" role="progressbar" style="width: 74%" aria-valuenow="223" aria-valuemin="0" aria-valuemax="300">Attack: 223</div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-defense" role="progressbar" style="width: 59%" aria-valuenow="176" aria-valuemin="0" aria-valuemax="300">Defense: 176</div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-hp" role="progressbar" style="width: 52%" aria-valuenow="156" aria-valuemin="0" aria-valuemax="300">HP: 156</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row compareStatsRow">
+                            <div class="compareSpriteBox TransparentWater">
+                                <p>cp2547</p>
+                                <img src="img/sprites/DS/9.png" alt="Blastoise sprite"/>
+                            </div>
+                            <div class="col compareStatsBox">
+                                <ul class="list-group compareStatsList">
+                                    <li class="list-group-item">
+                                        <div class="row compareTypesRow">
+                                            <div class="col type1 compareType Water">
+                                                <p>Water</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped bg-attack" role="progressbar" style="width: 74%" aria-valuenow="223" aria-valuemin="0" aria-valuemax="300">Attack: 223</div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped bg-defense" role="progressbar" style="width: 59%" aria-valuenow="176" aria-valuemin="0" aria-valuemax="300">Defense: 176</div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped bg-hp" role="progressbar" style="width: 52%" aria-valuenow="156" aria-valuemin="0" aria-valuemax="300">HP: 156</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                <div class="row compareMovesRow">
+                    <div class="col">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="img/sprites/DS/3.png" class="compareMovesSprite" alt="Venusaur sprite"/>
+                                        <h5>Quick Moves</h5>
+                                    </div>
+                                    <div class="col-3">
+                                        <h5>DPS</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p><img class="typeIcon" src="img/typeIcons/Grass.png" alt="Grass type icon"/>Vine Whip<p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p>14.58</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p><img class="typeIcon" src="img/typeIcons/Grass.png" alt="Grass type icon"/>Razor Leaf (Legacy)<p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p>16.25</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="img/sprites/DS/3.png" class="compareMovesSprite" alt="Venusaur sprite"/>
+                                        <h5>Charged Moves</h5>
+                                    </div>
+                                    <div class="col-3">
+                                        <h5>DPS</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p><img class="typeIcon" src="img/typeIcons/Grass.png" alt="Grass type icon"/>Solar Beam<p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p>45.92</p>
+                                    </div>
+                                </div>
+                                <div class="row chargeBars">
+                                    <div class="col-1"></div>
+                                    <div class="col chargeBar Grass"></div>
+                                    <div class="col-1"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p><img class="typeIcon" src="img/typeIcons/Poison.png" alt="Poison type icon"/>Sludge Bomb<p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p>43.48</p>
+                                    </div>
+                                </div>
+                                <div class="row chargeBars">
+                                    <div class="col-1"></div>
+                                    <div class="col chargeBar chargeBar50Left Poison"></div>
+                                    <div class="col chargeBar chargeBar50Right Poison"></div>
+                                    <div class="col-1"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p><img class="typeIcon" src="img/typeIcons/Grass.png" alt="Grass type icon"/>Petal Blizzard<p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p>33.48</p>
+                                    </div>
+                                </div>
+                                <div class="row chargeBars">
+                                    <div class="col-1"></div>
+                                    <div class="col chargeBar Grass"></div>
+                                    <div class="col chargeBar chargeBar33 Grass"></div>
+                                    <div class="col chargeBar Grass"></div>
+                                    <div class="col-1"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    
+            </div>
+            <img class="img-fluid closeButton hideBottom" id="compareScreenCloseButton" src="img/closeButton.png" alt="close screen icon"/>
+
+            <img class="img-fluid closeButton hideRight" id="compareSelectScreenCloseButton" src="img/closeButton.png" alt="close screen icon"/>
 
             <div class="compareSelectScreen" id="compareSelectScreen">
                 <div class="row">
@@ -57,53 +284,29 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-10 compareSelectButton">
+                    <div class="col-10 compareSelectButton" id="compareSelectButton">
                         <p>Compare</p>
                     </div>
                 </div>
             </div>
 
             <div class="container pokeList" id="pokeList">
-                <div class="row">
-                    <div class="col">
-                        <h2 class="genTitle">Generation 1</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col poke" data-id="1">
-                        <img src="img/sprites/1.png" alt="Pokemon sprite" data-name="Bulbasaur"/>
-                        <p>Bulbasaur</p>
-                    </div>
-                    <div class="col poke" data-id="2">
-                        <img src="img/sprites/2.png" alt="Pokemon sprite" data-name="Ivysaur"/>
-                        <p>Ivysaur</p>
-                    </div>
-                    <div class="col">
-                        <img src="img/sprites/3.png" alt="Pokemon sprite"/>
-                        <p>Venusaur</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <img src="img/sprites/4.png" alt="Pokemon sprite"/>
-                        <p>Charmander</p>
-                    </div>
-                    <div class="col">
-                        <img src="img/sprites/5.png" alt="Pokemon sprite"/>
-                        <p>Charmeleon</p>
-                    </div>
-                    <div class="col">
-                        <img src="img/sprites/6.png" alt="Pokemon sprite"/>
-                        <p>Charizard</p>
-                    </div>
-                </div>
+                
             </div>
 
             <div class="container statScreen hide" id="statScreen">
                 <center>
-                    <img class="img-fluid" id="statScreenImg" src="img/sprites/6.png" alt="Pokemon sprite"/>
+                    <img class="img-fluid" id="statScreenImg" onerror="app.spriteErrorHandler()" src="img/sprites/DS/6.png" alt="Pokemon sprite"/>
                     <!-- <h1 id="statScreenName">Charizard</h1> -->
                 </center>
+                <div class="genderIconsContainer" data-form="">
+                    <img class="genderIcons" id="maleGenderIcon" data-shiny="false" src="img/male.png" alt="Male icon"/>
+                    <img class="genderIcons" id="maleShinyGenderIcon" data-shiny="true" src="img/maleShiny.png" alt="Male shiny icon"/>
+                    <img class="genderIcons" id="femaleGenderIcon" data-shiny="false" src="img/female.png" alt="Female icon"/>
+                    <img class="genderIcons" id="femaleShinyGenderIcon" data-shiny="true" src="img/femaleShiny.png" alt="Female shiny icon"/>
+                    <img class="genderIcons" id="genderlessGenderIcon" data-shiny="false" src="img/genderless.png" alt="Genderless icon"/>
+                    <img class="genderIcons" id="genderlessShinyGenderIcon" data-shiny="true" src="img/genderlessShiny.png" alt="Genderless shiny icon"/>
+                </div>
                 <ul class="list-group">
                     <li class="list-group-item noPadding">
                         <div class="row">
@@ -248,6 +451,54 @@
                             <div class="col-1"></div>
                         </div>
                     </li>
+                    <!-- <li id="formList" class="list-group-item">
+                        <div class="row">
+                            <div class="col">
+                                <h5>Forms</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <center>
+                                    <img class="shinyIcon" src="img/shinyIcon.png"/>
+                                    <img src="img/sprites/pokemon_icon_025_00.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Normal</p>
+                                </center>
+                            </div>
+                            <div class="col-3">
+                                <center>
+                                    <img src="img/sprites/pokemon_icon_025_00_01.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Santa Hat</p>
+                                </center>
+                            </div>
+                            <div class="col-3">
+                                <center>
+                                    <img src="img/sprites/pokemon_icon_025_00_02.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Party Hat</p>
+                                </center>
+                            </div>
+                            <div class="col-3">
+                                <center>
+                                    <img src="img/sprites/pokemon_icon_025_00_03.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Ash Hat</p>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <center>
+                                    <img src="img/sprites/pokemon_icon_025_00_04.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Witch Hat</p>
+                                </center>
+                            </div>
+                            <div class="col-3">
+                                <center>
+                                    <img src="img/sprites/pokemon_icon_025_00_05.png" alt="Shiny Charizard"/>
+                                    <p class="formName">Summer</p>
+                                </center>
+                            </div>
+                        </div>
+                    </li> -->
                 </ul>
                 <center>
                     <img class="img-fluid" id="closeButton" src="img/closeButton.png" alt="close screen icon"/>
@@ -262,9 +513,7 @@
         <script src="js/jquery-3.2.1.slim.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/weather.js"></script>
-        <script type="text/javascript" src="js/pokemon.js"></script>
-        <script type="text/javascript" src="js/moves.js"></script>
+        <script src="js/search.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
