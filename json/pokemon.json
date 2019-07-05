@@ -1,5 +1,5 @@
 {
-    "version": 4.1,
+    "version": 4.12,
     "data": [
         {
             "id": 1001,
@@ -1241,7 +1241,7 @@
                         "male": true,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Poison",
                     "type2": "",
@@ -1268,7 +1268,7 @@
                         "male": true,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Poison",
                     "type2": "",
@@ -1295,7 +1295,7 @@
                         "male": true,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Poison",
                     "type2": "Ground",
