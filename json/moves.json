@@ -1,5 +1,5 @@
 {
-    "version": 4.1,
+    "version": 4.11,
     "data": [
         {
             "id": 1,
@@ -10,14 +10,14 @@
                     "type": "Random",
                     "power": 0,
                     "durationMS": 1000,
-                    "energyGPS": 1
+                    "energyCost": 1
                 },
                 {
                     "id": "FURY_CUTTER_FAST",
                     "type": "Bug",
                     "power": 3,
                     "durationMS": 400,
-                    "energyGPS": 6,
+                    "energyCost": 6,
                     "name": "Fury Cutter"
                 },
                 {
@@ -25,7 +25,7 @@
                     "type": "Bug",
                     "power": 5,
                     "durationMS": 500,
-                    "energyGPS": 6,
+                    "energyCost": 6,
                     "name": "Bug Bite"
                 },
                 {
@@ -33,7 +33,7 @@
                     "type": "Dark",
                     "power": 6,
                     "durationMS": 500,
-                    "energyGPS": 4,
+                    "energyCost": 4,
                     "name": "Bite "
                 },
                 {
@@ -41,7 +41,7 @@
                     "type": "Dark",
                     "power": 7,
                     "durationMS": 700,
-                    "energyGPS": 8,
+                    "energyCost": 8,
                     "name": "Sucker Punch"
                 },
                 {
@@ -49,7 +49,7 @@
                     "type": "Dragon",
                     "power": 6,
                     "durationMS": 500,
-                    "energyGPS": 4,
+                    "energyCost": 4,
                     "name": "Dragon Breath"
                 },
                 {
@@ -57,7 +57,7 @@
                     "type": "Electric",
                     "power": 5,
                     "durationMS": 600,
-                    "energyGPS": 8,
+                    "energyCost": 8,
                     "name": "Thunder Shock"
                 },
                 {
@@ -65,7 +65,7 @@
                     "type": "Electric",
                     "power": 6,
                     "durationMS": 700,
-                    "energyGPS": 9,
+                    "energyCost": 9,
                     "name": "Spark "
                 },
                 {
@@ -73,7 +73,7 @@
                     "type": "Fighting",
                     "power": 6,
                     "durationMS": 600,
-                    "energyGPS": 6,
+                    "energyCost": 6,
                     "name": "Low Kick"
                 },
                 {
@@ -81,7 +81,7 @@
                     "type": "Fighting",
                     "power": 8,
                     "durationMS": 800,
-                    "energyGPS": 10,
+                    "energyCost": 10,
                     "name": "Karate Chop"
                 },
                 {
@@ -89,7 +89,7 @@
                     "type": "Fire",
                     "power": 10,
                     "durationMS": 1000,
-                    "energyGPS": 10,
+                    "energyCost": 10,
                     "name": "Ember "
                 },
                 {
@@ -97,7 +97,7 @@
                     "type": "Flying",
                     "power": 8,
                     "durationMS": 800,
-                    "energyGPS": 9,
+                    "energyCost": 9,
                     "name": "Wing Attack"
                 },
                 {
@@ -105,7 +105,7 @@
                     "type": "Flying",
                     "power": 10,
                     "durationMS": 1000,
-                    "energyGPS": 10,
+                    "energyCost": 10,
                     "name": "Peck "
                 },
                 {
@@ -113,7 +113,7 @@
                     "type": "Ghost",
                     "power": 5,
                     "durationMS": 500,
-                    "energyGPS": 6,
+                    "energyCost": 6,
                     "name": "Lick "
                 },
                 {
@@ -121,7 +121,7 @@
                     "type": "Ghost",
                     "power": 9,
                     "durationMS": 700,
-                    "energyGPS": 6,
+                    "energyCost": 6,
                     "name": "Shadow Claw"
                 },
                 {
@@ -129,7 +129,7 @@
                     "type": "Grass",
                     "power": 7,
                     "durationMS": 600,
-                    "energyGPS": 6,
+                    "energyCost": 6,
                     "name": "Vine Whip"
                 },
                 {
@@ -137,7 +137,7 @@
                     "type": "Grass",
                     "power": 13,
                     "durationMS": 1000,
-                    "energyGPS": 7,
+                    "energyCost": 7,
                     "name": "Razor Leaf"
                 },
                 {
@@ -145,7 +145,7 @@
                     "type": "Ground",
                     "power": 5,
                     "durationMS": 600,
-                    "energyGPS": 7,
+                    "energyCost": 7,
                     "name": "Mud Shot"
                 },
                 {
@@ -153,7 +153,7 @@
                     "type": "Ice",
                     "power": 12,
                     "durationMS": 1200,
-                    "energyGPS": 12,
+                    "energyCost": 12,
                     "name": "Ice Shard"
                 },
                 {
@@ -161,7 +161,7 @@
                     "type": "Ice",
                     "power": 10,
                     "durationMS": 900,
-                    "energyGPS": 8,
+                    "energyCost": 8,
                     "name": "Frost Breath"
                 },
                 {
@@ -169,7 +169,7 @@
                     "type": "Normal",
                     "power": 8,
                     "durationMS": 800,
-                    "energyGPS": 10,
+                    "energyCost": 10,
                     "name": "Quick Attack"
                 },
                 {
@@ -177,7 +177,7 @@
                     "type": "Normal",
                     "power": 6,
                     "durationMS": 500,
-                    "energyGPS": 4,
+                    "energyCost": 4,
                     "name": "Scratch "
                 },
                 {
@@ -185,7 +185,7 @@
                     "type": "Normal",
                     "power": 5,
                     "durationMS": 500,
-                    "energyGPS": 5,
+                    "energyCost": 5,
                     "name": "Tackle "
                 },
                 {
@@ -193,7 +193,7 @@
                     "type": "Normal",
                     "power": 7,
                     "durationMS": 600,
-                    "energyGPS": 6,
+                    "energyCost": 6,
                     "name": "Pound "
                 },
                 {
@@ -201,7 +201,7 @@
                     "type": "Normal",
                     "power": 5,
                     "durationMS": 500,
-                    "energyGPS": 5,
+                    "energyCost": 5,
                     "name": "Cut "
                 },
                 {
@@ -209,7 +209,7 @@
                     "type": "Poison",
                     "power": 10,
                     "durationMS": 800,
-                    "energyGPS": 7,
+                    "energyCost": 7,
                     "name": "Poison Jab"
                 },
                 {
@@ -217,7 +217,7 @@
                     "type": "Poison",
                     "power": 9,
                     "durationMS": 800,
-                    "energyGPS": 8,
+                    "energyCost": 8,
                     "name": "Acid "
                 },
                 {
@@ -225,7 +225,7 @@
                     "type": "Psychic",
                     "power": 5,
                     "durationMS": 600,
-                    "energyGPS": 8,
+                    "energyCost": 8,
                     "name": "Psycho Cut"
                 },
                 {
@@ -233,7 +233,7 @@
                     "type": "Rock",
                     "power": 12,
                     "durationMS": 900,
-                    "energyGPS": 7,
+                    "energyCost": 7,
                     "name": "Rock Throw"
                 },
                 {
@@ -241,7 +241,7 @@
                     "type": "Steel",
                     "power": 8,
                     "durationMS": 700,
-                    "energyGPS": 7,
+                    "energyCost": 7,
                     "name": "Metal Claw"
                 },
                 {
@@ -249,7 +249,7 @@
                     "type": "Steel",
                     "power": 9,
                     "durationMS": 900,
-                    "energyGPS": 10,
+                    "energyCost": 10,
                     "name": "Bullet Punch"
                 },
                 {
@@ -257,14 +257,14 @@
                     "type": "Water",
                     "power": 5,
                     "durationMS": 500,
-                    "energyGPS": 5,
+                    "energyCost": 5,
                     "name": "Water Gun"
                 },
                 {
                     "id": "SPLASH_FAST",
                     "type": "Water",
                     "durationMS": 1730,
-                    "energyGPS": 20,
+                    "energyCost": 20,
                     "name": "Splash "
                 },
                 {
@@ -272,7 +272,7 @@
                     "type": "Ground",
                     "power": 15,
                     "durationMS": 1400,
-                    "energyGPS": 12,
+                    "energyCost": 12,
                     "name": "Mud Slap"
                 },
                 {
@@ -280,7 +280,7 @@
                     "type": "Psychic",
                     "power": 12,
                     "durationMS": 1100,
-                    "energyGPS": 10,
+                    "energyCost": 10,
                     "name": "Zen Headbutt"
                 },
                 {
@@ -288,7 +288,7 @@
                     "type": "Psychic",
                     "power": 20,
                     "durationMS": 1600,
-                    "energyGPS": 15,
+                    "energyCost": 15,
                     "name": "Confusion "
                 },
                 {
@@ -296,7 +296,7 @@
                     "type": "Poison",
                     "power": 5,
                     "durationMS": 600,
-                    "energyGPS": 7,
+                    "energyCost": 7,
                     "name": "Poison Sting"
                 },
                 {
@@ -304,7 +304,7 @@
                     "type": "Water",
                     "power": 12,
                     "durationMS": 1200,
-                    "energyGPS": 14,
+                    "energyCost": 14,
                     "name": "Bubble "
                 },
                 {
@@ -312,7 +312,7 @@
                     "type": "Dark",
                     "power": 10,
                     "durationMS": 900,
-                    "energyGPS": 9,
+                    "energyCost": 9,
                     "name": "Feint Attack"
                 },
                 {
@@ -320,7 +320,7 @@
                     "type": "Steel",
                     "power": 11,
                     "durationMS": 800,
-                    "energyGPS": 6,
+                    "energyCost": 6,
                     "name": "Steel Wing"
                 },
                 {
@@ -328,7 +328,7 @@
                     "type": "Fire",
                     "power": 11,
                     "durationMS": 900,
-                    "energyGPS": 8,
+                    "energyCost": 8,
                     "name": "Fire Fang"
                 },
                 {
@@ -336,14 +336,14 @@
                     "type": "Fighting",
                     "power": 15,
                     "durationMS": 1300,
-                    "energyGPS": 10,
+                    "energyCost": 10,
                     "name": "Rock Smash"
                 },
                 {
                     "id": "TRANSFORM_FAST",
                     "type": "Normal",
                     "durationMS": 2230,
-                    "energyGPS": null,
+                    "energyCost": null,
                     "name": "Transform "
                 },
                 {
@@ -351,7 +351,7 @@
                     "type": "Fighting",
                     "power": 12,
                     "durationMS": 900,
-                    "energyGPS": 8,
+                    "energyCost": 8,
                     "name": "Counter "
                 },
                 {
@@ -359,7 +359,7 @@
                     "type": "Ice",
                     "power": 6,
                     "durationMS": 1000,
-                    "energyGPS": 15,
+                    "energyCost": 15,
                     "name": "Powder Snow"
                 },
                 {
@@ -367,7 +367,7 @@
                     "type": "Electric",
                     "power": 8,
                     "durationMS": 1100,
-                    "energyGPS": 15,
+                    "energyCost": 15,
                     "name": "Charge Beam"
                 },
                 {
@@ -375,7 +375,7 @@
                     "type": "Electric",
                     "power": 20,
                     "durationMS": 2300,
-                    "energyGPS": 25,
+                    "energyCost": 25,
                     "name": "Volt Switch"
                 },
                 {
@@ -383,7 +383,7 @@
                     "type": "Dragon",
                     "power": 15,
                     "durationMS": 1100,
-                    "energyGPS": 9,
+                    "energyCost": 9,
                     "name": "Dragon Tail"
                 },
                 {
@@ -391,7 +391,7 @@
                     "type": "Flying",
                     "power": 14,
                     "durationMS": 1200,
-                    "energyGPS": 10,
+                    "energyCost": 10,
                     "name": "Air Slash"
                 },
                 {
@@ -399,7 +399,7 @@
                     "type": "Bug",
                     "power": 10,
                     "durationMS": 1100,
-                    "energyGPS": 14,
+                    "energyCost": 14,
                     "name": "Infestation "
                 },
                 {
@@ -407,7 +407,7 @@
                     "type": "Bug",
                     "power": 15,
                     "durationMS": 1500,
-                    "energyGPS": 15,
+                    "energyCost": 15,
                     "name": "Struggle Bug"
                 },
                 {
@@ -415,7 +415,7 @@
                     "type": "Ghost",
                     "power": 8,
                     "durationMS": 1100,
-                    "energyGPS": 14,
+                    "energyCost": 14,
                     "name": "Astonish "
                 },
                 {
@@ -423,7 +423,7 @@
                     "type": "Ghost",
                     "power": 10,
                     "durationMS": 1200,
-                    "energyGPS": 15,
+                    "energyCost": 15,
                     "name": "Hex "
                 },
                 {
@@ -431,7 +431,7 @@
                     "type": "Steel",
                     "power": 15,
                     "durationMS": 1100,
-                    "energyGPS": 7,
+                    "energyCost": 7,
                     "name": "Iron Tail"
                 },
                 {
@@ -439,7 +439,7 @@
                     "type": "Fire",
                     "power": 14,
                     "durationMS": 1100,
-                    "energyGPS": 10,
+                    "energyCost": 10,
                     "name": "Fire Spin"
                 },
                 {
@@ -447,7 +447,7 @@
                     "type": "Grass",
                     "power": 8,
                     "durationMS": 1100,
-                    "energyGPS": 14,
+                    "energyCost": 14,
                     "name": "Bullet Seed"
                 },
                 {
@@ -455,7 +455,7 @@
                     "type": "Psychic",
                     "power": 12,
                     "durationMS": 1100,
-                    "energyGPS": 12,
+                    "energyCost": 12,
                     "name": "Extrasensory "
                 },
                 {
@@ -463,7 +463,7 @@
                     "type": "Dark",
                     "power": 12,
                     "durationMS": 1100,
-                    "energyGPS": 12,
+                    "energyCost": 12,
                     "name": "Snarl "
                 },
                 {
@@ -471,7 +471,7 @@
                     "type": "Normal",
                     "power": 15,
                     "durationMS": 1500,
-                    "energyGPS": 15,
+                    "energyCost": 15,
                     "name": "Hidden Power"
                 },
                 {
@@ -479,7 +479,7 @@
                     "type": "Normal",
                     "power": 8,
                     "durationMS": 1200,
-                    "energyGPS": 10,
+                    "energyCost": 10,
                     "name": "Take Down"
                 },
                 {
@@ -487,14 +487,14 @@
                     "type": "Water",
                     "power": 16,
                     "durationMS": 1200,
-                    "energyGPS": 8,
+                    "energyCost": 8,
                     "name": "Waterfall "
                 },
                 {
                     "id": "YAWN_FAST",
                     "type": "Normal",
                     "durationMS": 1700,
-                    "energyGPS": 15,
+                    "energyCost": 15,
                     "name": "Yawn "
                 },
                 {
@@ -502,7 +502,7 @@
                     "type": "Normal",
                     "power": 5,
                     "durationMS": 1300,
-                    "energyGPS": 20,
+                    "energyCost": 20,
                     "name": "Present "
                 },
                 {
@@ -510,7 +510,7 @@
                     "type": "Rock",
                     "power": 16,
                     "durationMS": 1200,
-                    "energyGPS": 8,
+                    "energyCost": 8,
                     "name": "Smack Down"
                 },
                 {
@@ -518,7 +518,7 @@
                     "type": "Fairy",
                     "power": 20,
                     "durationMS": 1500,
-                    "energyGPS": 11,
+                    "energyCost": 11,
                     "name": "Charm "
                 }
             ]
@@ -539,7 +539,7 @@
                     "type": "Normal",
                     "power": 60,
                     "durationMS": 2900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Wrap"
                 },
                 {
@@ -547,7 +547,7 @@
                     "type": "Normal",
                     "power": 150,
                     "durationMS": 3800,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Hyper Beam"
                 },
                 {
@@ -555,7 +555,7 @@
                     "type": "Dark",
                     "power": 80,
                     "durationMS": 3000,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Dark Pulse"
                 },
                 {
@@ -563,7 +563,7 @@
                     "type": "Poison",
                     "power": 50,
                     "durationMS": 2100,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Sludge"
                 },
                 {
@@ -571,7 +571,7 @@
                     "type": "Normal",
                     "power": 35,
                     "durationMS": 1900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Vice Grip"
                 },
                 {
@@ -579,7 +579,7 @@
                     "type": "Fire",
                     "power": 60,
                     "durationMS": 2700,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Flame Wheel"
                 },
                 {
@@ -587,7 +587,7 @@
                     "type": "Bug",
                     "power": 90,
                     "durationMS": 2200,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Megahorn"
                 },
                 {
@@ -595,7 +595,7 @@
                     "type": "Fire",
                     "power": 70,
                     "durationMS": 2200,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Flamethrower"
                 },
                 {
@@ -603,7 +603,7 @@
                     "type": "Ground",
                     "power": 100,
                     "durationMS": 4700,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Dig"
                 },
                 {
@@ -611,7 +611,7 @@
                     "type": "Fighting",
                     "power": 50,
                     "durationMS": 1500,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Cross Chop"
                 },
                 {
@@ -619,7 +619,7 @@
                     "type": "Psychic",
                     "power": 70,
                     "durationMS": 3200,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Psybeam"
                 },
                 {
@@ -627,7 +627,7 @@
                     "type": "Ground",
                     "power": 120,
                     "durationMS": 3600,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Earthquake"
                 },
                 {
@@ -635,7 +635,7 @@
                     "type": "Rock",
                     "power": 100,
                     "durationMS": 2300,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Stone Edge"
                 },
                 {
@@ -643,7 +643,7 @@
                     "type": "Ice",
                     "power": 50,
                     "durationMS": 1900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Ice Punch"
                 },
                 {
@@ -651,7 +651,7 @@
                     "type": "Psychic",
                     "power": 40,
                     "durationMS": 1900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Heart Stamp"
                 },
                 {
@@ -659,7 +659,7 @@
                     "type": "Electric",
                     "power": 65,
                     "durationMS": 2500,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Discharge"
                 },
                 {
@@ -667,7 +667,7 @@
                     "type": "Steel",
                     "power": 100,
                     "durationMS": 2700,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Flash Cannon"
                 },
                 {
@@ -675,7 +675,7 @@
                     "type": "Flying",
                     "power": 60,
                     "durationMS": 2300,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Drill Peck"
                 },
                 {
@@ -683,7 +683,7 @@
                     "type": "Ice",
                     "power": 90,
                     "durationMS": 3300,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Ice Beam"
                 },
                 {
@@ -691,7 +691,7 @@
                     "type": "Ice",
                     "power": 130,
                     "durationMS": 3100,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Blizzard"
                 },
                 {
@@ -699,7 +699,7 @@
                     "type": "Fire",
                     "power": 95,
                     "durationMS": 3000,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Heat Wave"
                 },
                 {
@@ -707,7 +707,7 @@
                     "type": "Flying",
                     "power": 55,
                     "durationMS": 2400,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Aerial Ace"
                 },
                 {
@@ -715,7 +715,7 @@
                     "type": "Ground",
                     "power": 80,
                     "durationMS": 2800,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Drill Run"
                 },
                 {
@@ -723,7 +723,7 @@
                     "type": "Grass",
                     "power": 110,
                     "durationMS": 2600,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Petal Blizzard"
                 },
                 {
@@ -731,7 +731,7 @@
                     "type": "Grass",
                     "power": 25,
                     "durationMS": 2600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Mega Drain"
                 },
                 {
@@ -739,7 +739,7 @@
                     "type": "Bug",
                     "power": 90,
                     "durationMS": 3700,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Bug Buzz"
                 },
                 {
@@ -747,7 +747,7 @@
                     "type": "Poison",
                     "power": 35,
                     "durationMS": 1700,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Poison Fang"
                 },
                 {
@@ -755,7 +755,7 @@
                     "type": "Dark",
                     "power": 50,
                     "durationMS": 2200,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Night Slash"
                 },
                 {
@@ -763,7 +763,7 @@
                     "type": "Water",
                     "power": 45,
                     "durationMS": 1900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Bubble Beam"
                 },
                 {
@@ -771,7 +771,7 @@
                     "type": "Fighting",
                     "power": 60,
                     "durationMS": 2200,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Submission"
                 },
                 {
@@ -779,7 +779,7 @@
                     "type": "Fighting",
                     "power": 40,
                     "durationMS": 1900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Low Sweep"
                 },
                 {
@@ -787,7 +787,7 @@
                     "type": "Water",
                     "power": 45,
                     "durationMS": 2600,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Aqua Jet"
                 },
                 {
@@ -795,7 +795,7 @@
                     "type": "Water",
                     "power": 50,
                     "durationMS": 1900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Aqua Tail"
                 },
                 {
@@ -803,7 +803,7 @@
                     "type": "Grass",
                     "power": 55,
                     "durationMS": 2100,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Seed Bomb"
                 },
                 {
@@ -811,7 +811,7 @@
                     "type": "Psychic",
                     "power": 65,
                     "durationMS": 2700,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Psyshock"
                 },
                 {
@@ -819,7 +819,7 @@
                     "type": "Rock",
                     "power": 70,
                     "durationMS": 3500,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Ancient Power"
                 },
                 {
@@ -827,7 +827,7 @@
                     "type": "Rock",
                     "power": 70,
                     "durationMS": 3200,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Rock Tomb"
                 },
                 {
@@ -835,7 +835,7 @@
                     "type": "Rock",
                     "power": 80,
                     "durationMS": 2700,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Rock Slide"
                 },
                 {
@@ -843,7 +843,7 @@
                     "type": "Rock",
                     "power": 80,
                     "durationMS": 2900,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Power Gem"
                 },
                 {
@@ -851,7 +851,7 @@
                     "type": "Ghost",
                     "power": 50,
                     "durationMS": 2900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Shadow Sneak"
                 },
                 {
@@ -859,7 +859,7 @@
                     "type": "Ghost",
                     "power": 40,
                     "durationMS": 1700,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Shadow Punch"
                 },
                 {
@@ -867,7 +867,7 @@
                     "type": "Ghost",
                     "power": 50,
                     "durationMS": 2300,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Ominous Wind"
                 },
                 {
@@ -875,7 +875,7 @@
                     "type": "Ghost",
                     "power": 100,
                     "durationMS": 3000,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Shadow Ball"
                 },
                 {
@@ -883,7 +883,7 @@
                     "type": "Steel",
                     "power": 70,
                     "durationMS": 2800,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Magnet Bomb"
                 },
                 {
@@ -891,7 +891,7 @@
                     "type": "Steel",
                     "power": 60,
                     "durationMS": 1900,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Iron Head"
                 },
                 {
@@ -899,7 +899,7 @@
                     "type": "Electric",
                     "power": 25,
                     "durationMS": 2800,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Parabolic Charge"
                 },
                 {
@@ -907,7 +907,7 @@
                     "type": "Electric",
                     "power": 45,
                     "durationMS": 1800,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Thunder Punch"
                 },
                 {
@@ -915,7 +915,7 @@
                     "type": "Electric",
                     "power": 100,
                     "durationMS": 2400,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Thunder"
                 },
                 {
@@ -923,7 +923,7 @@
                     "type": "Electric",
                     "power": 80,
                     "durationMS": 2500,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Thunderbolt"
                 },
                 {
@@ -931,7 +931,7 @@
                     "type": "Dragon",
                     "power": 45,
                     "durationMS": 2800,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Twister"
                 },
                 {
@@ -939,7 +939,7 @@
                     "type": "Dragon",
                     "power": 90,
                     "durationMS": 3600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Dragon Pulse"
                 },
                 {
@@ -947,7 +947,7 @@
                     "type": "Dragon",
                     "power": 50,
                     "durationMS": 1700,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Dragon Claw"
                 },
                 {
@@ -955,7 +955,7 @@
                     "type": "Fairy",
                     "power": 70,
                     "durationMS": 3900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Disarming Voice"
                 },
                 {
@@ -963,7 +963,7 @@
                     "type": "Fairy",
                     "power": 60,
                     "durationMS": 2600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Draining Kiss"
                 },
                 {
@@ -971,7 +971,7 @@
                     "type": "Fairy",
                     "power": 100,
                     "durationMS": 3500,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Dazzling Gleam"
                 },
                 {
@@ -979,7 +979,7 @@
                     "type": "Fairy",
                     "power": 130,
                     "durationMS": 3900,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Moonblast"
                 },
                 {
@@ -987,7 +987,7 @@
                     "type": "Fairy",
                     "power": 90,
                     "durationMS": 2900,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Play Rough"
                 },
                 {
@@ -995,7 +995,7 @@
                     "type": "Poison",
                     "power": 40,
                     "durationMS": 1500,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Cross Poison"
                 },
                 {
@@ -1003,7 +1003,7 @@
                     "type": "Poison",
                     "power": 80,
                     "durationMS": 2300,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Sludge Bomb"
                 },
                 {
@@ -1011,7 +1011,7 @@
                     "type": "Poison",
                     "power": 110,
                     "durationMS": 3200,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Sludge Wave"
                 },
                 {
@@ -1019,7 +1019,7 @@
                     "type": "Poison",
                     "power": 130,
                     "durationMS": 3100,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Gunk Shot"
                 },
                 {
@@ -1027,7 +1027,7 @@
                     "type": "Ground",
                     "power": 40,
                     "durationMS": 1600,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Bone Club"
                 },
                 {
@@ -1035,7 +1035,7 @@
                     "type": "Ground",
                     "power": 80,
                     "durationMS": 3500,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Bulldoze"
                 },
                 {
@@ -1043,7 +1043,7 @@
                     "type": "Ground",
                     "power": 55,
                     "durationMS": 2300,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Mud Bomb"
                 },
                 {
@@ -1051,7 +1051,7 @@
                     "type": "Bug",
                     "power": 75,
                     "durationMS": 2900,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Signal Beam"
                 },
                 {
@@ -1059,7 +1059,7 @@
                     "type": "Bug",
                     "power": 45,
                     "durationMS": 1600,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "X Scissor"
                 },
                 {
@@ -1067,7 +1067,7 @@
                     "type": "Fire",
                     "power": 70,
                     "durationMS": 3800,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Flame Charge"
                 },
                 {
@@ -1075,7 +1075,7 @@
                     "type": "Fire",
                     "power": 70,
                     "durationMS": 2600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Flame Burst"
                 },
                 {
@@ -1083,7 +1083,7 @@
                     "type": "Fire",
                     "power": 140,
                     "durationMS": 4200,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Fire Blast"
                 },
                 {
@@ -1091,7 +1091,7 @@
                     "type": "Water",
                     "power": 60,
                     "durationMS": 2300,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Brine"
                 },
                 {
@@ -1099,7 +1099,7 @@
                     "type": "Water",
                     "power": 70,
                     "durationMS": 3200,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Water Pulse"
                 },
                 {
@@ -1107,7 +1107,7 @@
                     "type": "Water",
                     "power": 80,
                     "durationMS": 3700,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Scald"
                 },
                 {
@@ -1115,7 +1115,7 @@
                     "type": "Water",
                     "power": 130,
                     "durationMS": 3300,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Hydro Pump"
                 },
                 {
@@ -1123,7 +1123,7 @@
                     "type": "Psychic",
                     "power": 100,
                     "durationMS": 2800,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Psychic"
                 },
                 {
@@ -1131,7 +1131,7 @@
                     "type": "Psychic",
                     "power": 100,
                     "durationMS": 4400,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Psystrike"
                 },
                 {
@@ -1139,7 +1139,7 @@
                     "type": "Ice",
                     "power": 60,
                     "durationMS": 3300,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Icy Wind"
                 },
                 {
@@ -1147,7 +1147,7 @@
                     "type": "Grass",
                     "power": 50,
                     "durationMS": 3900,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Giga Drain"
                 },
                 {
@@ -1155,7 +1155,7 @@
                     "type": "Fire",
                     "power": 55,
                     "durationMS": 2200,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Fire Punch"
                 },
                 {
@@ -1163,7 +1163,7 @@
                     "type": "Grass",
                     "power": 180,
                     "durationMS": 4900,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Solar Beam"
                 },
                 {
@@ -1171,7 +1171,7 @@
                     "type": "Grass",
                     "power": 70,
                     "durationMS": 2400,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Leaf Blade"
                 },
                 {
@@ -1179,7 +1179,7 @@
                     "type": "Grass",
                     "power": 90,
                     "durationMS": 2600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Power Whip"
                 },
                 {
@@ -1187,7 +1187,7 @@
                     "type": "Flying",
                     "power": 60,
                     "durationMS": 2700,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Air Cutter"
                 },
                 {
@@ -1195,7 +1195,7 @@
                     "type": "Flying",
                     "power": 110,
                     "durationMS": 2700,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Hurricane"
                 },
                 {
@@ -1203,7 +1203,7 @@
                     "type": "Fighting",
                     "power": 40,
                     "durationMS": 1600,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Brick Break"
                 },
                 {
@@ -1211,7 +1211,7 @@
                     "type": "Normal",
                     "power": 60,
                     "durationMS": 2800,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Swift"
                 },
                 {
@@ -1219,7 +1219,7 @@
                     "type": "Normal",
                     "power": 40,
                     "durationMS": 1850,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Horn Attack"
                 },
                 {
@@ -1227,7 +1227,7 @@
                     "type": "Normal",
                     "power": 55,
                     "durationMS": 1700,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Stomp"
                 },
                 {
@@ -1235,7 +1235,7 @@
                     "type": "Normal",
                     "power": 80,
                     "durationMS": 2500,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Hyper Fang"
                 },
                 {
@@ -1243,7 +1243,7 @@
                     "type": "Normal",
                     "power": 50,
                     "durationMS": 1900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Body Slam"
                 },
                 {
@@ -1251,7 +1251,7 @@
                     "type": "Normal",
                     "power": 50,
                     "durationMS": 1900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Rest"
                 },
                 {
@@ -1259,7 +1259,7 @@
                     "type": "Normal",
                     "power": 35,
                     "durationMS": 2200,
-                    "energyGPS": null,
+                    "energyCost": null,
                     "name": "Struggle"
                 },
                 {
@@ -1267,7 +1267,7 @@
                     "type": "Water",
                     "power": 50,
                     "durationMS": 4700,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Scald Blastoise"
                 },
                 {
@@ -1275,7 +1275,7 @@
                     "type": "Water",
                     "power": 90,
                     "durationMS": 4500,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Hydro Pumpblastoise"
                 },
                 {
@@ -1283,7 +1283,7 @@
                     "type": "Normal",
                     "power": 25,
                     "durationMS": 2900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Wrap Green"
                 },
                 {
@@ -1291,7 +1291,7 @@
                     "type": "Normal",
                     "power": 25,
                     "durationMS": 2900,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Wrap Pink"
                 },
                 {
@@ -1299,7 +1299,7 @@
                     "type": "Water",
                     "power": 10,
                     "durationMS": 1000,
-                    "energyGPS": 6,
+                    "energyCost": 6,
                     "name": "Water Gunfast_blastoise"
                 },
                 {
@@ -1307,7 +1307,7 @@
                     "type": "Fighting",
                     "power": 100,
                     "durationMS": 2300,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Close Combat"
                 },
                 {
@@ -1315,7 +1315,7 @@
                     "type": "Fighting",
                     "power": 90,
                     "durationMS": 2700,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Dynamic Punch"
                 },
                 {
@@ -1323,7 +1323,7 @@
                     "type": "Fighting",
                     "power": 140,
                     "durationMS": 3500,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Focus Blast"
                 },
                 {
@@ -1331,7 +1331,7 @@
                     "type": "Ice",
                     "power": 80,
                     "durationMS": 3550,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Aurora Beam"
                 },
                 {
@@ -1339,7 +1339,7 @@
                     "type": "Electric",
                     "power": 90,
                     "durationMS": 2600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Wild Charge"
                 },
                 {
@@ -1347,7 +1347,7 @@
                     "type": "Electric",
                     "power": 140,
                     "durationMS": 3700,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Zap Cannon"
                 },
                 {
@@ -1355,7 +1355,7 @@
                     "type": "Ice",
                     "power": 90,
                     "durationMS": 2700,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Avalanche"
                 },
                 {
@@ -1363,7 +1363,7 @@
                     "type": "Flying",
                     "power": 90,
                     "durationMS": 2000,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Brave Bird"
                 },
                 {
@@ -1371,7 +1371,7 @@
                     "type": "Flying",
                     "power": 80,
                     "durationMS": 2000,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Sky Attack"
                 },
                 {
@@ -1379,7 +1379,7 @@
                     "type": "Ground",
                     "power": 80,
                     "durationMS": 4000,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Sand Tomb"
                 },
                 {
@@ -1387,7 +1387,7 @@
                     "type": "Rock",
                     "power": 50,
                     "durationMS": 2100,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Rock Blast"
                 },
                 {
@@ -1395,7 +1395,7 @@
                     "type": "Bug",
                     "power": 70,
                     "durationMS": 3700,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Silver Wind"
                 },
                 {
@@ -1403,7 +1403,7 @@
                     "type": "Ghost",
                     "power": 60,
                     "durationMS": 2600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Night Shade"
                 },
                 {
@@ -1411,7 +1411,7 @@
                     "type": "Steel",
                     "power": 80,
                     "durationMS": 3300,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Gyro Ball"
                 },
                 {
@@ -1419,7 +1419,7 @@
                     "type": "Steel",
                     "power": 70,
                     "durationMS": 2100,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Heavy Slam"
                 },
                 {
@@ -1427,7 +1427,7 @@
                     "type": "Fire",
                     "power": 160,
                     "durationMS": 4000,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Overheat"
                 },
                 {
@@ -1435,7 +1435,7 @@
                     "type": "Grass",
                     "power": 90,
                     "durationMS": 2600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Grass Knot"
                 },
                 {
@@ -1443,7 +1443,7 @@
                     "type": "Grass",
                     "power": 90,
                     "durationMS": 3900,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Energy Ball"
                 },
                 {
@@ -1451,7 +1451,7 @@
                     "type": "Psychic",
                     "power": 120,
                     "durationMS": 2700,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Futuresight"
                 },
                 {
@@ -1459,7 +1459,7 @@
                     "type": "Psychic",
                     "power": 60,
                     "durationMS": 2600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Mirror Coat"
                 },
                 {
@@ -1467,7 +1467,7 @@
                     "type": "Dragon",
                     "power": 110,
                     "durationMS": 3900,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Outrage"
                 },
                 {
@@ -1475,7 +1475,7 @@
                     "type": "Dark",
                     "power": 70,
                     "durationMS": 3200,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Crunch"
                 },
                 {
@@ -1483,7 +1483,7 @@
                     "type": "Dark",
                     "power": 70,
                     "durationMS": 2000,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Foul Play"
                 },
                 {
@@ -1491,7 +1491,7 @@
                     "type": "Water",
                     "power": 65,
                     "durationMS": 1700,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Surf"
                 },
                 {
@@ -1499,7 +1499,7 @@
                     "type": "Dragon",
                     "power": 150,
                     "durationMS": 3600,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Draco Meteor"
                 },
                 {
@@ -1507,7 +1507,7 @@
                     "type": "Steel",
                     "power": 70,
                     "durationMS": 1700,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Doom Desire"
                 },
                 {
@@ -1515,7 +1515,7 @@
                     "type": "Psychic",
                     "power": 70,
                     "durationMS": 4000,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Psycho Boost"
                 },
                 {
@@ -1523,7 +1523,7 @@
                     "type": "Water",
                     "power": 130,
                     "durationMS": 1700,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Origin Pulse"
                 },
                 {
@@ -1531,7 +1531,7 @@
                     "type": "Ground",
                     "power": 130,
                     "durationMS": 1700,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Precipice Blades"
                 },
                 {
@@ -1539,7 +1539,7 @@
                     "type": "Fire",
                     "power": 60,
                     "durationMS": 1600,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Weather Ballfire"
                 },
                 {
@@ -1547,7 +1547,7 @@
                     "type": "Ice",
                     "power": 60,
                     "durationMS": 1600,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Weather Ballice"
                 },
                 {
@@ -1555,7 +1555,7 @@
                     "type": "Normal",
                     "power": 60,
                     "durationMS": 1600,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Weather Ballrock"
                 },
                 {
@@ -1563,7 +1563,7 @@
                     "type": "Water",
                     "power": 60,
                     "durationMS": 1600,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Weather Ballwater"
                 },
                 {
@@ -1571,7 +1571,7 @@
                     "type": "Grass",
                     "power": 100,
                     "durationMS": 2600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Frenzy Plant"
                 },
                 {
@@ -1579,7 +1579,7 @@
                     "type": "Fire",
                     "power": 110,
                     "durationMS": 3300,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Blast Burn"
                 },
                 {
@@ -1587,7 +1587,7 @@
                     "type": "Water",
                     "power": 90,
                     "durationMS": 1900,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Hydro Cannon"
                 },
                 {
@@ -1595,7 +1595,7 @@
                     "type": "Normal",
                     "power": 90,
                     "durationMS": 2900,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Last Resort"
                 },
                 {
@@ -1603,7 +1603,7 @@
                     "type": "Steel",
                     "power": 100,
                     "durationMS": 2600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Meteor Mash"
                 },
                 {
@@ -1611,7 +1611,7 @@
                     "type": "Normal",
                     "power": 130,
                     "durationMS": 3100,
-                    "energyGPS": 100,
+                    "energyCost": 100,
                     "name": "Skull Bash"
                 },
                 {
@@ -1619,7 +1619,7 @@
                     "type": "Poison",
                     "power": 20,
                     "durationMS": 3000,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Acid Spray"
                 },
                 {
@@ -1627,7 +1627,7 @@
                     "type": "Ground",
                     "power": 100,
                     "durationMS": 3600,
-                    "energyGPS": 50,
+                    "energyCost": 50,
                     "name": "Earth Power"
                 },
                 {
@@ -1635,7 +1635,7 @@
                     "type": "Grass",
                     "power": 45,
                     "durationMS": 3100,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Leaf Tornado"
                 },
                 {
@@ -1643,7 +1643,7 @@
                     "type": "Fire",
                     "power": 45,
                     "durationMS": 1200,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Blaze Kick"
                 },
                 {
@@ -1651,7 +1651,7 @@
                     "type": "Fighting",
                     "power": 50,
                     "durationMS": 2000,
-                    "energyGPS": 33,
+                    "energyCost": 33,
                     "name": "Power Uppunch"
                 }
             ]

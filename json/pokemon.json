@@ -1,5 +1,5 @@
 {
-    "version": 4.2,
+    "version": 4.21,
     "data": [
         {
             "id": 1001,
@@ -5477,6 +5477,7 @@
                     "hp": 214,
                     "attack": 182,
                     "defense": 278,
+                    "maxCP": 3187,
                     "quickMoves": [
                         "CONFUSION_FAST",
                         "IRON_TAIL_FAST"
