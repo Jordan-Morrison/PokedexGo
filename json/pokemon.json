@@ -1,5 +1,5 @@
 {
-    "version": 4.12,
+    "version": 4.2,
     "data": [
         {
             "id": 1001,
@@ -326,7 +326,8 @@
                     "chargedMoves": [
                         "FLASH_CANNON",
                         "ICE_BEAM",
-                        "HYDRO_PUMP"
+                        "HYDRO_PUMP",
+                        "SKULL_BASH"
                     ],
                     "quickLegacy": "",
                     "chargedLegacy": [
@@ -961,12 +962,14 @@
                     "maxCP": 2182,
                     "quickMoves": [
                         "VOLT_SWITCH_FAST",
-                        "SPARK_FAST"
+                        "SPARK_FAST",
+                        "CHARM_FAST"
                     ],
                     "chargedMoves": [
                         "BRICK_BREAK",
                         "THUNDER_PUNCH",
-                        "WILD_CHARGE"
+                        "WILD_CHARGE",
+                        "SKULL_BASH"
                     ],
                     "quickLegacy": [
                         "THUNDER_SHOCK_FAST"
@@ -1005,7 +1008,8 @@
                     "chargedMoves": [
                         "PSYCHIC",
                         "THUNDER_PUNCH",
-                        "WILD_CHARGE"
+                        "WILD_CHARGE",
+                        "GRASS_KNOT"
                     ],
                     "quickLegacy": "",
                     "chargedLegacy": ""
@@ -1362,7 +1366,8 @@
                     "maxCP": 2437,
                     "quickMoves": [
                         "CHARGE_BEAM_FAST",
-                        "ZEN_HEADBUTT_FAST"
+                        "ZEN_HEADBUTT_FAST",
+                        "CHARM_FAST"
                     ],
                     "chargedMoves": [
                         "DAZZLING_GLEAM",
@@ -1569,7 +1574,8 @@
                     "maxCP": 1926,
                     "quickMoves": [
                         "POUND_FAST",
-                        "FEINT_ATTACK_FAST"
+                        "FEINT_ATTACK_FAST",
+                        "CHARM_FAST"
                     ],
                     "chargedMoves": [
                         "DAZZLING_GLEAM",
@@ -1714,7 +1720,8 @@
                     "chargedMoves": [
                         "PETAL_BLIZZARD",
                         "SOLAR_BEAM",
-                        "MOONBLAST"
+                        "MOONBLAST",
+                        "SLUDGE_BOMB"
                     ],
                     "quickLegacy": "",
                     "chargedLegacy": ""
@@ -3688,7 +3695,10 @@
                     "chargedMoves": [
                         "FUTURESIGHT",
                         "PSYCHIC",
-                        "FOCUS_BLAST"
+                        "FOCUS_BLAST",
+                        "FIRE_PUNCH",
+                        "ICE_PUNCH",
+                        "THUNDER_PUNCH"
                     ],
                     "quickLegacy": "",
                     "chargedLegacy": [
@@ -3803,7 +3813,8 @@
                     "chargedMoves": [
                         "DISCHARGE",
                         "THUNDERBOLT",
-                        "HYPER_BEAM"
+                        "HYPER_BEAM",
+                        "FOUL_PLAY"
                     ],
                     "quickLegacy": [
                         "TACKLE_FAST"
@@ -4832,7 +4843,8 @@
                     "chargedMoves": [
                         "HYDRO_PUMP",
                         "SURF",
-                        "BLIZZARD"
+                        "BLIZZARD",
+                        "SKULL_BASH"
                     ],
                     "quickLegacy": [
                         "ICE_SHARD_FAST"
@@ -5152,7 +5164,8 @@
                     "maxCP": 2783,
                     "quickMoves": [
                         "STEEL_WING_FAST",
-                        "BITE_FAST"
+                        "BITE_FAST",
+                        "ROCK_THROW_FAST"
                     ],
                     "chargedMoves": [
                         "ANCIENT_POWER",
@@ -5211,7 +5224,8 @@
                         "HEAVY_SLAM",
                         "HYPER_BEAM",
                         "EARTHQUAKE",
-                        "OUTRAGE"
+                        "OUTRAGE",
+                        "SKULL_BASH"
                     ],
                     "quickLegacy": [
                         "YAWN_FAST"
@@ -5236,12 +5250,14 @@
                     "defense": 236,
                     "maxCP": 3051,
                     "quickMoves": [
-                        "FROST_BREATH_FAST"
+                        "FROST_BREATH_FAST",
+                        "ICE_SHARD_FAST"
                     ],
                     "chargedMoves": [
                         "ICE_BEAM",
                         "ICY_WIND",
-                        "BLIZZARD"
+                        "BLIZZARD",
+                        "ANCIENT_POWER"
                     ],
                     "quickLegacy": "",
                     "chargedLegacy": [
@@ -5269,7 +5285,9 @@
                     "chargedMoves": [
                         "ZAP_CANNON",
                         "THUNDERBOLT",
-                        "THUNDER"
+                        "THUNDER",
+                        "ANCIENT_POWER",
+                        "DRILL_PECK"
                     ],
                     "quickLegacy": [
                         "THUNDER_SHOCK_FAST"
@@ -5294,12 +5312,14 @@
                     "defense": 181,
                     "maxCP": 3465,
                     "quickMoves": [
-                        "FIRE_SPIN_FAST"
+                        "FIRE_SPIN_FAST",
+                        "WING_ATTACK_FAST"
                     ],
                     "chargedMoves": [
                         "FIRE_BLAST",
                         "HEAT_WAVE",
-                        "OVERHEAT"
+                        "OVERHEAT",
+                        "ANCIENT_POWER"
                     ],
                     "quickLegacy": [
                         "EMBER_FAST"
@@ -5403,7 +5423,15 @@
                         "female": false
                     },
                     "shiny": false,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "MEWTWO_NORMAL"
+                        },
+                        {
+                            "form": "MEWTWO_A",
+                            "assetBundleSuffix": "pm0150_00_pgo_a"
+                        }
+                    ],
                     "type1": "Psychic",
                     "type2": "",
                     "hp": 214,
@@ -5426,6 +5454,41 @@
                         "SHADOW_BALL",
                         "HYPER_BEAM"
                     ]
+                },
+                {
+                    "id": "pm0150_00_pgo_a",
+                    "name": "Mewtwo",
+                    "gender": {
+                        "male": false,
+                        "female": false
+                    },
+                    "shiny": false,
+                    "forms": [
+                        {
+                            "form": "MEWTWO_NORMAL"
+                        },
+                        {
+                            "form": "MEWTWO_A",
+                            "assetBundleSuffix": "pm0150_00_pgo_a"
+                        }
+                    ],
+                    "type1": "Psychic",
+                    "type2": "",
+                    "hp": 214,
+                    "attack": 182,
+                    "defense": 278,
+                    "quickMoves": [
+                        "CONFUSION_FAST",
+                        "IRON_TAIL_FAST"
+                    ],
+                    "chargedMoves": [
+                        "ROCK_SLIDE",
+                        "DYNAMIC_PUNCH",
+                        "EARTHQUAKE",
+                        "FUTURESIGHT"
+                    ],
+                    "quickLegacy": "",
+                    "chargedLegacy": ""
                 },
                 {
                     "id": "150_mx",
@@ -7070,7 +7133,8 @@
                     "maxCP": 1026,
                     "quickMoves": [
                         "COUNTER_FAST",
-                        "SPLASH_FAST"
+                        "SPLASH_FAST",
+                        "CHARM_FAST"
                     ],
                     "chargedMoves": [
                         "MIRROR_COAT"
@@ -7308,7 +7372,8 @@
                     "maxCP": 2552,
                     "quickMoves": [
                         "BITE_FAST",
-                        "SNARL_FAST"
+                        "SNARL_FAST",
+                        "CHARM_FAST"
                     ],
                     "chargedMoves": [
                         "CRUNCH",
@@ -7984,7 +8049,8 @@
                     "quickMoves": [
                         "TACKLE_FAST",
                         "COUNTER_FAST",
-                        "MUD_SLAP_FAST"
+                        "MUD_SLAP_FAST",
+                        "CHARM_FAST"
                     ],
                     "chargedMoves": [
                         "EARTHQUAKE",
@@ -8627,7 +8693,8 @@
                     "chargedMoves": [
                         "LEAF_BLADE",
                         "AERIAL_ACE",
-                        "EARTHQUAKE"
+                        "EARTHQUAKE",
+                        "DRAGON_CLAW"
                     ],
                     "quickLegacy": "",
                     "chargedLegacy": [
@@ -9449,7 +9516,8 @@
                     "maxCP": 3093,
                     "quickMoves": [
                         "CONFUSION_FAST",
-                        "CHARGE_BEAM_FAST"
+                        "CHARGE_BEAM_FAST",
+                        "CHARM_FAST"
                     ],
                     "chargedMoves": [
                         "PSYCHIC",
@@ -9993,7 +10061,8 @@
                     "maxCP": 1496,
                     "quickMoves": [
                         "FEINT_ATTACK_FAST",
-                        "ZEN_HEADBUTT_FAST"
+                        "ZEN_HEADBUTT_FAST",
+                        "CHARM_FAST"
                     ],
                     "chargedMoves": [
                         "PLAY_ROUGH",
@@ -10176,7 +10245,8 @@
                     "maxCP": 3000,
                     "quickMoves": [
                         "DRAGON_TAIL_FAST",
-                        "IRON_TAIL_FAST"
+                        "IRON_TAIL_FAST",
+                        "SMACK_DOWN_FAST"
                     ],
                     "chargedMoves": [
                         "THUNDER",
@@ -11386,7 +11456,8 @@
                     "maxCP": 1971,
                     "quickMoves": [
                         "EXTRASENSORY_FAST",
-                        "CONFUSION_FAST"
+                        "CONFUSION_FAST",
+                        "MUD_SLAP_FAST"
                     ],
                     "chargedMoves": [
                         "GYRO_BALL",
@@ -12628,7 +12699,8 @@
                     "maxCP": 3510,
                     "quickMoves": [
                         "DRAGON_BREATH_FAST",
-                        "ZEN_HEADBUTT_FAST"
+                        "ZEN_HEADBUTT_FAST",
+                        "CHARM_FAST"
                     ],
                     "chargedMoves": [
                         "PSYCHIC",
@@ -14599,7 +14671,9 @@
                     "chargedMoves": [
                         "FLASH_CANNON",
                         "PSYCHIC",
-                        "HEAVY_SLAM"
+                        "HEAVY_SLAM",
+                        "BULLDOZE",
+                        "PSYSHOCK"
                     ],
                     "quickLegacy": "",
                     "chargedLegacy": ""
@@ -15401,7 +15475,8 @@
                     "chargedMoves": [
                         "SURF",
                         "EARTHQUAKE",
-                        "STONE_EDGE"
+                        "STONE_EDGE",
+                        "SKULL_BASH"
                     ],
                     "quickLegacy": "",
                     "chargedLegacy": ""
@@ -15455,7 +15530,8 @@
                     "chargedMoves": [
                         "THUNDER_PUNCH",
                         "WILD_CHARGE",
-                        "THUNDER"
+                        "THUNDER",
+                        "ICE_PUNCH"
                     ],
                     "quickLegacy": "",
                     "chargedLegacy": ""
@@ -15505,7 +15581,8 @@
                     "maxCP": 3332,
                     "quickMoves": [
                         "AIR_SLASH_FAST",
-                        "HIDDEN_POWER_FAST"
+                        "HIDDEN_POWER_FAST",
+                        "CHARM_FAST"
                     ],
                     "chargedMoves": [
                         "ANCIENT_POWER",
@@ -15698,7 +15775,8 @@
                     "maxCP": 3093,
                     "quickMoves": [
                         "CONFUSION_FAST",
-                        "LOW_KICK_FAST"
+                        "LOW_KICK_FAST",
+                        "CHARM_FAST"
                     ],
                     "chargedMoves": [
                         "CLOSE_COMBAT",

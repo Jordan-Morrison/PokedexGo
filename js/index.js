@@ -3,7 +3,7 @@ const app = {
     RELEASEDPOKEMON: 494,
 
     main: function() {
-        app.version = 4.05;
+        app.version = 4.1;
         //app info is fetched in checkForUpdates
         app.info = {};
         app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
