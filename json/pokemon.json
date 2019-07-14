@@ -1,5 +1,5 @@
 {
-    "version": 4.21,
+    "version": 4.22,
     "data": [
         {
             "id": 1001,
@@ -8371,7 +8371,7 @@
                         "male": false,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Fire",
                     "type2": "",
