@@ -7,6 +7,7 @@ body{
     background: linear-gradient(to right, #83c9ad 0%,#fafffa 4%,#fafffa 96%,#7fc5ae 100%);
     width: 100vw;
     height: 100vh;
+    overscroll-behavior: none;
 }
 
 .hide{
