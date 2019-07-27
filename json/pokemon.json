@@ -1,5 +1,5 @@
 {
-    "version": 4.22,
+    "version": 4.23,
     "data": [
         {
             "id": 1001,
@@ -854,7 +854,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Poison",
                     "type2": "",
@@ -883,7 +883,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Poison",
                     "type2": "",
@@ -1593,7 +1593,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Poison",
                     "type2": "Flying",
@@ -1622,7 +1622,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Poison",
                     "type2": "Flying",
@@ -4115,7 +4115,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Poison",
                     "type2": "",
@@ -4144,7 +4144,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Poison",
                     "type2": "",
@@ -6079,7 +6079,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Poison",
                     "type2": "Flying",
@@ -7548,7 +7548,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Dark",
                     "type2": "Ice",
@@ -8842,7 +8842,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Water",
                     "type2": "",
@@ -8869,7 +8869,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Water",
                     "type2": "Ground",
@@ -8896,7 +8896,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Water",
                     "type2": "Ground",
@@ -8911,10 +8911,13 @@
                     "chargedMoves": [
                         "EARTHQUAKE",
                         "SLUDGE_WAVE",
-                        "SURF"
+                        "SURF",
+                        "MUDDY_WATER"
                     ],
                     "quickLegacy": "",
-                    "chargedLegacy": ""
+                    "chargedLegacy": [
+                        "HYDRO_CANNON"
+                    ]
                 },
                 {
                     "id": "260_m",
@@ -15380,7 +15383,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Dark",
                     "type2": "Ice",

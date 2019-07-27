@@ -1,5 +1,5 @@
 {
-    "version": 4.11,
+    "version": 4.12,
     "data": [
         {
             "id": 1,
@@ -1637,6 +1637,14 @@
                     "durationMS": 3100,
                     "energyCost": 33,
                     "name": "Leaf Tornado"
+                },
+                {
+                    "id": "MUDDY_WATER",
+                    "type": "Water",
+                    "power": 50,
+                    "durationMS": 2200,
+                    "energyCost": 33,
+                    "name": "Muddy Water"
                 },
                 {
                     "id": "BLAZE_KICK",
