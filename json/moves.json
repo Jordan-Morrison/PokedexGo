@@ -1,5 +1,5 @@
 {
-    "version": 4.12,
+    "version": 4.13,
     "data": [
         {
             "id": 1,
@@ -1631,6 +1631,14 @@
                     "name": "Earth Power"
                 },
                 {
+                    "id": "CRABHAMMER",
+                    "type": "Water",
+                    "power": 85,
+                    "durationMS": 1900,
+                    "energyCost": 50,
+                    "name": "Crabhammer"
+                },
+                {
                     "id": "LEAF_TORNADO",
                     "type": "Grass",
                     "power": 45,
@@ -1661,6 +1669,30 @@
                     "durationMS": 2000,
                     "energyCost": 33,
                     "name": "Power Uppunch"
+                },
+                {
+                    "id": "FRUSTRATION",
+                    "type": "Normal",
+                    "power": 10,
+                    "durationMS": 2000,
+                    "energyCost": 33,
+                    "name": "Frustration"
+                },
+                {
+                    "id": "RETURN",
+                    "type": "Normal",
+                    "power": 35,
+                    "durationMS": 700,
+                    "energyCost": 33,
+                    "name": "Return"
+                },
+                {
+                    "id": "SYNCHRONOISE",
+                    "type": "Psychic",
+                    "power": 80,
+                    "durationMS": 2600,
+                    "energyCost": 50,
+                    "name": "Synchronoise"
                 }
             ]
         }

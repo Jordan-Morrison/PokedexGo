@@ -1,5 +1,5 @@
 {
-    "version": 4.23,
+    "version": 4.24,
     "data": [
         {
             "id": 1001,
@@ -14,7 +14,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "BULBASAUR_NORMAL"
+                        },
+                        {
+                            "form": "BULBASAUR_SHADOW"
+                        },
+                        {
+                            "form": "BULBASAUR_PURIFIED"
+                        }
+                    ],
                     "type1": "Grass",
                     "type2": "Poison",
                     "hp": 128,
@@ -41,7 +51,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "IVYSAUR_NORMAL"
+                        },
+                        {
+                            "form": "IVYSAUR_SHADOW"
+                        },
+                        {
+                            "form": "IVYSAUR_PURIFIED"
+                        }
+                    ],
                     "type1": "Grass",
                     "type2": "Poison",
                     "hp": 155,
@@ -68,7 +88,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "VENUSAUR_NORMAL"
+                        },
+                        {
+                            "form": "VENUSAUR_SHADOW"
+                        },
+                        {
+                            "form": "VENUSAUR_PURIFIED"
+                        }
+                    ],
                     "type1": "Grass",
                     "type2": "Poison",
                     "hp": 190,
@@ -121,7 +151,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "CHARMANDER_NORMAL"
+                        },
+                        {
+                            "form": "CHARMANDER_SHADOW"
+                        },
+                        {
+                            "form": "CHARMANDER_PURIFIED"
+                        }
+                    ],
                     "type1": "Fire",
                     "type2": "",
                     "hp": 118,
@@ -148,7 +188,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "CHARMELEON_NORMAL"
+                        },
+                        {
+                            "form": "CHARMELEON_SHADOW"
+                        },
+                        {
+                            "form": "CHARMELEON_PURIFIED"
+                        }
+                    ],
                     "type1": "Fire",
                     "type2": "",
                     "hp": 151,
@@ -177,7 +227,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "CHARIZARD_NORMAL"
+                        },
+                        {
+                            "form": "CHARIZARD_SHADOW"
+                        },
+                        {
+                            "form": "CHARIZARD_PURIFIED"
+                        }
+                    ],
                     "type1": "Fire",
                     "type2": "Flying",
                     "hp": 186,
@@ -258,7 +318,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "SQUIRTLE_NORMAL"
+                        },
+                        {
+                            "form": "SQUIRTLE_SHADOW"
+                        },
+                        {
+                            "form": "SQUIRTLE_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "",
                     "hp": 127,
@@ -285,7 +355,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "WARTORTLE_NORMAL"
+                        },
+                        {
+                            "form": "WARTORTLE_SHADOW"
+                        },
+                        {
+                            "form": "WARTORTLE_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "",
                     "hp": 153,
@@ -312,7 +392,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "BLASTOISE_NORMAL"
+                        },
+                        {
+                            "form": "BLASTOISE_SHADOW"
+                        },
+                        {
+                            "form": "BLASTOISE_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "",
                     "hp": 188,
@@ -664,6 +754,12 @@
                         {
                             "form": "RATTATA_ALOLA",
                             "assetBundleValue": 61
+                        },
+                        {
+                            "form": "RATTATA_SHADOW"
+                        },
+                        {
+                            "form": "RATTATA_PURIFIED"
                         }
                     ],
                     "type1": "Normal",
@@ -699,6 +795,12 @@
                         {
                             "form": "RATTATA_ALOLA",
                             "assetBundleValue": 61
+                        },
+                        {
+                            "form": "RATTATA_SHADOW"
+                        },
+                        {
+                            "form": "RATTATA_PURIFIED"
                         }
                     ],
                     "type1": "Dark",
@@ -734,6 +836,12 @@
                         {
                             "form": "RATICATE_ALOLA",
                             "assetBundleValue": 61
+                        },
+                        {
+                            "form": "RATICATE_SHADOW"
+                        },
+                        {
+                            "form": "RATICATE_PURIFIED"
                         }
                     ],
                     "type1": "Normal",
@@ -769,6 +877,12 @@
                         {
                             "form": "RATICATE_ALOLA",
                             "assetBundleValue": 61
+                        },
+                        {
+                            "form": "RATICATE_SHADOW"
+                        },
+                        {
+                            "form": "RATICATE_PURIFIED"
                         }
                     ],
                     "type1": "Dark",
@@ -1594,7 +1708,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "ZUBAT_NORMAL"
+                        },
+                        {
+                            "form": "ZUBAT_SHADOW"
+                        },
+                        {
+                            "form": "ZUBAT_PURIFIED"
+                        }
+                    ],
                     "type1": "Poison",
                     "type2": "Flying",
                     "hp": 120,
@@ -1623,7 +1747,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "GOLBAT_NORMAL"
+                        },
+                        {
+                            "form": "GOLBAT_SHADOW"
+                        },
+                        {
+                            "form": "GOLBAT_PURIFIED"
+                        }
+                    ],
                     "type1": "Poison",
                     "type2": "Flying",
                     "hp": 181,
@@ -2306,8 +2440,18 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
-                    "forms": [],
+                    "shiny": true,
+                    "forms": [
+                        {
+                            "form": "POLIWAG_NORMAL"
+                        },
+                        {
+                            "form": "POLIWAG_SHADOW"
+                        },
+                        {
+                            "form": "POLIWAG_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "",
                     "hp": 120,
@@ -2333,8 +2477,18 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
-                    "forms": [],
+                    "shiny": true,
+                    "forms": [
+                        {
+                            "form": "POLIWHIRL_NORMAL"
+                        },
+                        {
+                            "form": "POLIWHIRL_SHADOW"
+                        },
+                        {
+                            "form": "POLIWHIRL_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "",
                     "hp": 163,
@@ -2362,8 +2516,18 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
-                    "forms": [],
+                    "shiny": true,
+                    "forms": [
+                        {
+                            "form": "POLIWRATH_NORMAL"
+                        },
+                        {
+                            "form": "POLIWRATH_SHADOW"
+                        },
+                        {
+                            "form": "POLIWRATH_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "Fighting",
                     "hp": 207,
@@ -3305,6 +3469,12 @@
                         {
                             "form": "GRIMER_ALOLA",
                             "assetBundleValue": 61
+                        },
+                        {
+                            "form": "GRIMER_SHADOW"
+                        },
+                        {
+                            "form": "GRIMER_PURIFIED"
                         }
                     ],
                     "type1": "Poison",
@@ -3342,6 +3512,12 @@
                         {
                             "form": "GRIMER_ALOLA",
                             "assetBundleValue": 61
+                        },
+                        {
+                            "form": "GRIMER_SHADOW"
+                        },
+                        {
+                            "form": "GRIMER_PURIFIED"
                         }
                     ],
                     "type1": "Poison",
@@ -3377,6 +3553,12 @@
                         {
                             "form": "MUK_ALOLA",
                             "assetBundleValue": 61
+                        },
+                        {
+                            "form": "MUK_SHADOW"
+                        },
+                        {
+                            "form": "MUK_PURIFIED"
                         }
                     ],
                     "type1": "Poison",
@@ -3417,6 +3599,12 @@
                         {
                             "form": "MUK_ALOLA",
                             "assetBundleValue": 61
+                        },
+                        {
+                            "form": "MUK_SHADOW"
+                        },
+                        {
+                            "form": "MUK_PURIFIED"
                         }
                     ],
                     "type1": "Poison",
@@ -3654,7 +3842,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "DROWZEE_NORMAL"
+                        },
+                        {
+                            "form": "DROWZEE_SHADOW"
+                        },
+                        {
+                            "form": "DROWZEE_PURIFIED"
+                        }
+                    ],
                     "type1": "Psychic",
                     "type2": "",
                     "hp": 155,
@@ -3681,7 +3879,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "HYPNO_NORMAL"
+                        },
+                        {
+                            "form": "HYPNO_SHADOW"
+                        },
+                        {
+                            "form": "HYPNO_PURIFIED"
+                        }
+                    ],
                     "type1": "Psychic",
                     "type2": "",
                     "hp": 198,
@@ -3755,7 +3963,8 @@
                     "chargedMoves": [
                         "VICE_GRIP",
                         "X_SCISSOR",
-                        "WATER_PULSE"
+                        "WATER_PULSE",
+                        "CRABHAMMER"
                     ],
                     "quickLegacy": [
                         "MUD_SHOT_FAST"
@@ -3929,7 +4138,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "CUBONE_NORMAL"
+                        },
+                        {
+                            "form": "CUBONE_SHADOW"
+                        },
+                        {
+                            "form": "CUBONE_PURIFIED"
+                        }
+                    ],
                     "type1": "Ground",
                     "type2": "",
                     "hp": 137,
@@ -3963,6 +4182,12 @@
                         {
                             "form": "MAROWAK_ALOLA",
                             "assetBundleValue": 61
+                        },
+                        {
+                            "form": "MAROWAK_SHADOW"
+                        },
+                        {
+                            "form": "MAROWAK_PURIFIED"
                         }
                     ],
                     "type1": "Ground",
@@ -3998,6 +4223,12 @@
                         {
                             "form": "MAROWAK_ALOLA",
                             "assetBundleValue": 61
+                        },
+                        {
+                            "form": "MAROWAK_SHADOW"
+                        },
+                        {
+                            "form": "MAROWAK_PURIFIED"
                         }
                     ],
                     "type1": "Fire",
@@ -4549,7 +4780,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "SCYTHER_NORMAL"
+                        },
+                        {
+                            "form": "SCYTHER_SHADOW"
+                        },
+                        {
+                            "form": "SCYTHER_PURIFIED"
+                        }
+                    ],
                     "type1": "Bug",
                     "type2": "Flying",
                     "hp": 172,
@@ -4748,7 +4989,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "MAGIKARP_NORMAL"
+                        },
+                        {
+                            "form": "MAGIKARP_SHADOW"
+                        },
+                        {
+                            "form": "MAGIKARP_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "",
                     "hp": 85,
@@ -4772,7 +5023,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "GYARADOS_NORMAL"
+                        },
+                        {
+                            "form": "GYARADOS_SHADOW"
+                        },
+                        {
+                            "form": "GYARADOS_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "Flying",
                     "hp": 216,
@@ -5209,7 +5470,17 @@
                         "female": true
                     },
                     "shiny": false,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "SNORLAX_NORMAL"
+                        },
+                        {
+                            "form": "SNORLAX_SHADOW"
+                        },
+                        {
+                            "form": "SNORLAX_PURIFIED"
+                        }
+                    ],
                     "type1": "Normal",
                     "type2": "",
                     "hp": 330,
@@ -5336,7 +5607,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "DRATINI_NORMAL"
+                        },
+                        {
+                            "form": "DRATINI_SHADOW"
+                        },
+                        {
+                            "form": "DRATINI_PURIFIED"
+                        }
+                    ],
                     "type1": "Dragon",
                     "type2": "",
                     "hp": 121,
@@ -5363,7 +5644,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "DRAGONAIR_NORMAL"
+                        },
+                        {
+                            "form": "DRAGONAIR_SHADOW"
+                        },
+                        {
+                            "form": "DRAGONAIR_PURIFIED"
+                        }
+                    ],
                     "type1": "Dragon",
                     "type2": "",
                     "hp": 156,
@@ -5390,7 +5681,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "DRAGONITE_NORMAL"
+                        },
+                        {
+                            "form": "DRAGONITE_SHADOW"
+                        },
+                        {
+                            "form": "DRAGONITE_PURIFIED"
+                        }
+                    ],
                     "type1": "Dragon",
                     "type2": "Flying",
                     "hp": 209,
@@ -5452,7 +5753,8 @@
                     "quickLegacy": "",
                     "chargedLegacy": [
                         "SHADOW_BALL",
-                        "HYPER_BEAM"
+                        "HYPER_BEAM",
+                        "PSYSTRIKE"
                     ]
                 },
                 {
@@ -5851,7 +6153,9 @@
                         "HYDRO_PUMP",
                         "ICE_BEAM"
                     ],
-                    "quickLegacy": "",
+                    "quickLegacy": [
+                        "WATER_GUN_FAST"
+                    ],
                     "chargedLegacy": [
                         "HYDRO_CANNON"
                     ]
@@ -5863,7 +6167,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Normal",
                     "type2": "",
@@ -5890,7 +6194,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Normal",
                     "type2": "",
@@ -6080,7 +6384,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "CROBAT_NORMAL"
+                        },
+                        {
+                            "form": "CROBAT_SHADOW"
+                        },
+                        {
+                            "form": "CROBAT_PURIFIED"
+                        }
+                    ],
                     "type1": "Poison",
                     "type2": "Flying",
                     "hp": 198,
@@ -6549,7 +6863,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Rock",
                     "type2": "",
@@ -6576,8 +6890,18 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
-                    "forms": [],
+                    "shiny": true,
+                    "forms": [
+                        {
+                            "form": "POLITOED_NORMAL"
+                        },
+                        {
+                            "form": "POLITOED_SHADOW"
+                        },
+                        {
+                            "form": "POLITOED_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "",
                     "hp": 207,
@@ -7258,7 +7582,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Ground",
                     "type2": "Flying",
@@ -7420,7 +7744,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "SCIZOR_NORMAL"
+                        },
+                        {
+                            "form": "SCIZOR_SHADOW"
+                        },
+                        {
+                            "form": "SCIZOR_PURIFIED"
+                        }
+                    ],
                     "type1": "Bug",
                     "type2": "Steel",
                     "hp": 172,
@@ -7905,7 +8239,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "HOUNDOUR_NORMAL"
+                        },
+                        {
+                            "form": "HOUNDOUR_SHADOW"
+                        },
+                        {
+                            "form": "HOUNDOUR_PURIFIED"
+                        }
+                    ],
                     "type1": "Dark",
                     "type2": "Fire",
                     "hp": 128,
@@ -7932,7 +8276,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "HOUNDOOM_NORMAL"
+                        },
+                        {
+                            "form": "HOUNDOOM_SHADOW"
+                        },
+                        {
+                            "form": "HOUNDOOM_PURIFIED"
+                        }
+                    ],
                     "type1": "Dark",
                     "type2": "Fire",
                     "hp": 181,
@@ -8399,7 +8753,7 @@
                         "male": false,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Water",
                     "type2": "",
@@ -8843,7 +9197,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "MUDKIP_NORMAL"
+                        },
+                        {
+                            "form": "MUDKIP_SHADOW"
+                        },
+                        {
+                            "form": "MUDKIP_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "",
                     "hp": 137,
@@ -8870,7 +9234,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "MARSHTOMP_NORMAL"
+                        },
+                        {
+                            "form": "MARSHTOMP_SHADOW"
+                        },
+                        {
+                            "form": "MARSHTOMP_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "Ground",
                     "hp": 172,
@@ -8897,7 +9271,17 @@
                         "female": true
                     },
                     "shiny": true,
-                    "forms": [],
+                    "forms": [
+                        {
+                            "form": "SWAMPERT_NORMAL"
+                        },
+                        {
+                            "form": "SWAMPERT_SHADOW"
+                        },
+                        {
+                            "form": "SWAMPERT_PURIFIED"
+                        }
+                    ],
                     "type1": "Water",
                     "type2": "Ground",
                     "hp": 225,
@@ -9456,8 +9840,18 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
-                    "forms": [],
+                    "shiny": true,
+                    "forms": [
+                        {
+                            "form": "RALTS_NORMAL"
+                        },
+                        {
+                            "form": "RALTS_SHADOW"
+                        },
+                        {
+                            "form": "RALTS_PURIFIED"
+                        }
+                    ],
                     "type1": "Psychic",
                     "type2": "Fairy",
                     "hp": 99,
@@ -9483,8 +9877,18 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
-                    "forms": [],
+                    "shiny": true,
+                    "forms": [
+                        {
+                            "form": "KIRLIA_NORMAL"
+                        },
+                        {
+                            "form": "KIRLIA_SHADOW"
+                        },
+                        {
+                            "form": "KIRLIA_PURIFIED"
+                        }
+                    ],
                     "type1": "Psychic",
                     "type2": "Fairy",
                     "hp": 116,
@@ -9510,8 +9914,18 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
-                    "forms": [],
+                    "shiny": true,
+                    "forms": [
+                        {
+                            "form": "GARDEVOIR_NORMAL"
+                        },
+                        {
+                            "form": "GARDEVOIR_SHADOW"
+                        },
+                        {
+                            "form": "GARDEVOIR_PURIFIED"
+                        }
+                    ],
                     "type1": "Psychic",
                     "type2": "Fairy",
                     "hp": 169,
@@ -9529,7 +9943,9 @@
                         "SHADOW_BALL"
                     ],
                     "quickLegacy": "",
-                    "chargedLegacy": ""
+                    "chargedLegacy": [
+                        "SYNCHRONOISE"
+                    ]
                 },
                 {
                     "id": "282_m",
@@ -10370,7 +10786,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Electric",
                     "type2": "",
@@ -10397,7 +10813,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Electric",
                     "type2": "",
@@ -10638,7 +11054,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Water",
                     "type2": "Dark",
@@ -10665,7 +11081,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Water",
                     "type2": "Dark",
@@ -10967,6 +11383,50 @@
                         {
                             "form": "SPINDA_08",
                             "assetBundleValue": 19
+                        },
+                        {
+                            "form": "SPINDA_09",
+                            "assetBundleValue": 20
+                        },
+                        {
+                            "form": "SPINDA_10",
+                            "assetBundleValue": 21
+                        },
+                        {
+                            "form": "SPINDA_11",
+                            "assetBundleValue": 22
+                        },
+                        {
+                            "form": "SPINDA_12",
+                            "assetBundleValue": 23
+                        },
+                        {
+                            "form": "SPINDA_13",
+                            "assetBundleValue": 24
+                        },
+                        {
+                            "form": "SPINDA_14",
+                            "assetBundleValue": 25
+                        },
+                        {
+                            "form": "SPINDA_15",
+                            "assetBundleValue": 26
+                        },
+                        {
+                            "form": "SPINDA_16",
+                            "assetBundleValue": 27
+                        },
+                        {
+                            "form": "SPINDA_17",
+                            "assetBundleValue": 28
+                        },
+                        {
+                            "form": "SPINDA_18",
+                            "assetBundleValue": 29
+                        },
+                        {
+                            "form": "SPINDA_19",
+                            "assetBundleValue": 30
                         }
                     ],
                     "type1": "Normal",
@@ -11315,7 +11775,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Water",
                     "type2": "Ground",
@@ -11342,7 +11802,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Water",
                     "type2": "Ground",
@@ -11411,7 +11871,8 @@
                     "chargedMoves": [
                         "VICE_GRIP",
                         "BUBBLE_BEAM",
-                        "NIGHT_SLASH"
+                        "NIGHT_SLASH",
+                        "CRABHAMMER"
                     ],
                     "quickLegacy": "",
                     "chargedLegacy": ""
@@ -12897,7 +13358,7 @@
                         "male": false,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Dragon",
                     "type2": "Flying",
@@ -14689,7 +15150,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Rock",
                     "type2": "",
@@ -15685,7 +16146,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Ground",
                     "type2": "Flying",
@@ -15769,8 +16230,18 @@
                         "male": true,
                         "female": false
                     },
-                    "shiny": false,
-                    "forms": [],
+                    "shiny": true,
+                    "forms": [
+                        {
+                            "form": "GALLADE_NORMAL"
+                        },
+                        {
+                            "form": "GALLADE_SHADOW"
+                        },
+                        {
+                            "form": "GALLADE_PURIFIED"
+                        }
+                    ],
                     "type1": "Psychic",
                     "type2": "Fighting",
                     "hp": 169,
@@ -15788,7 +16259,9 @@
                         "LEAF_BLADE"
                     ],
                     "quickLegacy": "",
-                    "chargedLegacy": ""
+                    "chargedLegacy": [
+                        "SYNCHRONOISE"
+                    ]
                 },
                 {
                     "id": "475_m",
