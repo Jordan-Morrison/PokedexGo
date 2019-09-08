@@ -1,7 +1,10 @@
 const app = {
 
+    RELEASEDPOKEMON: 494,
+	FUTURE_POKEMON_SPRITES: [495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,"521_01",522,523,527,528,529,530,531,532,534,557,559,560,562,563,590,591,597,598,599,600,601,607,608,609,622,623,631,632,633,634,635,638,639,640],
+
     main: function() {
-        app.version = 4.1;
+        app.version = 4.15;
         //app info is fetched in checkForUpdates
         app.info = {};
         app.BASEURL = "https://jordan-morrison.github.io/PokedexGo/json/";
@@ -158,7 +161,7 @@ const app = {
 
     getSprite: function(dex, gender, form, shiny){
         //check if pokemon is implemented yet
-        if (app.futurePokemon.pokes.includes(dex) || (dex >= app.RELEASEDPOKEMON && dex < 808)){
+        if (app.futurePokemon.pokes.includes(dex) || (dex >= app.RELEASEDPOKEMON && dex < 808 && !app.FUTURE_POKEMON_SPRITES.includes(dex))){
             return `DS/${dex}`;
         }
 
