@@ -1,5 +1,5 @@
 {
-    "version": 5,
+    "version": 5.01,
     "data": [
         {
             "id": 1001,
@@ -3431,7 +3431,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Normal",
                     "type2": "Flying",
@@ -4649,7 +4649,7 @@
                         "male": false,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Normal",
                     "type2": "",
@@ -4882,7 +4882,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Psychic",
                     "type2": "Fairy",
@@ -5091,7 +5091,7 @@
                         "male": true,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Normal",
                     "type2": "",
@@ -5863,7 +5863,7 @@
                         "male": false,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "MEWTWO_NORMAL"
@@ -13798,7 +13798,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "TURTWIG_NORMAL"
@@ -13835,7 +13835,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "GROTLE_NORMAL"
@@ -13872,7 +13872,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [
                         {
                             "form": "TORTERRA_NORMAL"
@@ -13900,7 +13900,9 @@
                         "EARTHQUAKE"
                     ],
                     "quickLegacy": "",
-                    "chargedLegacy": ""
+                    "chargedLegacy": [
+                        "FRENZY_PLANT"
+                    ]
                 },
                 {
                     "id": 390,
@@ -17714,7 +17716,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Normal",
                     "type2": "",
@@ -17741,7 +17743,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Normal",
                     "type2": "",
@@ -17768,7 +17770,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Normal",
                     "type2": "",
@@ -17795,7 +17797,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Normal",
                     "type2": "",
@@ -17822,7 +17824,7 @@
                         "male": true,
                         "female": true
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Normal",
                     "type2": "",
@@ -20400,7 +20402,7 @@
                         "male": false,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Steel",
                     "type2": "",
@@ -20427,7 +20429,7 @@
                         "male": false,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Steel",
                     "type2": "",
@@ -20454,7 +20456,7 @@
                         "male": false,
                         "female": false
                     },
-                    "shiny": false,
+                    "shiny": true,
                     "forms": [],
                     "type1": "Steel",
                     "type2": "",
