@@ -1,5 +1,5 @@
 {
-    "version": 5.01,
+    "version": 5.02,
     "data": [
         {
             "id": 1001,
@@ -5888,7 +5888,8 @@
                         "THUNDERBOLT",
                         "ICE_BEAM",
                         "FOCUS_BLAST",
-                        "FLAMETHROWER"
+                        "FLAMETHROWER",
+                        "PSYSTRIKE"
                     ],
                     "quickLegacy": "",
                     "chargedLegacy": [
