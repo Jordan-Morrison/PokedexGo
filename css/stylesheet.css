@@ -463,6 +463,10 @@ img{
 .genderIconsContainer{
     text-align: center;
     padding-bottom: 5px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .genderIcons{
@@ -564,6 +568,15 @@ img{
 .statScreen .img-fluid{
     height: 45vh;
     width: auto;
+}
+
+.closeStatScreen {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    padding-bottom: calc(0.5 * env(safe-area-inset-bottom));
+    position: sticky;
+    position: -webkit-sticky;
 }
 
 #closeButton{
