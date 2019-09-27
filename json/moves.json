@@ -1,1700 +1,1484 @@
 {
-    "version": 4.13,
-    "data": [
-        {
-            "id": 1,
-            "quick": [
-                {
-                    "id": "FUTURE_QUICK_MOVE",
-                    "name": "???",
-                    "type": "Random",
-                    "power": 0,
-                    "durationMS": 1000,
-                    "energyCost": 1
-                },
-                {
-                    "id": "FURY_CUTTER_FAST",
-                    "type": "Bug",
-                    "power": 3,
-                    "durationMS": 400,
-                    "energyCost": 6,
-                    "name": "Fury Cutter"
-                },
-                {
-                    "id": "BUG_BITE_FAST",
-                    "type": "Bug",
-                    "power": 5,
-                    "durationMS": 500,
-                    "energyCost": 6,
-                    "name": "Bug Bite"
-                },
-                {
-                    "id": "BITE_FAST",
-                    "type": "Dark",
-                    "power": 6,
-                    "durationMS": 500,
-                    "energyCost": 4,
-                    "name": "Bite "
-                },
-                {
-                    "id": "SUCKER_PUNCH_FAST",
-                    "type": "Dark",
-                    "power": 7,
-                    "durationMS": 700,
-                    "energyCost": 8,
-                    "name": "Sucker Punch"
-                },
-                {
-                    "id": "DRAGON_BREATH_FAST",
-                    "type": "Dragon",
-                    "power": 6,
-                    "durationMS": 500,
-                    "energyCost": 4,
-                    "name": "Dragon Breath"
-                },
-                {
-                    "id": "THUNDER_SHOCK_FAST",
-                    "type": "Electric",
-                    "power": 5,
-                    "durationMS": 600,
-                    "energyCost": 8,
-                    "name": "Thunder Shock"
-                },
-                {
-                    "id": "SPARK_FAST",
-                    "type": "Electric",
-                    "power": 6,
-                    "durationMS": 700,
-                    "energyCost": 9,
-                    "name": "Spark "
-                },
-                {
-                    "id": "LOW_KICK_FAST",
-                    "type": "Fighting",
-                    "power": 6,
-                    "durationMS": 600,
-                    "energyCost": 6,
-                    "name": "Low Kick"
-                },
-                {
-                    "id": "KARATE_CHOP_FAST",
-                    "type": "Fighting",
-                    "power": 8,
-                    "durationMS": 800,
-                    "energyCost": 10,
-                    "name": "Karate Chop"
-                },
-                {
-                    "id": "EMBER_FAST",
-                    "type": "Fire",
-                    "power": 10,
-                    "durationMS": 1000,
-                    "energyCost": 10,
-                    "name": "Ember "
-                },
-                {
-                    "id": "WING_ATTACK_FAST",
-                    "type": "Flying",
-                    "power": 8,
-                    "durationMS": 800,
-                    "energyCost": 9,
-                    "name": "Wing Attack"
-                },
-                {
-                    "id": "PECK_FAST",
-                    "type": "Flying",
-                    "power": 10,
-                    "durationMS": 1000,
-                    "energyCost": 10,
-                    "name": "Peck "
-                },
-                {
-                    "id": "LICK_FAST",
-                    "type": "Ghost",
-                    "power": 5,
-                    "durationMS": 500,
-                    "energyCost": 6,
-                    "name": "Lick "
-                },
-                {
-                    "id": "SHADOW_CLAW_FAST",
-                    "type": "Ghost",
-                    "power": 9,
-                    "durationMS": 700,
-                    "energyCost": 6,
-                    "name": "Shadow Claw"
-                },
-                {
-                    "id": "VINE_WHIP_FAST",
-                    "type": "Grass",
-                    "power": 7,
-                    "durationMS": 600,
-                    "energyCost": 6,
-                    "name": "Vine Whip"
-                },
-                {
-                    "id": "RAZOR_LEAF_FAST",
-                    "type": "Grass",
-                    "power": 13,
-                    "durationMS": 1000,
-                    "energyCost": 7,
-                    "name": "Razor Leaf"
-                },
-                {
-                    "id": "MUD_SHOT_FAST",
-                    "type": "Ground",
-                    "power": 5,
-                    "durationMS": 600,
-                    "energyCost": 7,
-                    "name": "Mud Shot"
-                },
-                {
-                    "id": "ICE_SHARD_FAST",
-                    "type": "Ice",
-                    "power": 12,
-                    "durationMS": 1200,
-                    "energyCost": 12,
-                    "name": "Ice Shard"
-                },
-                {
-                    "id": "FROST_BREATH_FAST",
-                    "type": "Ice",
-                    "power": 10,
-                    "durationMS": 900,
-                    "energyCost": 8,
-                    "name": "Frost Breath"
-                },
-                {
-                    "id": "QUICK_ATTACK_FAST",
-                    "type": "Normal",
-                    "power": 8,
-                    "durationMS": 800,
-                    "energyCost": 10,
-                    "name": "Quick Attack"
-                },
-                {
-                    "id": "SCRATCH_FAST",
-                    "type": "Normal",
-                    "power": 6,
-                    "durationMS": 500,
-                    "energyCost": 4,
-                    "name": "Scratch "
-                },
-                {
-                    "id": "TACKLE_FAST",
-                    "type": "Normal",
-                    "power": 5,
-                    "durationMS": 500,
-                    "energyCost": 5,
-                    "name": "Tackle "
-                },
-                {
-                    "id": "POUND_FAST",
-                    "type": "Normal",
-                    "power": 7,
-                    "durationMS": 600,
-                    "energyCost": 6,
-                    "name": "Pound "
-                },
-                {
-                    "id": "CUT_FAST",
-                    "type": "Normal",
-                    "power": 5,
-                    "durationMS": 500,
-                    "energyCost": 5,
-                    "name": "Cut "
-                },
-                {
-                    "id": "POISON_JAB_FAST",
-                    "type": "Poison",
-                    "power": 10,
-                    "durationMS": 800,
-                    "energyCost": 7,
-                    "name": "Poison Jab"
-                },
-                {
-                    "id": "ACID_FAST",
-                    "type": "Poison",
-                    "power": 9,
-                    "durationMS": 800,
-                    "energyCost": 8,
-                    "name": "Acid "
-                },
-                {
-                    "id": "PSYCHO_CUT_FAST",
-                    "type": "Psychic",
-                    "power": 5,
-                    "durationMS": 600,
-                    "energyCost": 8,
-                    "name": "Psycho Cut"
-                },
-                {
-                    "id": "ROCK_THROW_FAST",
-                    "type": "Rock",
-                    "power": 12,
-                    "durationMS": 900,
-                    "energyCost": 7,
-                    "name": "Rock Throw"
-                },
-                {
-                    "id": "METAL_CLAW_FAST",
-                    "type": "Steel",
-                    "power": 8,
-                    "durationMS": 700,
-                    "energyCost": 7,
-                    "name": "Metal Claw"
-                },
-                {
-                    "id": "BULLET_PUNCH_FAST",
-                    "type": "Steel",
-                    "power": 9,
-                    "durationMS": 900,
-                    "energyCost": 10,
-                    "name": "Bullet Punch"
-                },
-                {
-                    "id": "WATER_GUN_FAST",
-                    "type": "Water",
-                    "power": 5,
-                    "durationMS": 500,
-                    "energyCost": 5,
-                    "name": "Water Gun"
-                },
-                {
-                    "id": "SPLASH_FAST",
-                    "type": "Water",
-                    "durationMS": 1730,
-                    "energyCost": 20,
-                    "name": "Splash "
-                },
-                {
-                    "id": "MUD_SLAP_FAST",
-                    "type": "Ground",
-                    "power": 15,
-                    "durationMS": 1400,
-                    "energyCost": 12,
-                    "name": "Mud Slap"
-                },
-                {
-                    "id": "ZEN_HEADBUTT_FAST",
-                    "type": "Psychic",
-                    "power": 12,
-                    "durationMS": 1100,
-                    "energyCost": 10,
-                    "name": "Zen Headbutt"
-                },
-                {
-                    "id": "CONFUSION_FAST",
-                    "type": "Psychic",
-                    "power": 20,
-                    "durationMS": 1600,
-                    "energyCost": 15,
-                    "name": "Confusion "
-                },
-                {
-                    "id": "POISON_STING_FAST",
-                    "type": "Poison",
-                    "power": 5,
-                    "durationMS": 600,
-                    "energyCost": 7,
-                    "name": "Poison Sting"
-                },
-                {
-                    "id": "BUBBLE_FAST",
-                    "type": "Water",
-                    "power": 12,
-                    "durationMS": 1200,
-                    "energyCost": 14,
-                    "name": "Bubble "
-                },
-                {
-                    "id": "FEINT_ATTACK_FAST",
-                    "type": "Dark",
-                    "power": 10,
-                    "durationMS": 900,
-                    "energyCost": 9,
-                    "name": "Feint Attack"
-                },
-                {
-                    "id": "STEEL_WING_FAST",
-                    "type": "Steel",
-                    "power": 11,
-                    "durationMS": 800,
-                    "energyCost": 6,
-                    "name": "Steel Wing"
-                },
-                {
-                    "id": "FIRE_FANG_FAST",
-                    "type": "Fire",
-                    "power": 11,
-                    "durationMS": 900,
-                    "energyCost": 8,
-                    "name": "Fire Fang"
-                },
-                {
-                    "id": "ROCK_SMASH_FAST",
-                    "type": "Fighting",
-                    "power": 15,
-                    "durationMS": 1300,
-                    "energyCost": 10,
-                    "name": "Rock Smash"
-                },
-                {
-                    "id": "TRANSFORM_FAST",
-                    "type": "Normal",
-                    "durationMS": 2230,
-                    "energyCost": null,
-                    "name": "Transform "
-                },
-                {
-                    "id": "COUNTER_FAST",
-                    "type": "Fighting",
-                    "power": 12,
-                    "durationMS": 900,
-                    "energyCost": 8,
-                    "name": "Counter "
-                },
-                {
-                    "id": "POWDER_SNOW_FAST",
-                    "type": "Ice",
-                    "power": 6,
-                    "durationMS": 1000,
-                    "energyCost": 15,
-                    "name": "Powder Snow"
-                },
-                {
-                    "id": "CHARGE_BEAM_FAST",
-                    "type": "Electric",
-                    "power": 8,
-                    "durationMS": 1100,
-                    "energyCost": 15,
-                    "name": "Charge Beam"
-                },
-                {
-                    "id": "VOLT_SWITCH_FAST",
-                    "type": "Electric",
-                    "power": 20,
-                    "durationMS": 2300,
-                    "energyCost": 25,
-                    "name": "Volt Switch"
-                },
-                {
-                    "id": "DRAGON_TAIL_FAST",
-                    "type": "Dragon",
-                    "power": 15,
-                    "durationMS": 1100,
-                    "energyCost": 9,
-                    "name": "Dragon Tail"
-                },
-                {
-                    "id": "AIR_SLASH_FAST",
-                    "type": "Flying",
-                    "power": 14,
-                    "durationMS": 1200,
-                    "energyCost": 10,
-                    "name": "Air Slash"
-                },
-                {
-                    "id": "INFESTATION_FAST",
-                    "type": "Bug",
-                    "power": 10,
-                    "durationMS": 1100,
-                    "energyCost": 14,
-                    "name": "Infestation "
-                },
-                {
-                    "id": "STRUGGLE_BUG_FAST",
-                    "type": "Bug",
-                    "power": 15,
-                    "durationMS": 1500,
-                    "energyCost": 15,
-                    "name": "Struggle Bug"
-                },
-                {
-                    "id": "ASTONISH_FAST",
-                    "type": "Ghost",
-                    "power": 8,
-                    "durationMS": 1100,
-                    "energyCost": 14,
-                    "name": "Astonish "
-                },
-                {
-                    "id": "HEX_FAST",
-                    "type": "Ghost",
-                    "power": 10,
-                    "durationMS": 1200,
-                    "energyCost": 15,
-                    "name": "Hex "
-                },
-                {
-                    "id": "IRON_TAIL_FAST",
-                    "type": "Steel",
-                    "power": 15,
-                    "durationMS": 1100,
-                    "energyCost": 7,
-                    "name": "Iron Tail"
-                },
-                {
-                    "id": "FIRE_SPIN_FAST",
-                    "type": "Fire",
-                    "power": 14,
-                    "durationMS": 1100,
-                    "energyCost": 10,
-                    "name": "Fire Spin"
-                },
-                {
-                    "id": "BULLET_SEED_FAST",
-                    "type": "Grass",
-                    "power": 8,
-                    "durationMS": 1100,
-                    "energyCost": 14,
-                    "name": "Bullet Seed"
-                },
-                {
-                    "id": "EXTRASENSORY_FAST",
-                    "type": "Psychic",
-                    "power": 12,
-                    "durationMS": 1100,
-                    "energyCost": 12,
-                    "name": "Extrasensory "
-                },
-                {
-                    "id": "SNARL_FAST",
-                    "type": "Dark",
-                    "power": 12,
-                    "durationMS": 1100,
-                    "energyCost": 12,
-                    "name": "Snarl "
-                },
-                {
-                    "id": "HIDDEN_POWER_FAST",
-                    "type": "Normal",
-                    "power": 15,
-                    "durationMS": 1500,
-                    "energyCost": 15,
-                    "name": "Hidden Power"
-                },
-                {
-                    "id": "TAKE_DOWN_FAST",
-                    "type": "Normal",
-                    "power": 8,
-                    "durationMS": 1200,
-                    "energyCost": 10,
-                    "name": "Take Down"
-                },
-                {
-                    "id": "WATERFALL_FAST",
-                    "type": "Water",
-                    "power": 16,
-                    "durationMS": 1200,
-                    "energyCost": 8,
-                    "name": "Waterfall "
-                },
-                {
-                    "id": "YAWN_FAST",
-                    "type": "Normal",
-                    "durationMS": 1700,
-                    "energyCost": 15,
-                    "name": "Yawn "
-                },
-                {
-                    "id": "PRESENT_FAST",
-                    "type": "Normal",
-                    "power": 5,
-                    "durationMS": 1300,
-                    "energyCost": 20,
-                    "name": "Present "
-                },
-                {
-                    "id": "SMACK_DOWN_FAST",
-                    "type": "Rock",
-                    "power": 16,
-                    "durationMS": 1200,
-                    "energyCost": 8,
-                    "name": "Smack Down"
-                },
-                {
-                    "id": "CHARM_FAST",
-                    "type": "Fairy",
-                    "power": 20,
-                    "durationMS": 1500,
-                    "energyCost": 11,
-                    "name": "Charm "
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "charged": [
-                {
-                    "id": "FUTURE_CHARGED_MOVE",
-                    "name": "???",
-                    "type": "Random",
-                    "power": 0,
-                    "durationMS": 1000,
-                    "energyCost": 100
-                },
-                {
-                    "id": "WRAP",
-                    "type": "Normal",
-                    "power": 60,
-                    "durationMS": 2900,
-                    "energyCost": 33,
-                    "name": "Wrap"
-                },
-                {
-                    "id": "HYPER_BEAM",
-                    "type": "Normal",
-                    "power": 150,
-                    "durationMS": 3800,
-                    "energyCost": 100,
-                    "name": "Hyper Beam"
-                },
-                {
-                    "id": "DARK_PULSE",
-                    "type": "Dark",
-                    "power": 80,
-                    "durationMS": 3000,
-                    "energyCost": 50,
-                    "name": "Dark Pulse"
-                },
-                {
-                    "id": "SLUDGE",
-                    "type": "Poison",
-                    "power": 50,
-                    "durationMS": 2100,
-                    "energyCost": 33,
-                    "name": "Sludge"
-                },
-                {
-                    "id": "VICE_GRIP",
-                    "type": "Normal",
-                    "power": 35,
-                    "durationMS": 1900,
-                    "energyCost": 33,
-                    "name": "Vice Grip"
-                },
-                {
-                    "id": "FLAME_WHEEL",
-                    "type": "Fire",
-                    "power": 60,
-                    "durationMS": 2700,
-                    "energyCost": 50,
-                    "name": "Flame Wheel"
-                },
-                {
-                    "id": "MEGAHORN",
-                    "type": "Bug",
-                    "power": 90,
-                    "durationMS": 2200,
-                    "energyCost": 100,
-                    "name": "Megahorn"
-                },
-                {
-                    "id": "FLAMETHROWER",
-                    "type": "Fire",
-                    "power": 70,
-                    "durationMS": 2200,
-                    "energyCost": 50,
-                    "name": "Flamethrower"
-                },
-                {
-                    "id": "DIG",
-                    "type": "Ground",
-                    "power": 100,
-                    "durationMS": 4700,
-                    "energyCost": 50,
-                    "name": "Dig"
-                },
-                {
-                    "id": "CROSS_CHOP",
-                    "type": "Fighting",
-                    "power": 50,
-                    "durationMS": 1500,
-                    "energyCost": 50,
-                    "name": "Cross Chop"
-                },
-                {
-                    "id": "PSYBEAM",
-                    "type": "Psychic",
-                    "power": 70,
-                    "durationMS": 3200,
-                    "energyCost": 50,
-                    "name": "Psybeam"
-                },
-                {
-                    "id": "EARTHQUAKE",
-                    "type": "Ground",
-                    "power": 120,
-                    "durationMS": 3600,
-                    "energyCost": 100,
-                    "name": "Earthquake"
-                },
-                {
-                    "id": "STONE_EDGE",
-                    "type": "Rock",
-                    "power": 100,
-                    "durationMS": 2300,
-                    "energyCost": 100,
-                    "name": "Stone Edge"
-                },
-                {
-                    "id": "ICE_PUNCH",
-                    "type": "Ice",
-                    "power": 50,
-                    "durationMS": 1900,
-                    "energyCost": 33,
-                    "name": "Ice Punch"
-                },
-                {
-                    "id": "HEART_STAMP",
-                    "type": "Psychic",
-                    "power": 40,
-                    "durationMS": 1900,
-                    "energyCost": 33,
-                    "name": "Heart Stamp"
-                },
-                {
-                    "id": "DISCHARGE",
-                    "type": "Electric",
-                    "power": 65,
-                    "durationMS": 2500,
-                    "energyCost": 33,
-                    "name": "Discharge"
-                },
-                {
-                    "id": "FLASH_CANNON",
-                    "type": "Steel",
-                    "power": 100,
-                    "durationMS": 2700,
-                    "energyCost": 100,
-                    "name": "Flash Cannon"
-                },
-                {
-                    "id": "DRILL_PECK",
-                    "type": "Flying",
-                    "power": 60,
-                    "durationMS": 2300,
-                    "energyCost": 33,
-                    "name": "Drill Peck"
-                },
-                {
-                    "id": "ICE_BEAM",
-                    "type": "Ice",
-                    "power": 90,
-                    "durationMS": 3300,
-                    "energyCost": 50,
-                    "name": "Ice Beam"
-                },
-                {
-                    "id": "BLIZZARD",
-                    "type": "Ice",
-                    "power": 130,
-                    "durationMS": 3100,
-                    "energyCost": 100,
-                    "name": "Blizzard"
-                },
-                {
-                    "id": "HEAT_WAVE",
-                    "type": "Fire",
-                    "power": 95,
-                    "durationMS": 3000,
-                    "energyCost": 100,
-                    "name": "Heat Wave"
-                },
-                {
-                    "id": "AERIAL_ACE",
-                    "type": "Flying",
-                    "power": 55,
-                    "durationMS": 2400,
-                    "energyCost": 33,
-                    "name": "Aerial Ace"
-                },
-                {
-                    "id": "DRILL_RUN",
-                    "type": "Ground",
-                    "power": 80,
-                    "durationMS": 2800,
-                    "energyCost": 50,
-                    "name": "Drill Run"
-                },
-                {
-                    "id": "PETAL_BLIZZARD",
-                    "type": "Grass",
-                    "power": 110,
-                    "durationMS": 2600,
-                    "energyCost": 100,
-                    "name": "Petal Blizzard"
-                },
-                {
-                    "id": "MEGA_DRAIN",
-                    "type": "Grass",
-                    "power": 25,
-                    "durationMS": 2600,
-                    "energyCost": 50,
-                    "name": "Mega Drain"
-                },
-                {
-                    "id": "BUG_BUZZ",
-                    "type": "Bug",
-                    "power": 90,
-                    "durationMS": 3700,
-                    "energyCost": 50,
-                    "name": "Bug Buzz"
-                },
-                {
-                    "id": "POISON_FANG",
-                    "type": "Poison",
-                    "power": 35,
-                    "durationMS": 1700,
-                    "energyCost": 33,
-                    "name": "Poison Fang"
-                },
-                {
-                    "id": "NIGHT_SLASH",
-                    "type": "Dark",
-                    "power": 50,
-                    "durationMS": 2200,
-                    "energyCost": 33,
-                    "name": "Night Slash"
-                },
-                {
-                    "id": "BUBBLE_BEAM",
-                    "type": "Water",
-                    "power": 45,
-                    "durationMS": 1900,
-                    "energyCost": 33,
-                    "name": "Bubble Beam"
-                },
-                {
-                    "id": "SUBMISSION",
-                    "type": "Fighting",
-                    "power": 60,
-                    "durationMS": 2200,
-                    "energyCost": 50,
-                    "name": "Submission"
-                },
-                {
-                    "id": "LOW_SWEEP",
-                    "type": "Fighting",
-                    "power": 40,
-                    "durationMS": 1900,
-                    "energyCost": 33,
-                    "name": "Low Sweep"
-                },
-                {
-                    "id": "AQUA_JET",
-                    "type": "Water",
-                    "power": 45,
-                    "durationMS": 2600,
-                    "energyCost": 33,
-                    "name": "Aqua Jet"
-                },
-                {
-                    "id": "AQUA_TAIL",
-                    "type": "Water",
-                    "power": 50,
-                    "durationMS": 1900,
-                    "energyCost": 33,
-                    "name": "Aqua Tail"
-                },
-                {
-                    "id": "SEED_BOMB",
-                    "type": "Grass",
-                    "power": 55,
-                    "durationMS": 2100,
-                    "energyCost": 33,
-                    "name": "Seed Bomb"
-                },
-                {
-                    "id": "PSYSHOCK",
-                    "type": "Psychic",
-                    "power": 65,
-                    "durationMS": 2700,
-                    "energyCost": 33,
-                    "name": "Psyshock"
-                },
-                {
-                    "id": "ANCIENT_POWER",
-                    "type": "Rock",
-                    "power": 70,
-                    "durationMS": 3500,
-                    "energyCost": 33,
-                    "name": "Ancient Power"
-                },
-                {
-                    "id": "ROCK_TOMB",
-                    "type": "Rock",
-                    "power": 70,
-                    "durationMS": 3200,
-                    "energyCost": 50,
-                    "name": "Rock Tomb"
-                },
-                {
-                    "id": "ROCK_SLIDE",
-                    "type": "Rock",
-                    "power": 80,
-                    "durationMS": 2700,
-                    "energyCost": 50,
-                    "name": "Rock Slide"
-                },
-                {
-                    "id": "POWER_GEM",
-                    "type": "Rock",
-                    "power": 80,
-                    "durationMS": 2900,
-                    "energyCost": 50,
-                    "name": "Power Gem"
-                },
-                {
-                    "id": "SHADOW_SNEAK",
-                    "type": "Ghost",
-                    "power": 50,
-                    "durationMS": 2900,
-                    "energyCost": 33,
-                    "name": "Shadow Sneak"
-                },
-                {
-                    "id": "SHADOW_PUNCH",
-                    "type": "Ghost",
-                    "power": 40,
-                    "durationMS": 1700,
-                    "energyCost": 33,
-                    "name": "Shadow Punch"
-                },
-                {
-                    "id": "OMINOUS_WIND",
-                    "type": "Ghost",
-                    "power": 50,
-                    "durationMS": 2300,
-                    "energyCost": 33,
-                    "name": "Ominous Wind"
-                },
-                {
-                    "id": "SHADOW_BALL",
-                    "type": "Ghost",
-                    "power": 100,
-                    "durationMS": 3000,
-                    "energyCost": 50,
-                    "name": "Shadow Ball"
-                },
-                {
-                    "id": "MAGNET_BOMB",
-                    "type": "Steel",
-                    "power": 70,
-                    "durationMS": 2800,
-                    "energyCost": 33,
-                    "name": "Magnet Bomb"
-                },
-                {
-                    "id": "IRON_HEAD",
-                    "type": "Steel",
-                    "power": 60,
-                    "durationMS": 1900,
-                    "energyCost": 50,
-                    "name": "Iron Head"
-                },
-                {
-                    "id": "PARABOLIC_CHARGE",
-                    "type": "Electric",
-                    "power": 25,
-                    "durationMS": 2800,
-                    "energyCost": 50,
-                    "name": "Parabolic Charge"
-                },
-                {
-                    "id": "THUNDER_PUNCH",
-                    "type": "Electric",
-                    "power": 45,
-                    "durationMS": 1800,
-                    "energyCost": 33,
-                    "name": "Thunder Punch"
-                },
-                {
-                    "id": "THUNDER",
-                    "type": "Electric",
-                    "power": 100,
-                    "durationMS": 2400,
-                    "energyCost": 100,
-                    "name": "Thunder"
-                },
-                {
-                    "id": "THUNDERBOLT",
-                    "type": "Electric",
-                    "power": 80,
-                    "durationMS": 2500,
-                    "energyCost": 50,
-                    "name": "Thunderbolt"
-                },
-                {
-                    "id": "TWISTER",
-                    "type": "Dragon",
-                    "power": 45,
-                    "durationMS": 2800,
-                    "energyCost": 33,
-                    "name": "Twister"
-                },
-                {
-                    "id": "DRAGON_PULSE",
-                    "type": "Dragon",
-                    "power": 90,
-                    "durationMS": 3600,
-                    "energyCost": 50,
-                    "name": "Dragon Pulse"
-                },
-                {
-                    "id": "DRAGON_CLAW",
-                    "type": "Dragon",
-                    "power": 50,
-                    "durationMS": 1700,
-                    "energyCost": 33,
-                    "name": "Dragon Claw"
-                },
-                {
-                    "id": "DISARMING_VOICE",
-                    "type": "Fairy",
-                    "power": 70,
-                    "durationMS": 3900,
-                    "energyCost": 33,
-                    "name": "Disarming Voice"
-                },
-                {
-                    "id": "DRAINING_KISS",
-                    "type": "Fairy",
-                    "power": 60,
-                    "durationMS": 2600,
-                    "energyCost": 50,
-                    "name": "Draining Kiss"
-                },
-                {
-                    "id": "DAZZLING_GLEAM",
-                    "type": "Fairy",
-                    "power": 100,
-                    "durationMS": 3500,
-                    "energyCost": 50,
-                    "name": "Dazzling Gleam"
-                },
-                {
-                    "id": "MOONBLAST",
-                    "type": "Fairy",
-                    "power": 130,
-                    "durationMS": 3900,
-                    "energyCost": 100,
-                    "name": "Moonblast"
-                },
-                {
-                    "id": "PLAY_ROUGH",
-                    "type": "Fairy",
-                    "power": 90,
-                    "durationMS": 2900,
-                    "energyCost": 50,
-                    "name": "Play Rough"
-                },
-                {
-                    "id": "CROSS_POISON",
-                    "type": "Poison",
-                    "power": 40,
-                    "durationMS": 1500,
-                    "energyCost": 33,
-                    "name": "Cross Poison"
-                },
-                {
-                    "id": "SLUDGE_BOMB",
-                    "type": "Poison",
-                    "power": 80,
-                    "durationMS": 2300,
-                    "energyCost": 50,
-                    "name": "Sludge Bomb"
-                },
-                {
-                    "id": "SLUDGE_WAVE",
-                    "type": "Poison",
-                    "power": 110,
-                    "durationMS": 3200,
-                    "energyCost": 100,
-                    "name": "Sludge Wave"
-                },
-                {
-                    "id": "GUNK_SHOT",
-                    "type": "Poison",
-                    "power": 130,
-                    "durationMS": 3100,
-                    "energyCost": 100,
-                    "name": "Gunk Shot"
-                },
-                {
-                    "id": "BONE_CLUB",
-                    "type": "Ground",
-                    "power": 40,
-                    "durationMS": 1600,
-                    "energyCost": 33,
-                    "name": "Bone Club"
-                },
-                {
-                    "id": "BULLDOZE",
-                    "type": "Ground",
-                    "power": 80,
-                    "durationMS": 3500,
-                    "energyCost": 50,
-                    "name": "Bulldoze"
-                },
-                {
-                    "id": "MUD_BOMB",
-                    "type": "Ground",
-                    "power": 55,
-                    "durationMS": 2300,
-                    "energyCost": 33,
-                    "name": "Mud Bomb"
-                },
-                {
-                    "id": "SIGNAL_BEAM",
-                    "type": "Bug",
-                    "power": 75,
-                    "durationMS": 2900,
-                    "energyCost": 50,
-                    "name": "Signal Beam"
-                },
-                {
-                    "id": "X_SCISSOR",
-                    "type": "Bug",
-                    "power": 45,
-                    "durationMS": 1600,
-                    "energyCost": 33,
-                    "name": "X Scissor"
-                },
-                {
-                    "id": "FLAME_CHARGE",
-                    "type": "Fire",
-                    "power": 70,
-                    "durationMS": 3800,
-                    "energyCost": 33,
-                    "name": "Flame Charge"
-                },
-                {
-                    "id": "FLAME_BURST",
-                    "type": "Fire",
-                    "power": 70,
-                    "durationMS": 2600,
-                    "energyCost": 50,
-                    "name": "Flame Burst"
-                },
-                {
-                    "id": "FIRE_BLAST",
-                    "type": "Fire",
-                    "power": 140,
-                    "durationMS": 4200,
-                    "energyCost": 100,
-                    "name": "Fire Blast"
-                },
-                {
-                    "id": "BRINE",
-                    "type": "Water",
-                    "power": 60,
-                    "durationMS": 2300,
-                    "energyCost": 50,
-                    "name": "Brine"
-                },
-                {
-                    "id": "WATER_PULSE",
-                    "type": "Water",
-                    "power": 70,
-                    "durationMS": 3200,
-                    "energyCost": 50,
-                    "name": "Water Pulse"
-                },
-                {
-                    "id": "SCALD",
-                    "type": "Water",
-                    "power": 80,
-                    "durationMS": 3700,
-                    "energyCost": 50,
-                    "name": "Scald"
-                },
-                {
-                    "id": "HYDRO_PUMP",
-                    "type": "Water",
-                    "power": 130,
-                    "durationMS": 3300,
-                    "energyCost": 100,
-                    "name": "Hydro Pump"
-                },
-                {
-                    "id": "PSYCHIC",
-                    "type": "Psychic",
-                    "power": 100,
-                    "durationMS": 2800,
-                    "energyCost": 100,
-                    "name": "Psychic"
-                },
-                {
-                    "id": "PSYSTRIKE",
-                    "type": "Psychic",
-                    "power": 100,
-                    "durationMS": 4400,
-                    "energyCost": 50,
-                    "name": "Psystrike"
-                },
-                {
-                    "id": "ICY_WIND",
-                    "type": "Ice",
-                    "power": 60,
-                    "durationMS": 3300,
-                    "energyCost": 33,
-                    "name": "Icy Wind"
-                },
-                {
-                    "id": "GIGA_DRAIN",
-                    "type": "Grass",
-                    "power": 50,
-                    "durationMS": 3900,
-                    "energyCost": 100,
-                    "name": "Giga Drain"
-                },
-                {
-                    "id": "FIRE_PUNCH",
-                    "type": "Fire",
-                    "power": 55,
-                    "durationMS": 2200,
-                    "energyCost": 33,
-                    "name": "Fire Punch"
-                },
-                {
-                    "id": "SOLAR_BEAM",
-                    "type": "Grass",
-                    "power": 180,
-                    "durationMS": 4900,
-                    "energyCost": 100,
-                    "name": "Solar Beam"
-                },
-                {
-                    "id": "LEAF_BLADE",
-                    "type": "Grass",
-                    "power": 70,
-                    "durationMS": 2400,
-                    "energyCost": 33,
-                    "name": "Leaf Blade"
-                },
-                {
-                    "id": "POWER_WHIP",
-                    "type": "Grass",
-                    "power": 90,
-                    "durationMS": 2600,
-                    "energyCost": 50,
-                    "name": "Power Whip"
-                },
-                {
-                    "id": "AIR_CUTTER",
-                    "type": "Flying",
-                    "power": 60,
-                    "durationMS": 2700,
-                    "energyCost": 50,
-                    "name": "Air Cutter"
-                },
-                {
-                    "id": "HURRICANE",
-                    "type": "Flying",
-                    "power": 110,
-                    "durationMS": 2700,
-                    "energyCost": 100,
-                    "name": "Hurricane"
-                },
-                {
-                    "id": "BRICK_BREAK",
-                    "type": "Fighting",
-                    "power": 40,
-                    "durationMS": 1600,
-                    "energyCost": 33,
-                    "name": "Brick Break"
-                },
-                {
-                    "id": "SWIFT",
-                    "type": "Normal",
-                    "power": 60,
-                    "durationMS": 2800,
-                    "energyCost": 50,
-                    "name": "Swift"
-                },
-                {
-                    "id": "HORN_ATTACK",
-                    "type": "Normal",
-                    "power": 40,
-                    "durationMS": 1850,
-                    "energyCost": 33,
-                    "name": "Horn Attack"
-                },
-                {
-                    "id": "STOMP",
-                    "type": "Normal",
-                    "power": 55,
-                    "durationMS": 1700,
-                    "energyCost": 50,
-                    "name": "Stomp"
-                },
-                {
-                    "id": "HYPER_FANG",
-                    "type": "Normal",
-                    "power": 80,
-                    "durationMS": 2500,
-                    "energyCost": 50,
-                    "name": "Hyper Fang"
-                },
-                {
-                    "id": "BODY_SLAM",
-                    "type": "Normal",
-                    "power": 50,
-                    "durationMS": 1900,
-                    "energyCost": 33,
-                    "name": "Body Slam"
-                },
-                {
-                    "id": "REST",
-                    "type": "Normal",
-                    "power": 50,
-                    "durationMS": 1900,
-                    "energyCost": 33,
-                    "name": "Rest"
-                },
-                {
-                    "id": "STRUGGLE",
-                    "type": "Normal",
-                    "power": 35,
-                    "durationMS": 2200,
-                    "energyCost": null,
-                    "name": "Struggle"
-                },
-                {
-                    "id": "SCALD_BLASTOISE",
-                    "type": "Water",
-                    "power": 50,
-                    "durationMS": 4700,
-                    "energyCost": 100,
-                    "name": "Scald Blastoise"
-                },
-                {
-                    "id": "HYDRO_PUMP_BLASTOISE",
-                    "type": "Water",
-                    "power": 90,
-                    "durationMS": 4500,
-                    "energyCost": 100,
-                    "name": "Hydro Pumpblastoise"
-                },
-                {
-                    "id": "WRAP_GREEN",
-                    "type": "Normal",
-                    "power": 25,
-                    "durationMS": 2900,
-                    "energyCost": 33,
-                    "name": "Wrap Green"
-                },
-                {
-                    "id": "WRAP_PINK",
-                    "type": "Normal",
-                    "power": 25,
-                    "durationMS": 2900,
-                    "energyCost": 33,
-                    "name": "Wrap Pink"
-                },
-                {
-                    "id": "WATER_GUN_FAST_BLASTOISE",
-                    "type": "Water",
-                    "power": 10,
-                    "durationMS": 1000,
-                    "energyCost": 6,
-                    "name": "Water Gunfast_blastoise"
-                },
-                {
-                    "id": "CLOSE_COMBAT",
-                    "type": "Fighting",
-                    "power": 100,
-                    "durationMS": 2300,
-                    "energyCost": 100,
-                    "name": "Close Combat"
-                },
-                {
-                    "id": "DYNAMIC_PUNCH",
-                    "type": "Fighting",
-                    "power": 90,
-                    "durationMS": 2700,
-                    "energyCost": 50,
-                    "name": "Dynamic Punch"
-                },
-                {
-                    "id": "FOCUS_BLAST",
-                    "type": "Fighting",
-                    "power": 140,
-                    "durationMS": 3500,
-                    "energyCost": 100,
-                    "name": "Focus Blast"
-                },
-                {
-                    "id": "AURORA_BEAM",
-                    "type": "Ice",
-                    "power": 80,
-                    "durationMS": 3550,
-                    "energyCost": 50,
-                    "name": "Aurora Beam"
-                },
-                {
-                    "id": "WILD_CHARGE",
-                    "type": "Electric",
-                    "power": 90,
-                    "durationMS": 2600,
-                    "energyCost": 50,
-                    "name": "Wild Charge"
-                },
-                {
-                    "id": "ZAP_CANNON",
-                    "type": "Electric",
-                    "power": 140,
-                    "durationMS": 3700,
-                    "energyCost": 100,
-                    "name": "Zap Cannon"
-                },
-                {
-                    "id": "AVALANCHE",
-                    "type": "Ice",
-                    "power": 90,
-                    "durationMS": 2700,
-                    "energyCost": 50,
-                    "name": "Avalanche"
-                },
-                {
-                    "id": "BRAVE_BIRD",
-                    "type": "Flying",
-                    "power": 90,
-                    "durationMS": 2000,
-                    "energyCost": 100,
-                    "name": "Brave Bird"
-                },
-                {
-                    "id": "SKY_ATTACK",
-                    "type": "Flying",
-                    "power": 80,
-                    "durationMS": 2000,
-                    "energyCost": 50,
-                    "name": "Sky Attack"
-                },
-                {
-                    "id": "SAND_TOMB",
-                    "type": "Ground",
-                    "power": 80,
-                    "durationMS": 4000,
-                    "energyCost": 50,
-                    "name": "Sand Tomb"
-                },
-                {
-                    "id": "ROCK_BLAST",
-                    "type": "Rock",
-                    "power": 50,
-                    "durationMS": 2100,
-                    "energyCost": 33,
-                    "name": "Rock Blast"
-                },
-                {
-                    "id": "SILVER_WIND",
-                    "type": "Bug",
-                    "power": 70,
-                    "durationMS": 3700,
-                    "energyCost": 33,
-                    "name": "Silver Wind"
-                },
-                {
-                    "id": "NIGHT_SHADE",
-                    "type": "Ghost",
-                    "power": 60,
-                    "durationMS": 2600,
-                    "energyCost": 50,
-                    "name": "Night Shade"
-                },
-                {
-                    "id": "GYRO_BALL",
-                    "type": "Steel",
-                    "power": 80,
-                    "durationMS": 3300,
-                    "energyCost": 50,
-                    "name": "Gyro Ball"
-                },
-                {
-                    "id": "HEAVY_SLAM",
-                    "type": "Steel",
-                    "power": 70,
-                    "durationMS": 2100,
-                    "energyCost": 50,
-                    "name": "Heavy Slam"
-                },
-                {
-                    "id": "OVERHEAT",
-                    "type": "Fire",
-                    "power": 160,
-                    "durationMS": 4000,
-                    "energyCost": 100,
-                    "name": "Overheat"
-                },
-                {
-                    "id": "GRASS_KNOT",
-                    "type": "Grass",
-                    "power": 90,
-                    "durationMS": 2600,
-                    "energyCost": 50,
-                    "name": "Grass Knot"
-                },
-                {
-                    "id": "ENERGY_BALL",
-                    "type": "Grass",
-                    "power": 90,
-                    "durationMS": 3900,
-                    "energyCost": 50,
-                    "name": "Energy Ball"
-                },
-                {
-                    "id": "FUTURESIGHT",
-                    "type": "Psychic",
-                    "power": 120,
-                    "durationMS": 2700,
-                    "energyCost": 100,
-                    "name": "Futuresight"
-                },
-                {
-                    "id": "MIRROR_COAT",
-                    "type": "Psychic",
-                    "power": 60,
-                    "durationMS": 2600,
-                    "energyCost": 50,
-                    "name": "Mirror Coat"
-                },
-                {
-                    "id": "OUTRAGE",
-                    "type": "Dragon",
-                    "power": 110,
-                    "durationMS": 3900,
-                    "energyCost": 50,
-                    "name": "Outrage"
-                },
-                {
-                    "id": "CRUNCH",
-                    "type": "Dark",
-                    "power": 70,
-                    "durationMS": 3200,
-                    "energyCost": 33,
-                    "name": "Crunch"
-                },
-                {
-                    "id": "FOUL_PLAY",
-                    "type": "Dark",
-                    "power": 70,
-                    "durationMS": 2000,
-                    "energyCost": 50,
-                    "name": "Foul Play"
-                },
-                {
-                    "id": "SURF",
-                    "type": "Water",
-                    "power": 65,
-                    "durationMS": 1700,
-                    "energyCost": 50,
-                    "name": "Surf"
-                },
-                {
-                    "id": "DRACO_METEOR",
-                    "type": "Dragon",
-                    "power": 150,
-                    "durationMS": 3600,
-                    "energyCost": 100,
-                    "name": "Draco Meteor"
-                },
-                {
-                    "id": "DOOM_DESIRE",
-                    "type": "Steel",
-                    "power": 70,
-                    "durationMS": 1700,
-                    "energyCost": 33,
-                    "name": "Doom Desire"
-                },
-                {
-                    "id": "PSYCHO_BOOST",
-                    "type": "Psychic",
-                    "power": 70,
-                    "durationMS": 4000,
-                    "energyCost": 50,
-                    "name": "Psycho Boost"
-                },
-                {
-                    "id": "ORIGIN_PULSE",
-                    "type": "Water",
-                    "power": 130,
-                    "durationMS": 1700,
-                    "energyCost": 100,
-                    "name": "Origin Pulse"
-                },
-                {
-                    "id": "PRECIPICE_BLADES",
-                    "type": "Ground",
-                    "power": 130,
-                    "durationMS": 1700,
-                    "energyCost": 100,
-                    "name": "Precipice Blades"
-                },
-                {
-                    "id": "WEATHER_BALL_FIRE",
-                    "type": "Fire",
-                    "power": 60,
-                    "durationMS": 1600,
-                    "energyCost": 33,
-                    "name": "Weather Ballfire"
-                },
-                {
-                    "id": "WEATHER_BALL_ICE",
-                    "type": "Ice",
-                    "power": 60,
-                    "durationMS": 1600,
-                    "energyCost": 33,
-                    "name": "Weather Ballice"
-                },
-                {
-                    "id": "WEATHER_BALL_ROCK",
-                    "type": "Normal",
-                    "power": 60,
-                    "durationMS": 1600,
-                    "energyCost": 33,
-                    "name": "Weather Ballrock"
-                },
-                {
-                    "id": "WEATHER_BALL_WATER",
-                    "type": "Water",
-                    "power": 60,
-                    "durationMS": 1600,
-                    "energyCost": 33,
-                    "name": "Weather Ballwater"
-                },
-                {
-                    "id": "FRENZY_PLANT",
-                    "type": "Grass",
-                    "power": 100,
-                    "durationMS": 2600,
-                    "energyCost": 50,
-                    "name": "Frenzy Plant"
-                },
-                {
-                    "id": "BLAST_BURN",
-                    "type": "Fire",
-                    "power": 110,
-                    "durationMS": 3300,
-                    "energyCost": 50,
-                    "name": "Blast Burn"
-                },
-                {
-                    "id": "HYDRO_CANNON",
-                    "type": "Water",
-                    "power": 90,
-                    "durationMS": 1900,
-                    "energyCost": 50,
-                    "name": "Hydro Cannon"
-                },
-                {
-                    "id": "LAST_RESORT",
-                    "type": "Normal",
-                    "power": 90,
-                    "durationMS": 2900,
-                    "energyCost": 50,
-                    "name": "Last Resort"
-                },
-                {
-                    "id": "METEOR_MASH",
-                    "type": "Steel",
-                    "power": 100,
-                    "durationMS": 2600,
-                    "energyCost": 50,
-                    "name": "Meteor Mash"
-                },
-                {
-                    "id": "SKULL_BASH",
-                    "type": "Normal",
-                    "power": 130,
-                    "durationMS": 3100,
-                    "energyCost": 100,
-                    "name": "Skull Bash"
-                },
-                {
-                    "id": "ACID_SPRAY",
-                    "type": "Poison",
-                    "power": 20,
-                    "durationMS": 3000,
-                    "energyCost": 50,
-                    "name": "Acid Spray"
-                },
-                {
-                    "id": "EARTH_POWER",
-                    "type": "Ground",
-                    "power": 100,
-                    "durationMS": 3600,
-                    "energyCost": 50,
-                    "name": "Earth Power"
-                },
-                {
-                    "id": "CRABHAMMER",
-                    "type": "Water",
-                    "power": 85,
-                    "durationMS": 1900,
-                    "energyCost": 50,
-                    "name": "Crabhammer"
-                },
-                {
-                    "id": "LEAF_TORNADO",
-                    "type": "Grass",
-                    "power": 45,
-                    "durationMS": 3100,
-                    "energyCost": 33,
-                    "name": "Leaf Tornado"
-                },
-                {
-                    "id": "MUDDY_WATER",
-                    "type": "Water",
-                    "power": 50,
-                    "durationMS": 2200,
-                    "energyCost": 33,
-                    "name": "Muddy Water"
-                },
-                {
-                    "id": "BLAZE_KICK",
-                    "type": "Fire",
-                    "power": 45,
-                    "durationMS": 1200,
-                    "energyCost": 33,
-                    "name": "Blaze Kick"
-                },
-                {
-                    "id": "POWER_UP_PUNCH",
-                    "type": "Fighting",
-                    "power": 50,
-                    "durationMS": 2000,
-                    "energyCost": 33,
-                    "name": "Power Uppunch"
-                },
-                {
-                    "id": "FRUSTRATION",
-                    "type": "Normal",
-                    "power": 10,
-                    "durationMS": 2000,
-                    "energyCost": 33,
-                    "name": "Frustration"
-                },
-                {
-                    "id": "RETURN",
-                    "type": "Normal",
-                    "power": 35,
-                    "durationMS": 700,
-                    "energyCost": 33,
-                    "name": "Return"
-                },
-                {
-                    "id": "SYNCHRONOISE",
-                    "type": "Psychic",
-                    "power": 80,
-                    "durationMS": 2600,
-                    "energyCost": 50,
-                    "name": "Synchronoise"
-                }
-            ]
-        }
-    ]
+    "version": 4.14,
+    "data": [{
+        "id": 1,
+        "quick": [{
+            "id": "FUTURE_QUICK_MOVE",
+            "name": "???",
+            "type": "Random",
+            "power": 0,
+            "durationMS": 1000,
+            "energyCost": 1
+        }, {
+            "id": "FURY_CUTTER_FAST",
+            "type": "Bug",
+            "power": 3,
+            "durationMS": 400,
+            "energyCost": 6,
+            "name": "Fury Cutter"
+        }, {
+            "id": "BUG_BITE_FAST",
+            "type": "Bug",
+            "power": 5,
+            "durationMS": 500,
+            "energyCost": 6,
+            "name": "Bug Bite"
+        }, {
+            "id": "BITE_FAST",
+            "type": "Dark",
+            "power": 6,
+            "durationMS": 500,
+            "energyCost": 4,
+            "name": "Bite "
+        }, {
+            "id": "SUCKER_PUNCH_FAST",
+            "type": "Dark",
+            "power": 7,
+            "durationMS": 700,
+            "energyCost": 8,
+            "name": "Sucker Punch"
+        }, {
+            "id": "DRAGON_BREATH_FAST",
+            "type": "Dragon",
+            "power": 6,
+            "durationMS": 500,
+            "energyCost": 4,
+            "name": "Dragon Breath"
+        }, {
+            "id": "THUNDER_SHOCK_FAST",
+            "type": "Electric",
+            "power": 5,
+            "durationMS": 600,
+            "energyCost": 8,
+            "name": "Thunder Shock"
+        }, {
+            "id": "SPARK_FAST",
+            "type": "Electric",
+            "power": 6,
+            "durationMS": 700,
+            "energyCost": 9,
+            "name": "Spark "
+        }, {
+            "id": "LOW_KICK_FAST",
+            "type": "Fighting",
+            "power": 6,
+            "durationMS": 600,
+            "energyCost": 6,
+            "name": "Low Kick"
+        }, {
+            "id": "KARATE_CHOP_FAST",
+            "type": "Fighting",
+            "power": 8,
+            "durationMS": 800,
+            "energyCost": 10,
+            "name": "Karate Chop"
+        }, {
+            "id": "EMBER_FAST",
+            "type": "Fire",
+            "power": 10,
+            "durationMS": 1000,
+            "energyCost": 10,
+            "name": "Ember "
+        }, {
+            "id": "WING_ATTACK_FAST",
+            "type": "Flying",
+            "power": 8,
+            "durationMS": 800,
+            "energyCost": 9,
+            "name": "Wing Attack"
+        }, {
+            "id": "PECK_FAST",
+            "type": "Flying",
+            "power": 10,
+            "durationMS": 1000,
+            "energyCost": 10,
+            "name": "Peck "
+        }, {
+            "id": "LICK_FAST",
+            "type": "Ghost",
+            "power": 5,
+            "durationMS": 500,
+            "energyCost": 6,
+            "name": "Lick "
+        }, {
+            "id": "SHADOW_CLAW_FAST",
+            "type": "Ghost",
+            "power": 9,
+            "durationMS": 700,
+            "energyCost": 6,
+            "name": "Shadow Claw"
+        }, {
+            "id": "VINE_WHIP_FAST",
+            "type": "Grass",
+            "power": 7,
+            "durationMS": 600,
+            "energyCost": 6,
+            "name": "Vine Whip"
+        }, {
+            "id": "RAZOR_LEAF_FAST",
+            "type": "Grass",
+            "power": 13,
+            "durationMS": 1000,
+            "energyCost": 7,
+            "name": "Razor Leaf"
+        }, {
+            "id": "MUD_SHOT_FAST",
+            "type": "Ground",
+            "power": 5,
+            "durationMS": 600,
+            "energyCost": 7,
+            "name": "Mud Shot"
+        }, {
+            "id": "ICE_SHARD_FAST",
+            "type": "Ice",
+            "power": 12,
+            "durationMS": 1200,
+            "energyCost": 12,
+            "name": "Ice Shard"
+        }, {
+            "id": "FROST_BREATH_FAST",
+            "type": "Ice",
+            "power": 10,
+            "durationMS": 900,
+            "energyCost": 8,
+            "name": "Frost Breath"
+        }, {
+            "id": "QUICK_ATTACK_FAST",
+            "type": "Normal",
+            "power": 8,
+            "durationMS": 800,
+            "energyCost": 10,
+            "name": "Quick Attack"
+        }, {
+            "id": "SCRATCH_FAST",
+            "type": "Normal",
+            "power": 6,
+            "durationMS": 500,
+            "energyCost": 4,
+            "name": "Scratch "
+        }, {
+            "id": "TACKLE_FAST",
+            "type": "Normal",
+            "power": 5,
+            "durationMS": 500,
+            "energyCost": 5,
+            "name": "Tackle "
+        }, {
+            "id": "POUND_FAST",
+            "type": "Normal",
+            "power": 7,
+            "durationMS": 600,
+            "energyCost": 6,
+            "name": "Pound "
+        }, {
+            "id": "CUT_FAST",
+            "type": "Normal",
+            "power": 5,
+            "durationMS": 500,
+            "energyCost": 5,
+            "name": "Cut "
+        }, {
+            "id": "POISON_JAB_FAST",
+            "type": "Poison",
+            "power": 10,
+            "durationMS": 800,
+            "energyCost": 7,
+            "name": "Poison Jab"
+        }, {
+            "id": "ACID_FAST",
+            "type": "Poison",
+            "power": 9,
+            "durationMS": 800,
+            "energyCost": 8,
+            "name": "Acid "
+        }, {
+            "id": "PSYCHO_CUT_FAST",
+            "type": "Psychic",
+            "power": 5,
+            "durationMS": 600,
+            "energyCost": 8,
+            "name": "Psycho Cut"
+        }, {
+            "id": "ROCK_THROW_FAST",
+            "type": "Rock",
+            "power": 12,
+            "durationMS": 900,
+            "energyCost": 7,
+            "name": "Rock Throw"
+        }, {
+            "id": "METAL_CLAW_FAST",
+            "type": "Steel",
+            "power": 8,
+            "durationMS": 700,
+            "energyCost": 7,
+            "name": "Metal Claw"
+        }, {
+            "id": "BULLET_PUNCH_FAST",
+            "type": "Steel",
+            "power": 9,
+            "durationMS": 900,
+            "energyCost": 10,
+            "name": "Bullet Punch"
+        }, {
+            "id": "WATER_GUN_FAST",
+            "type": "Water",
+            "power": 5,
+            "durationMS": 500,
+            "energyCost": 5,
+            "name": "Water Gun"
+        }, {
+            "id": "SPLASH_FAST",
+            "type": "Water",
+            "durationMS": 1730,
+            "energyCost": 20,
+            "name": "Splash "
+        }, {
+            "id": "MUD_SLAP_FAST",
+            "type": "Ground",
+            "power": 15,
+            "durationMS": 1400,
+            "energyCost": 12,
+            "name": "Mud Slap"
+        }, {
+            "id": "ZEN_HEADBUTT_FAST",
+            "type": "Psychic",
+            "power": 12,
+            "durationMS": 1100,
+            "energyCost": 10,
+            "name": "Zen Headbutt"
+        }, {
+            "id": "CONFUSION_FAST",
+            "type": "Psychic",
+            "power": 20,
+            "durationMS": 1600,
+            "energyCost": 15,
+            "name": "Confusion "
+        }, {
+            "id": "POISON_STING_FAST",
+            "type": "Poison",
+            "power": 5,
+            "durationMS": 600,
+            "energyCost": 7,
+            "name": "Poison Sting"
+        }, {
+            "id": "BUBBLE_FAST",
+            "type": "Water",
+            "power": 12,
+            "durationMS": 1200,
+            "energyCost": 14,
+            "name": "Bubble "
+        }, {
+            "id": "FEINT_ATTACK_FAST",
+            "type": "Dark",
+            "power": 10,
+            "durationMS": 900,
+            "energyCost": 9,
+            "name": "Feint Attack"
+        }, {
+            "id": "STEEL_WING_FAST",
+            "type": "Steel",
+            "power": 11,
+            "durationMS": 800,
+            "energyCost": 6,
+            "name": "Steel Wing"
+        }, {
+            "id": "FIRE_FANG_FAST",
+            "type": "Fire",
+            "power": 11,
+            "durationMS": 900,
+            "energyCost": 8,
+            "name": "Fire Fang"
+        }, {
+            "id": "ROCK_SMASH_FAST",
+            "type": "Fighting",
+            "power": 15,
+            "durationMS": 1300,
+            "energyCost": 10,
+            "name": "Rock Smash"
+        }, {
+            "id": "TRANSFORM_FAST",
+            "type": "Normal",
+            "durationMS": 2230,
+            "energyCost": null,
+            "name": "Transform "
+        }, {
+            "id": "COUNTER_FAST",
+            "type": "Fighting",
+            "power": 12,
+            "durationMS": 900,
+            "energyCost": 8,
+            "name": "Counter "
+        }, {
+            "id": "POWDER_SNOW_FAST",
+            "type": "Ice",
+            "power": 6,
+            "durationMS": 1000,
+            "energyCost": 15,
+            "name": "Powder Snow"
+        }, {
+            "id": "CHARGE_BEAM_FAST",
+            "type": "Electric",
+            "power": 8,
+            "durationMS": 1100,
+            "energyCost": 15,
+            "name": "Charge Beam"
+        }, {
+            "id": "VOLT_SWITCH_FAST",
+            "type": "Electric",
+            "power": 20,
+            "durationMS": 2300,
+            "energyCost": 25,
+            "name": "Volt Switch"
+        }, {
+            "id": "DRAGON_TAIL_FAST",
+            "type": "Dragon",
+            "power": 15,
+            "durationMS": 1100,
+            "energyCost": 9,
+            "name": "Dragon Tail"
+        }, {
+            "id": "AIR_SLASH_FAST",
+            "type": "Flying",
+            "power": 14,
+            "durationMS": 1200,
+            "energyCost": 10,
+            "name": "Air Slash"
+        }, {
+            "id": "INFESTATION_FAST",
+            "type": "Bug",
+            "power": 10,
+            "durationMS": 1100,
+            "energyCost": 14,
+            "name": "Infestation "
+        }, {
+            "id": "STRUGGLE_BUG_FAST",
+            "type": "Bug",
+            "power": 15,
+            "durationMS": 1500,
+            "energyCost": 15,
+            "name": "Struggle Bug"
+        }, {
+            "id": "ASTONISH_FAST",
+            "type": "Ghost",
+            "power": 8,
+            "durationMS": 1100,
+            "energyCost": 14,
+            "name": "Astonish "
+        }, {
+            "id": "HEX_FAST",
+            "type": "Ghost",
+            "power": 10,
+            "durationMS": 1200,
+            "energyCost": 15,
+            "name": "Hex "
+        }, {
+            "id": "IRON_TAIL_FAST",
+            "type": "Steel",
+            "power": 15,
+            "durationMS": 1100,
+            "energyCost": 7,
+            "name": "Iron Tail"
+        }, {
+            "id": "FIRE_SPIN_FAST",
+            "type": "Fire",
+            "power": 14,
+            "durationMS": 1100,
+            "energyCost": 10,
+            "name": "Fire Spin"
+        }, {
+            "id": "BULLET_SEED_FAST",
+            "type": "Grass",
+            "power": 8,
+            "durationMS": 1100,
+            "energyCost": 14,
+            "name": "Bullet Seed"
+        }, {
+            "id": "EXTRASENSORY_FAST",
+            "type": "Psychic",
+            "power": 12,
+            "durationMS": 1100,
+            "energyCost": 12,
+            "name": "Extrasensory "
+        }, {
+            "id": "SNARL_FAST",
+            "type": "Dark",
+            "power": 12,
+            "durationMS": 1100,
+            "energyCost": 12,
+            "name": "Snarl "
+        }, {
+            "id": "HIDDEN_POWER_FAST",
+            "type": "Normal",
+            "power": 15,
+            "durationMS": 1500,
+            "energyCost": 15,
+            "name": "Hidden Power"
+        }, {
+            "id": "TAKE_DOWN_FAST",
+            "type": "Normal",
+            "power": 8,
+            "durationMS": 1200,
+            "energyCost": 10,
+            "name": "Take Down"
+        }, {
+            "id": "WATERFALL_FAST",
+            "type": "Water",
+            "power": 16,
+            "durationMS": 1200,
+            "energyCost": 8,
+            "name": "Waterfall "
+        }, {
+            "id": "YAWN_FAST",
+            "type": "Normal",
+            "durationMS": 1700,
+            "energyCost": 15,
+            "name": "Yawn "
+        }, {
+            "id": "PRESENT_FAST",
+            "type": "Normal",
+            "power": 5,
+            "durationMS": 1300,
+            "energyCost": 20,
+            "name": "Present "
+        }, {
+            "id": "SMACK_DOWN_FAST",
+            "type": "Rock",
+            "power": 16,
+            "durationMS": 1200,
+            "energyCost": 8,
+            "name": "Smack Down"
+        }, {
+            "id": "CHARM_FAST",
+            "type": "Fairy",
+            "power": 20,
+            "durationMS": 1500,
+            "energyCost": 11,
+            "name": "Charm "
+        }]
+    }, {
+        "id": 2,
+        "charged": [{
+            "id": "FUTURE_CHARGED_MOVE",
+            "name": "???",
+            "type": "Random",
+            "power": 0,
+            "durationMS": 1000,
+            "energyCost": 100
+        }, {
+            "id": "WRAP",
+            "type": "Normal",
+            "power": 60,
+            "durationMS": 2900,
+            "energyCost": 33,
+            "name": "Wrap"
+        }, {
+            "id": "HYPER_BEAM",
+            "type": "Normal",
+            "power": 150,
+            "durationMS": 3800,
+            "energyCost": 100,
+            "name": "Hyper Beam"
+        }, {
+            "id": "DARK_PULSE",
+            "type": "Dark",
+            "power": 80,
+            "durationMS": 3000,
+            "energyCost": 50,
+            "name": "Dark Pulse"
+        }, {
+            "id": "SLUDGE",
+            "type": "Poison",
+            "power": 50,
+            "durationMS": 2100,
+            "energyCost": 33,
+            "name": "Sludge"
+        }, {
+            "id": "VICE_GRIP",
+            "type": "Normal",
+            "power": 35,
+            "durationMS": 1900,
+            "energyCost": 33,
+            "name": "Vice Grip"
+        }, {
+            "id": "FLAME_WHEEL",
+            "type": "Fire",
+            "power": 60,
+            "durationMS": 2700,
+            "energyCost": 50,
+            "name": "Flame Wheel"
+        }, {
+            "id": "MEGAHORN",
+            "type": "Bug",
+            "power": 90,
+            "durationMS": 2200,
+            "energyCost": 100,
+            "name": "Megahorn"
+        }, {
+            "id": "FLAMETHROWER",
+            "type": "Fire",
+            "power": 70,
+            "durationMS": 2200,
+            "energyCost": 50,
+            "name": "Flamethrower"
+        }, {
+            "id": "DIG",
+            "type": "Ground",
+            "power": 100,
+            "durationMS": 4700,
+            "energyCost": 50,
+            "name": "Dig"
+        }, {
+            "id": "CROSS_CHOP",
+            "type": "Fighting",
+            "power": 50,
+            "durationMS": 1500,
+            "energyCost": 50,
+            "name": "Cross Chop"
+        }, {
+            "id": "PSYBEAM",
+            "type": "Psychic",
+            "power": 70,
+            "durationMS": 3200,
+            "energyCost": 50,
+            "name": "Psybeam"
+        }, {
+            "id": "EARTHQUAKE",
+            "type": "Ground",
+            "power": 120,
+            "durationMS": 3600,
+            "energyCost": 100,
+            "name": "Earthquake"
+        }, {
+            "id": "STONE_EDGE",
+            "type": "Rock",
+            "power": 100,
+            "durationMS": 2300,
+            "energyCost": 100,
+            "name": "Stone Edge"
+        }, {
+            "id": "ICE_PUNCH",
+            "type": "Ice",
+            "power": 50,
+            "durationMS": 1900,
+            "energyCost": 33,
+            "name": "Ice Punch"
+        }, {
+            "id": "HEART_STAMP",
+            "type": "Psychic",
+            "power": 40,
+            "durationMS": 1900,
+            "energyCost": 33,
+            "name": "Heart Stamp"
+        }, {
+            "id": "DISCHARGE",
+            "type": "Electric",
+            "power": 65,
+            "durationMS": 2500,
+            "energyCost": 33,
+            "name": "Discharge"
+        }, {
+            "id": "FLASH_CANNON",
+            "type": "Steel",
+            "power": 100,
+            "durationMS": 2700,
+            "energyCost": 100,
+            "name": "Flash Cannon"
+        }, {
+            "id": "DRILL_PECK",
+            "type": "Flying",
+            "power": 60,
+            "durationMS": 2300,
+            "energyCost": 33,
+            "name": "Drill Peck"
+        }, {
+            "id": "ICE_BEAM",
+            "type": "Ice",
+            "power": 90,
+            "durationMS": 3300,
+            "energyCost": 50,
+            "name": "Ice Beam"
+        }, {
+            "id": "BLIZZARD",
+            "type": "Ice",
+            "power": 130,
+            "durationMS": 3100,
+            "energyCost": 100,
+            "name": "Blizzard"
+        }, {
+            "id": "HEAT_WAVE",
+            "type": "Fire",
+            "power": 95,
+            "durationMS": 3000,
+            "energyCost": 100,
+            "name": "Heat Wave"
+        }, {
+            "id": "AERIAL_ACE",
+            "type": "Flying",
+            "power": 55,
+            "durationMS": 2400,
+            "energyCost": 33,
+            "name": "Aerial Ace"
+        }, {
+            "id": "DRILL_RUN",
+            "type": "Ground",
+            "power": 80,
+            "durationMS": 2800,
+            "energyCost": 50,
+            "name": "Drill Run"
+        }, {
+            "id": "PETAL_BLIZZARD",
+            "type": "Grass",
+            "power": 110,
+            "durationMS": 2600,
+            "energyCost": 100,
+            "name": "Petal Blizzard"
+        }, {
+            "id": "MEGA_DRAIN",
+            "type": "Grass",
+            "power": 25,
+            "durationMS": 2600,
+            "energyCost": 50,
+            "name": "Mega Drain"
+        }, {
+            "id": "BUG_BUZZ",
+            "type": "Bug",
+            "power": 90,
+            "durationMS": 3700,
+            "energyCost": 50,
+            "name": "Bug Buzz"
+        }, {
+            "id": "POISON_FANG",
+            "type": "Poison",
+            "power": 35,
+            "durationMS": 1700,
+            "energyCost": 33,
+            "name": "Poison Fang"
+        }, {
+            "id": "NIGHT_SLASH",
+            "type": "Dark",
+            "power": 50,
+            "durationMS": 2200,
+            "energyCost": 33,
+            "name": "Night Slash"
+        }, {
+            "id": "BUBBLE_BEAM",
+            "type": "Water",
+            "power": 45,
+            "durationMS": 1900,
+            "energyCost": 33,
+            "name": "Bubble Beam"
+        }, {
+            "id": "SUBMISSION",
+            "type": "Fighting",
+            "power": 60,
+            "durationMS": 2200,
+            "energyCost": 50,
+            "name": "Submission"
+        }, {
+            "id": "LOW_SWEEP",
+            "type": "Fighting",
+            "power": 40,
+            "durationMS": 1900,
+            "energyCost": 33,
+            "name": "Low Sweep"
+        }, {
+            "id": "AQUA_JET",
+            "type": "Water",
+            "power": 45,
+            "durationMS": 2600,
+            "energyCost": 33,
+            "name": "Aqua Jet"
+        }, {
+            "id": "AQUA_TAIL",
+            "type": "Water",
+            "power": 50,
+            "durationMS": 1900,
+            "energyCost": 33,
+            "name": "Aqua Tail"
+        }, {
+            "id": "SEED_BOMB",
+            "type": "Grass",
+            "power": 55,
+            "durationMS": 2100,
+            "energyCost": 33,
+            "name": "Seed Bomb"
+        }, {
+            "id": "PSYSHOCK",
+            "type": "Psychic",
+            "power": 65,
+            "durationMS": 2700,
+            "energyCost": 33,
+            "name": "Psyshock"
+        }, {
+            "id": "ANCIENT_POWER",
+            "type": "Rock",
+            "power": 70,
+            "durationMS": 3500,
+            "energyCost": 33,
+            "name": "Ancient Power"
+        }, {
+            "id": "ROCK_TOMB",
+            "type": "Rock",
+            "power": 70,
+            "durationMS": 3200,
+            "energyCost": 50,
+            "name": "Rock Tomb"
+        }, {
+            "id": "ROCK_SLIDE",
+            "type": "Rock",
+            "power": 80,
+            "durationMS": 2700,
+            "energyCost": 50,
+            "name": "Rock Slide"
+        }, {
+            "id": "POWER_GEM",
+            "type": "Rock",
+            "power": 80,
+            "durationMS": 2900,
+            "energyCost": 50,
+            "name": "Power Gem"
+        }, {
+            "id": "SHADOW_SNEAK",
+            "type": "Ghost",
+            "power": 50,
+            "durationMS": 2900,
+            "energyCost": 33,
+            "name": "Shadow Sneak"
+        }, {
+            "id": "SHADOW_PUNCH",
+            "type": "Ghost",
+            "power": 40,
+            "durationMS": 1700,
+            "energyCost": 33,
+            "name": "Shadow Punch"
+        }, {
+            "id": "OMINOUS_WIND",
+            "type": "Ghost",
+            "power": 50,
+            "durationMS": 2300,
+            "energyCost": 33,
+            "name": "Ominous Wind"
+        }, {
+            "id": "SHADOW_BALL",
+            "type": "Ghost",
+            "power": 100,
+            "durationMS": 3000,
+            "energyCost": 50,
+            "name": "Shadow Ball"
+        }, {
+            "id": "MAGNET_BOMB",
+            "type": "Steel",
+            "power": 70,
+            "durationMS": 2800,
+            "energyCost": 33,
+            "name": "Magnet Bomb"
+        }, {
+            "id": "IRON_HEAD",
+            "type": "Steel",
+            "power": 60,
+            "durationMS": 1900,
+            "energyCost": 50,
+            "name": "Iron Head"
+        }, {
+            "id": "PARABOLIC_CHARGE",
+            "type": "Electric",
+            "power": 25,
+            "durationMS": 2800,
+            "energyCost": 50,
+            "name": "Parabolic Charge"
+        }, {
+            "id": "THUNDER_PUNCH",
+            "type": "Electric",
+            "power": 45,
+            "durationMS": 1800,
+            "energyCost": 33,
+            "name": "Thunder Punch"
+        }, {
+            "id": "THUNDER",
+            "type": "Electric",
+            "power": 100,
+            "durationMS": 2400,
+            "energyCost": 100,
+            "name": "Thunder"
+        }, {
+            "id": "THUNDERBOLT",
+            "type": "Electric",
+            "power": 80,
+            "durationMS": 2500,
+            "energyCost": 50,
+            "name": "Thunderbolt"
+        }, {
+            "id": "TWISTER",
+            "type": "Dragon",
+            "power": 45,
+            "durationMS": 2800,
+            "energyCost": 33,
+            "name": "Twister"
+        }, {
+            "id": "DRAGON_PULSE",
+            "type": "Dragon",
+            "power": 90,
+            "durationMS": 3600,
+            "energyCost": 50,
+            "name": "Dragon Pulse"
+        }, {
+            "id": "DRAGON_CLAW",
+            "type": "Dragon",
+            "power": 50,
+            "durationMS": 1700,
+            "energyCost": 33,
+            "name": "Dragon Claw"
+        }, {
+            "id": "DISARMING_VOICE",
+            "type": "Fairy",
+            "power": 70,
+            "durationMS": 3900,
+            "energyCost": 33,
+            "name": "Disarming Voice"
+        }, {
+            "id": "DRAINING_KISS",
+            "type": "Fairy",
+            "power": 60,
+            "durationMS": 2600,
+            "energyCost": 50,
+            "name": "Draining Kiss"
+        }, {
+            "id": "DAZZLING_GLEAM",
+            "type": "Fairy",
+            "power": 100,
+            "durationMS": 3500,
+            "energyCost": 50,
+            "name": "Dazzling Gleam"
+        }, {
+            "id": "MOONBLAST",
+            "type": "Fairy",
+            "power": 130,
+            "durationMS": 3900,
+            "energyCost": 100,
+            "name": "Moonblast"
+        }, {
+            "id": "PLAY_ROUGH",
+            "type": "Fairy",
+            "power": 90,
+            "durationMS": 2900,
+            "energyCost": 50,
+            "name": "Play Rough"
+        }, {
+            "id": "CROSS_POISON",
+            "type": "Poison",
+            "power": 40,
+            "durationMS": 1500,
+            "energyCost": 33,
+            "name": "Cross Poison"
+        }, {
+            "id": "SLUDGE_BOMB",
+            "type": "Poison",
+            "power": 80,
+            "durationMS": 2300,
+            "energyCost": 50,
+            "name": "Sludge Bomb"
+        }, {
+            "id": "SLUDGE_WAVE",
+            "type": "Poison",
+            "power": 110,
+            "durationMS": 3200,
+            "energyCost": 100,
+            "name": "Sludge Wave"
+        }, {
+            "id": "GUNK_SHOT",
+            "type": "Poison",
+            "power": 130,
+            "durationMS": 3100,
+            "energyCost": 100,
+            "name": "Gunk Shot"
+        }, {
+            "id": "BONE_CLUB",
+            "type": "Ground",
+            "power": 40,
+            "durationMS": 1600,
+            "energyCost": 33,
+            "name": "Bone Club"
+        }, {
+            "id": "BULLDOZE",
+            "type": "Ground",
+            "power": 80,
+            "durationMS": 3500,
+            "energyCost": 50,
+            "name": "Bulldoze"
+        }, {
+            "id": "MUD_BOMB",
+            "type": "Ground",
+            "power": 55,
+            "durationMS": 2300,
+            "energyCost": 33,
+            "name": "Mud Bomb"
+        }, {
+            "id": "SIGNAL_BEAM",
+            "type": "Bug",
+            "power": 75,
+            "durationMS": 2900,
+            "energyCost": 50,
+            "name": "Signal Beam"
+        }, {
+            "id": "X_SCISSOR",
+            "type": "Bug",
+            "power": 45,
+            "durationMS": 1600,
+            "energyCost": 33,
+            "name": "X Scissor"
+        }, {
+            "id": "FLAME_CHARGE",
+            "type": "Fire",
+            "power": 70,
+            "durationMS": 3800,
+            "energyCost": 33,
+            "name": "Flame Charge"
+        }, {
+            "id": "FLAME_BURST",
+            "type": "Fire",
+            "power": 70,
+            "durationMS": 2600,
+            "energyCost": 50,
+            "name": "Flame Burst"
+        }, {
+            "id": "FIRE_BLAST",
+            "type": "Fire",
+            "power": 140,
+            "durationMS": 4200,
+            "energyCost": 100,
+            "name": "Fire Blast"
+        }, {
+            "id": "BRINE",
+            "type": "Water",
+            "power": 60,
+            "durationMS": 2300,
+            "energyCost": 50,
+            "name": "Brine"
+        }, {
+            "id": "WATER_PULSE",
+            "type": "Water",
+            "power": 70,
+            "durationMS": 3200,
+            "energyCost": 50,
+            "name": "Water Pulse"
+        }, {
+            "id": "SCALD",
+            "type": "Water",
+            "power": 80,
+            "durationMS": 3700,
+            "energyCost": 50,
+            "name": "Scald"
+        }, {
+            "id": "HYDRO_PUMP",
+            "type": "Water",
+            "power": 130,
+            "durationMS": 3300,
+            "energyCost": 100,
+            "name": "Hydro Pump"
+        }, {
+            "id": "PSYCHIC",
+            "type": "Psychic",
+            "power": 100,
+            "durationMS": 2800,
+            "energyCost": 100,
+            "name": "Psychic"
+        }, {
+            "id": "PSYSTRIKE",
+            "type": "Psychic",
+            "power": 90,
+            "durationMS": 2300,
+            "energyCost": 50,
+            "name": "Psystrike"
+        }, {
+            "id": "ICY_WIND",
+            "type": "Ice",
+            "power": 60,
+            "durationMS": 3300,
+            "energyCost": 33,
+            "name": "Icy Wind"
+        }, {
+            "id": "GIGA_DRAIN",
+            "type": "Grass",
+            "power": 50,
+            "durationMS": 3900,
+            "energyCost": 100,
+            "name": "Giga Drain"
+        }, {
+            "id": "FIRE_PUNCH",
+            "type": "Fire",
+            "power": 55,
+            "durationMS": 2200,
+            "energyCost": 33,
+            "name": "Fire Punch"
+        }, {
+            "id": "SOLAR_BEAM",
+            "type": "Grass",
+            "power": 180,
+            "durationMS": 4900,
+            "energyCost": 100,
+            "name": "Solar Beam"
+        }, {
+            "id": "LEAF_BLADE",
+            "type": "Grass",
+            "power": 70,
+            "durationMS": 2400,
+            "energyCost": 33,
+            "name": "Leaf Blade"
+        }, {
+            "id": "POWER_WHIP",
+            "type": "Grass",
+            "power": 90,
+            "durationMS": 2600,
+            "energyCost": 50,
+            "name": "Power Whip"
+        }, {
+            "id": "AIR_CUTTER",
+            "type": "Flying",
+            "power": 60,
+            "durationMS": 2700,
+            "energyCost": 50,
+            "name": "Air Cutter"
+        }, {
+            "id": "HURRICANE",
+            "type": "Flying",
+            "power": 110,
+            "durationMS": 2700,
+            "energyCost": 100,
+            "name": "Hurricane"
+        }, {
+            "id": "BRICK_BREAK",
+            "type": "Fighting",
+            "power": 40,
+            "durationMS": 1600,
+            "energyCost": 33,
+            "name": "Brick Break"
+        }, {
+            "id": "SWIFT",
+            "type": "Normal",
+            "power": 60,
+            "durationMS": 2800,
+            "energyCost": 50,
+            "name": "Swift"
+        }, {
+            "id": "HORN_ATTACK",
+            "type": "Normal",
+            "power": 40,
+            "durationMS": 1850,
+            "energyCost": 33,
+            "name": "Horn Attack"
+        }, {
+            "id": "STOMP",
+            "type": "Normal",
+            "power": 55,
+            "durationMS": 1700,
+            "energyCost": 50,
+            "name": "Stomp"
+        }, {
+            "id": "HYPER_FANG",
+            "type": "Normal",
+            "power": 80,
+            "durationMS": 2500,
+            "energyCost": 50,
+            "name": "Hyper Fang"
+        }, {
+            "id": "BODY_SLAM",
+            "type": "Normal",
+            "power": 50,
+            "durationMS": 1900,
+            "energyCost": 33,
+            "name": "Body Slam"
+        }, {
+            "id": "REST",
+            "type": "Normal",
+            "power": 50,
+            "durationMS": 1900,
+            "energyCost": 33,
+            "name": "Rest"
+        }, {
+            "id": "STRUGGLE",
+            "type": "Normal",
+            "power": 35,
+            "durationMS": 2200,
+            "energyCost": null,
+            "name": "Struggle"
+        }, {
+            "id": "SCALD_BLASTOISE",
+            "type": "Water",
+            "power": 50,
+            "durationMS": 4700,
+            "energyCost": 100,
+            "name": "Scald Blastoise"
+        }, {
+            "id": "HYDRO_PUMP_BLASTOISE",
+            "type": "Water",
+            "power": 90,
+            "durationMS": 4500,
+            "energyCost": 100,
+            "name": "Hydro Pumpblastoise"
+        }, {
+            "id": "WRAP_GREEN",
+            "type": "Normal",
+            "power": 25,
+            "durationMS": 2900,
+            "energyCost": 33,
+            "name": "Wrap Green"
+        }, {
+            "id": "WRAP_PINK",
+            "type": "Normal",
+            "power": 25,
+            "durationMS": 2900,
+            "energyCost": 33,
+            "name": "Wrap Pink"
+        }, {
+            "id": "WATER_GUN_FAST_BLASTOISE",
+            "type": "Water",
+            "power": 10,
+            "durationMS": 1000,
+            "energyCost": 6,
+            "name": "Water Gunfast_blastoise"
+        }, {
+            "id": "CLOSE_COMBAT",
+            "type": "Fighting",
+            "power": 100,
+            "durationMS": 2300,
+            "energyCost": 100,
+            "name": "Close Combat"
+        }, {
+            "id": "DYNAMIC_PUNCH",
+            "type": "Fighting",
+            "power": 90,
+            "durationMS": 2700,
+            "energyCost": 50,
+            "name": "Dynamic Punch"
+        }, {
+            "id": "FOCUS_BLAST",
+            "type": "Fighting",
+            "power": 140,
+            "durationMS": 3500,
+            "energyCost": 100,
+            "name": "Focus Blast"
+        }, {
+            "id": "AURORA_BEAM",
+            "type": "Ice",
+            "power": 80,
+            "durationMS": 3550,
+            "energyCost": 50,
+            "name": "Aurora Beam"
+        }, {
+            "id": "WILD_CHARGE",
+            "type": "Electric",
+            "power": 90,
+            "durationMS": 2600,
+            "energyCost": 50,
+            "name": "Wild Charge"
+        }, {
+            "id": "ZAP_CANNON",
+            "type": "Electric",
+            "power": 140,
+            "durationMS": 3700,
+            "energyCost": 100,
+            "name": "Zap Cannon"
+        }, {
+            "id": "AVALANCHE",
+            "type": "Ice",
+            "power": 90,
+            "durationMS": 2700,
+            "energyCost": 50,
+            "name": "Avalanche"
+        }, {
+            "id": "BRAVE_BIRD",
+            "type": "Flying",
+            "power": 90,
+            "durationMS": 2000,
+            "energyCost": 100,
+            "name": "Brave Bird"
+        }, {
+            "id": "SKY_ATTACK",
+            "type": "Flying",
+            "power": 80,
+            "durationMS": 2000,
+            "energyCost": 50,
+            "name": "Sky Attack"
+        }, {
+            "id": "SAND_TOMB",
+            "type": "Ground",
+            "power": 80,
+            "durationMS": 4000,
+            "energyCost": 50,
+            "name": "Sand Tomb"
+        }, {
+            "id": "ROCK_BLAST",
+            "type": "Rock",
+            "power": 50,
+            "durationMS": 2100,
+            "energyCost": 33,
+            "name": "Rock Blast"
+        }, {
+            "id": "SILVER_WIND",
+            "type": "Bug",
+            "power": 70,
+            "durationMS": 3700,
+            "energyCost": 33,
+            "name": "Silver Wind"
+        }, {
+            "id": "NIGHT_SHADE",
+            "type": "Ghost",
+            "power": 60,
+            "durationMS": 2600,
+            "energyCost": 50,
+            "name": "Night Shade"
+        }, {
+            "id": "GYRO_BALL",
+            "type": "Steel",
+            "power": 80,
+            "durationMS": 3300,
+            "energyCost": 50,
+            "name": "Gyro Ball"
+        }, {
+            "id": "HEAVY_SLAM",
+            "type": "Steel",
+            "power": 70,
+            "durationMS": 2100,
+            "energyCost": 50,
+            "name": "Heavy Slam"
+        }, {
+            "id": "OVERHEAT",
+            "type": "Fire",
+            "power": 160,
+            "durationMS": 4000,
+            "energyCost": 100,
+            "name": "Overheat"
+        }, {
+            "id": "GRASS_KNOT",
+            "type": "Grass",
+            "power": 90,
+            "durationMS": 2600,
+            "energyCost": 50,
+            "name": "Grass Knot"
+        }, {
+            "id": "ENERGY_BALL",
+            "type": "Grass",
+            "power": 90,
+            "durationMS": 3900,
+            "energyCost": 50,
+            "name": "Energy Ball"
+        }, {
+            "id": "FUTURESIGHT",
+            "type": "Psychic",
+            "power": 120,
+            "durationMS": 2700,
+            "energyCost": 100,
+            "name": "Futuresight"
+        }, {
+            "id": "MIRROR_COAT",
+            "type": "Psychic",
+            "power": 60,
+            "durationMS": 2600,
+            "energyCost": 50,
+            "name": "Mirror Coat"
+        }, {
+            "id": "OUTRAGE",
+            "type": "Dragon",
+            "power": 110,
+            "durationMS": 3900,
+            "energyCost": 50,
+            "name": "Outrage"
+        }, {
+            "id": "CRUNCH",
+            "type": "Dark",
+            "power": 70,
+            "durationMS": 3200,
+            "energyCost": 33,
+            "name": "Crunch"
+        }, {
+            "id": "FOUL_PLAY",
+            "type": "Dark",
+            "power": 70,
+            "durationMS": 2000,
+            "energyCost": 50,
+            "name": "Foul Play"
+        }, {
+            "id": "SURF",
+            "type": "Water",
+            "power": 65,
+            "durationMS": 1700,
+            "energyCost": 50,
+            "name": "Surf"
+        }, {
+            "id": "DRACO_METEOR",
+            "type": "Dragon",
+            "power": 150,
+            "durationMS": 3600,
+            "energyCost": 100,
+            "name": "Draco Meteor"
+        }, {
+            "id": "DOOM_DESIRE",
+            "type": "Steel",
+            "power": 70,
+            "durationMS": 1700,
+            "energyCost": 33,
+            "name": "Doom Desire"
+        }, {
+            "id": "PSYCHO_BOOST",
+            "type": "Psychic",
+            "power": 70,
+            "durationMS": 4000,
+            "energyCost": 50,
+            "name": "Psycho Boost"
+        }, {
+            "id": "ORIGIN_PULSE",
+            "type": "Water",
+            "power": 130,
+            "durationMS": 1700,
+            "energyCost": 100,
+            "name": "Origin Pulse"
+        }, {
+            "id": "PRECIPICE_BLADES",
+            "type": "Ground",
+            "power": 130,
+            "durationMS": 1700,
+            "energyCost": 100,
+            "name": "Precipice Blades"
+        }, {
+            "id": "WEATHER_BALL_FIRE",
+            "type": "Fire",
+            "power": 60,
+            "durationMS": 1600,
+            "energyCost": 33,
+            "name": "Weather Ballfire"
+        }, {
+            "id": "WEATHER_BALL_ICE",
+            "type": "Ice",
+            "power": 60,
+            "durationMS": 1600,
+            "energyCost": 33,
+            "name": "Weather Ballice"
+        }, {
+            "id": "WEATHER_BALL_ROCK",
+            "type": "Normal",
+            "power": 60,
+            "durationMS": 1600,
+            "energyCost": 33,
+            "name": "Weather Ballrock"
+        }, {
+            "id": "WEATHER_BALL_WATER",
+            "type": "Water",
+            "power": 60,
+            "durationMS": 1600,
+            "energyCost": 33,
+            "name": "Weather Ballwater"
+        }, {
+            "id": "FRENZY_PLANT",
+            "type": "Grass",
+            "power": 100,
+            "durationMS": 2600,
+            "energyCost": 50,
+            "name": "Frenzy Plant"
+        }, {
+            "id": "BLAST_BURN",
+            "type": "Fire",
+            "power": 110,
+            "durationMS": 3300,
+            "energyCost": 50,
+            "name": "Blast Burn"
+        }, {
+            "id": "HYDRO_CANNON",
+            "type": "Water",
+            "power": 90,
+            "durationMS": 1900,
+            "energyCost": 50,
+            "name": "Hydro Cannon"
+        }, {
+            "id": "LAST_RESORT",
+            "type": "Normal",
+            "power": 90,
+            "durationMS": 2900,
+            "energyCost": 50,
+            "name": "Last Resort"
+        }, {
+            "id": "METEOR_MASH",
+            "type": "Steel",
+            "power": 100,
+            "durationMS": 2600,
+            "energyCost": 50,
+            "name": "Meteor Mash"
+        }, {
+            "id": "SKULL_BASH",
+            "type": "Normal",
+            "power": 130,
+            "durationMS": 3100,
+            "energyCost": 100,
+            "name": "Skull Bash"
+        }, {
+            "id": "ACID_SPRAY",
+            "type": "Poison",
+            "power": 20,
+            "durationMS": 3000,
+            "energyCost": 50,
+            "name": "Acid Spray"
+        }, {
+            "id": "EARTH_POWER",
+            "type": "Ground",
+            "power": 100,
+            "durationMS": 3600,
+            "energyCost": 50,
+            "name": "Earth Power"
+        }, {
+            "id": "CRABHAMMER",
+            "type": "Water",
+            "power": 85,
+            "durationMS": 1900,
+            "energyCost": 50,
+            "name": "Crabhammer"
+        }, {
+            "id": "LEAF_TORNADO",
+            "type": "Grass",
+            "power": 45,
+            "durationMS": 3100,
+            "energyCost": 33,
+            "name": "Leaf Tornado"
+        }, {
+            "id": "MUDDY_WATER",
+            "type": "Water",
+            "power": 50,
+            "durationMS": 2200,
+            "energyCost": 33,
+            "name": "Muddy Water"
+        }, {
+            "id": "BLAZE_KICK",
+            "type": "Fire",
+            "power": 45,
+            "durationMS": 1200,
+            "energyCost": 33,
+            "name": "Blaze Kick"
+        }, {
+            "id": "POWER_UP_PUNCH",
+            "type": "Fighting",
+            "power": 50,
+            "durationMS": 2000,
+            "energyCost": 33,
+            "name": "Power Uppunch"
+        }, {
+            "id": "FRUSTRATION",
+            "type": "Normal",
+            "power": 10,
+            "durationMS": 2000,
+            "energyCost": 33,
+            "name": "Frustration"
+        }, {
+            "id": "RETURN",
+            "type": "Normal",
+            "power": 35,
+            "durationMS": 700,
+            "energyCost": 33,
+            "name": "Return"
+        }, {
+            "id": "SYNCHRONOISE",
+            "type": "Psychic",
+            "power": 80,
+            "durationMS": 2600,
+            "energyCost": 50,
+            "name": "Synchronoise"
+        }]
+    }]
 }
