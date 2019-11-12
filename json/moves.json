@@ -1,5 +1,5 @@
 {
-    "version": 4.14,
+    "version": 4.15,
     "data": [{
         "id": 1,
         "quick": [{
@@ -284,7 +284,7 @@
         }, {
             "id": "FIRE_FANG_FAST",
             "type": "Fire",
-            "power": 11,
+            "power": 12,
             "durationMS": 900,
             "energyCost": 8,
             "name": "Fire Fang"
@@ -404,7 +404,7 @@
             "type": "Dark",
             "power": 12,
             "durationMS": 1100,
-            "energyCost": 12,
+            "energyCost": 14,
             "name": "Snarl "
         }, {
             "id": "HIDDEN_POWER_FAST",
@@ -454,6 +454,27 @@
             "durationMS": 1500,
             "energyCost": 11,
             "name": "Charm "
+        }, {
+            "id": "LOCK_ON_FAST",
+            "type": "Normal",
+            "power": 1,
+            "durationMS": 300,
+            "energyCost": 6,
+            "name": "Lock On"
+        }, {
+            "id": "THUNDER_FANG_FAST",
+            "type": "Electric",
+            "power": 12,
+            "durationMS": 1200,
+            "energyCost": 16,
+            "name": "Thunder Fang"
+        }, {
+            "id": "ICE_FANG_FAST",
+            "type": "Ice",
+            "power": 12,
+            "durationMS": 1500,
+            "energyCost": 20,
+            "name": "Ice Fang"
         }]
     }, {
         "id": 2,
@@ -978,9 +999,9 @@
         }, {
             "id": "PSYCHIC",
             "type": "Psychic",
-            "power": 100,
+            "power": 90,
             "durationMS": 2800,
-            "energyCost": 100,
+            "energyCost": 50,
             "name": "Psychic"
         }, {
             "id": "PSYSTRIKE",
@@ -1431,12 +1452,66 @@
             "energyCost": 50,
             "name": "Crabhammer"
         }, {
+            "id": "LUNGE",
+            "type": "Bug",
+            "durationMS": 2900,
+            "energyCost": null,
+            "name": "Lunge"
+        }, {
+            "id": "CRUSH_CLAW",
+            "type": "Normal",
+            "durationMS": 1900,
+            "energyCost": null,
+            "name": "Crush Claw"
+        }, {
+            "id": "OCTAZOOKA",
+            "type": "Water",
+            "durationMS": 2300,
+            "energyCost": null,
+            "name": "Octazooka"
+        }, {
+            "id": "MIRROR_SHOT",
+            "type": "Steel",
+            "durationMS": 2400,
+            "energyCost": null,
+            "name": "Mirror Shot"
+        }, {
+            "id": "SUPER_POWER",
+            "type": "Fighting",
+            "durationMS": 3000,
+            "energyCost": null,
+            "name": "Super Power"
+        }, {
+            "id": "FELL_STINGER",
+            "type": "Bug",
+            "durationMS": 2200,
+            "energyCost": null,
+            "name": "Fell Stinger"
+        }, {
             "id": "LEAF_TORNADO",
             "type": "Grass",
             "power": 45,
             "durationMS": 3100,
             "energyCost": 33,
             "name": "Leaf Tornado"
+        }, {
+            "id": "LEECH_LIFE",
+            "type": "Bug",
+            "durationMS": 2500,
+            "energyCost": null,
+            "name": "Leech Life"
+        }, {
+            "id": "DRAIN_PUNCH",
+            "type": "Fighting",
+            "durationMS": 2400,
+            "energyCost": null,
+            "name": "Drain Punch"
+        }, {
+            "id": "SHADOW_BONE",
+            "type": "Ghost",
+            "durationMS": 2800,
+            "energyCost": null,
+            "name": "Shadow Bone"
         }, {
             "id": "MUDDY_WATER",
             "type": "Water",
@@ -1452,12 +1527,25 @@
             "energyCost": 33,
             "name": "Blaze Kick"
         }, {
+            "id": "RAZOR_SHELL",
+            "type": "Water",
+            "durationMS": 1300,
+            "energyCost": null,
+            "name": "Razor Shell"
+        }, {
             "id": "POWER_UP_PUNCH",
             "type": "Fighting",
             "power": 50,
             "durationMS": 2000,
             "energyCost": 33,
             "name": "Power Uppunch"
+        }, {
+            "id": "GIGA_IMPACT",
+            "type": "Normal",
+            "power": 200,
+            "durationMS": 4700,
+            "energyCost": 100,
+            "name": "Giga Impact"
         }, {
             "id": "FRUSTRATION",
             "type": "Normal",
@@ -1479,6 +1567,18 @@
             "durationMS": 2600,
             "energyCost": 50,
             "name": "Synchronoise"
+        }, {
+            "id": "HORN_DRILL",
+            "type": "Normal",
+            "durationMS": 1900,
+            "energyCost": null,
+            "name": "Horn Drill"
+        }, {
+            "id": "FISSURE",
+            "type": "Ground",
+            "durationMS": 2800,
+            "energyCost": null,
+            "name": "Fissure"
         }]
     }]
 }

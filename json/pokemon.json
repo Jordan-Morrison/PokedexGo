@@ -1,5 +1,5 @@
 {
-    "version": 5.03,
+    "version": 5.05,
     "data": [{
         "id": 1001,
         "generation": 1,
@@ -18,6 +18,9 @@
                 "form": "BULBASAUR_SHADOW"
             }, {
                 "form": "BULBASAUR_PURIFIED"
+            }, {
+                "form": "BULBASAUR_FALL_2019",
+                "assetBundleSuffix": "pm0001_00_pgo_fall2019"
             }],
             "type1": "Grass",
             "type2": "Poison",
@@ -112,6 +115,9 @@
                 "form": "CHARMANDER_SHADOW"
             }, {
                 "form": "CHARMANDER_PURIFIED"
+            }, {
+                "form": "CHARMANDER_FALL_2019",
+                "assetBundleSuffix": "pm0004_00_pgo_fall2019"
             }],
             "type1": "Fire",
             "type2": "",
@@ -225,6 +231,9 @@
                 "form": "SQUIRTLE_SHADOW"
             }, {
                 "form": "SQUIRTLE_PURIFIED"
+            }, {
+                "form": "SQUIRTLE_FALL_2019",
+                "assetBundleSuffix": "pm0007_00_pgo_fall2019"
             }],
             "type1": "Water",
             "type2": "",
@@ -370,7 +379,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "WEEDLE_NORMAL"
+            }, {
+                "form": "WEEDLE_SHADOW"
+            }, {
+                "form": "WEEDLE_PURIFIED"
+            }],
             "type1": "Bug",
             "type2": "Poison",
             "hp": 120,
@@ -389,7 +404,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "KAKUNA_NORMAL"
+            }, {
+                "form": "KAKUNA_SHADOW"
+            }, {
+                "form": "KAKUNA_PURIFIED"
+            }],
             "type1": "Bug",
             "type2": "Poison",
             "hp": 128,
@@ -408,7 +429,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "BEEDRILL_NORMAL"
+            }, {
+                "form": "BEEDRILL_SHADOW"
+            }, {
+                "form": "BEEDRILL_PURIFIED"
+            }],
             "type1": "Bug",
             "type2": "Poison",
             "hp": 163,
@@ -672,7 +699,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "EKANS_NORMAL"
+            }, {
+                "form": "EKANS_PURIFIED"
+            }, {
+                "form": "EKANS_SHADOW"
+            }],
             "type1": "Poison",
             "type2": "",
             "hp": 111,
@@ -691,7 +724,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "ARBOK_NORMAL"
+            }, {
+                "form": "ARBOK_PURIFIED"
+            }, {
+                "form": "ARBOK_SHADOW"
+            }],
             "type1": "Poison",
             "type2": "",
             "hp": 155,
@@ -710,7 +749,12 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "PIKACHU_NORMAL"
+            }, {
+                "form": "PIKACHU_FALL_2019",
+                "assetBundleSuffix": "pm0025_00_pgo_fall2019"
+            }],
             "type1": "Electric",
             "type2": "",
             "hp": 111,
@@ -765,7 +809,7 @@
             "attack": 201,
             "defense": 154,
             "maxCP": 2286,
-            "quickMoves": ["VOLT_SWITCH_FAST", "SPARK_FAST"],
+            "quickMoves": ["VOLT_SWITCH_FAST", "SPARK_FAST", "THUNDER_SHOCK_FAST"],
             "chargedMoves": ["PSYCHIC", "THUNDER_PUNCH", "WILD_CHARGE", "GRASS_KNOT"],
             "quickLegacy": "",
             "chargedLegacy": ""
@@ -782,6 +826,10 @@
             }, {
                 "form": "SANDSHREW_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "SANDSHREW_PURIFIED"
+            }, {
+                "form": "SANDSHREW_SHADOW"
             }],
             "type1": "Ground",
             "type2": "",
@@ -806,6 +854,10 @@
             }, {
                 "form": "SANDSHREW_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "SANDSHREW_PURIFIED"
+            }, {
+                "form": "SANDSHREW_SHADOW"
             }],
             "type1": "Ice",
             "type2": "Steel",
@@ -830,6 +882,10 @@
             }, {
                 "form": "SANDSLASH_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "SANDSLASH_PURIFIED"
+            }, {
+                "form": "SANDSLASH_SHADOW"
             }],
             "type1": "Ground",
             "type2": "",
@@ -854,6 +910,10 @@
             }, {
                 "form": "SANDSLASH_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "SANDSLASH_PURIFIED"
+            }, {
+                "form": "SANDSLASH_SHADOW"
             }],
             "type1": "Ice",
             "type2": "Steel",
@@ -862,7 +922,7 @@
             "defense": 195,
             "maxCP": 2432,
             "quickMoves": ["METAL_CLAW_FAST", "POWDER_SNOW_FAST"],
-            "chargedMoves": ["BLIZZARD", "GYRO_BALL", "BULLDOZE"],
+            "chargedMoves": ["BLIZZARD", "GYRO_BALL", "BULLDOZE", "ICE_PUNCH"],
             "quickLegacy": "",
             "chargedLegacy": ""
         }, {
@@ -1109,7 +1169,7 @@
             "attack": 170,
             "defense": 193,
             "maxCP": 2309,
-            "quickMoves": ["FEINT_ATTACK_FAST", "POWDER_SNOW_FAST"],
+            "quickMoves": ["FEINT_ATTACK_FAST", "POWDER_SNOW_FAST", "CHARM_FAST"],
             "chargedMoves": ["DAZZLING_GLEAM", "ICE_BEAM", "BLIZZARD", "PSYSHOCK"],
             "quickLegacy": "",
             "chargedLegacy": ""
@@ -1208,7 +1268,7 @@
                 "male": true,
                 "female": true
             },
-            "shiny": false,
+            "shiny": true,
             "forms": [{
                 "form": "ODDISH_NORMAL"
             }, {
@@ -1233,7 +1293,7 @@
                 "male": true,
                 "female": true
             },
-            "shiny": false,
+            "shiny": true,
             "forms": [{
                 "form": "GLOOM_NORMAL"
             }, {
@@ -1258,7 +1318,7 @@
                 "male": true,
                 "female": true
             },
-            "shiny": false,
+            "shiny": true,
             "forms": [{
                 "form": "VILEPLUME_NORMAL"
             }, {
@@ -1377,6 +1437,10 @@
             }, {
                 "form": "DIGLETT_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "DIGLETT_PURIFIED"
+            }, {
+                "form": "DIGLETT_SHADOW"
             }],
             "type1": "Ground",
             "type2": "",
@@ -1401,6 +1465,10 @@
             }, {
                 "form": "DIGLETT_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "DIGLETT_PURIFIED"
+            }, {
+                "form": "DIGLETT_SHADOW"
             }],
             "type1": "Ground",
             "type2": "Steel",
@@ -1425,6 +1493,10 @@
             }, {
                 "form": "DUGTRIO_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "DUGTRIO_PURIFIED"
+            }, {
+                "form": "DUGTRIO_SHADOW"
             }],
             "type1": "Ground",
             "type2": "",
@@ -1449,6 +1521,10 @@
             }, {
                 "form": "DUGTRIO_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "DUGTRIO_PURIFIED"
+            }, {
+                "form": "DUGTRIO_SHADOW"
             }],
             "type1": "Ground",
             "type2": "Steel",
@@ -1473,6 +1549,10 @@
             }, {
                 "form": "MEOWTH_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "MEOWTH_PURIFIED"
+            }, {
+                "form": "MEOWTH_SHADOW"
             }],
             "type1": "Normal",
             "type2": "",
@@ -1497,6 +1577,10 @@
             }, {
                 "form": "MEOWTH_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "MEOWTH_PURIFIED"
+            }, {
+                "form": "MEOWTH_SHADOW"
             }],
             "type1": "Dark",
             "type2": "",
@@ -1521,6 +1605,10 @@
             }, {
                 "form": "PERSIAN_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "PERSIAN_PURIFIED"
+            }, {
+                "form": "PERSIAN_SHADOW"
             }],
             "type1": "Normal",
             "type2": "",
@@ -1545,6 +1633,10 @@
             }, {
                 "form": "PERSIAN_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "PERSIAN_PURIFIED"
+            }, {
+                "form": "PERSIAN_SHADOW"
             }],
             "type1": "Dark",
             "type2": "",
@@ -1603,7 +1695,7 @@
             "defense": 162,
             "maxCP": 2450,
             "quickMoves": ["WATER_GUN_FAST", "CONFUSION_FAST"],
-            "chargedMoves": ["PSYCHIC", "HYDRO_PUMP", "ICE_BEAM"],
+            "chargedMoves": ["PSYCHIC", "HYDRO_PUMP", "ICE_BEAM", "BUBBLE_BEAM", "SYNCHRONOISE", "CROSS_CHOP"],
             "quickLegacy": "",
             "chargedLegacy": ""
         }, {
@@ -1690,7 +1782,7 @@
             "attack": 227,
             "defense": 166,
             "maxCP": 3029,
-            "quickMoves": ["FIRE_FANG_FAST", "SNARL_FAST"],
+            "quickMoves": ["FIRE_FANG_FAST", "SNARL_FAST", "THUNDER_FANG_FAST"],
             "chargedMoves": ["FIRE_BLAST", "WILD_CHARGE", "CRUNCH"],
             "quickLegacy": ["BITE_FAST"],
             "chargedLegacy": ["BULLDOZE", "FLAMETHROWER"]
@@ -1928,7 +2020,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "BELLSPROUT_NORMAL"
+            }, {
+                "form": "BELLSPROUT_PURIFIED"
+            }, {
+                "form": "BELLSPROUT_SHADOW"
+            }],
             "type1": "Grass",
             "type2": "Poison",
             "hp": 137,
@@ -1947,7 +2045,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "WEEPINBELL_NORMAL"
+            }, {
+                "form": "WEEPINBELL_PURIFIED"
+            }, {
+                "form": "WEEPINBELL_SHADOW"
+            }],
             "type1": "Grass",
             "type2": "Poison",
             "hp": 163,
@@ -1966,7 +2070,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "VICTREEBEL_NORMAL"
+            }, {
+                "form": "VICTREEBEL_PURIFIED"
+            }, {
+                "form": "VICTREEBEL_SHADOW"
+            }],
             "type1": "Grass",
             "type2": "Poison",
             "hp": 190,
@@ -2028,6 +2138,10 @@
             }, {
                 "form": "GEODUDE_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "GEODUDE_PURIFIED"
+            }, {
+                "form": "GEODUDE_SHADOW"
             }],
             "type1": "Rock",
             "type2": "Ground",
@@ -2052,6 +2166,10 @@
             }, {
                 "form": "GEODUDE_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "GEODUDE_PURIFIED"
+            }, {
+                "form": "GEODUDE_SHADOW"
             }],
             "type1": "Rock",
             "type2": "Electric",
@@ -2076,6 +2194,10 @@
             }, {
                 "form": "GRAVELER_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "GRAVELER_PURIFIED"
+            }, {
+                "form": "GRAVELER_SHADOW"
             }],
             "type1": "Rock",
             "type2": "Ground",
@@ -2100,6 +2222,10 @@
             }, {
                 "form": "GRAVELER_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "GRAVELER_PURIFIED"
+            }, {
+                "form": "GRAVELER_SHADOW"
             }],
             "type1": "Rock",
             "type2": "Electric",
@@ -2124,6 +2250,10 @@
             }, {
                 "form": "GOLEM_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "GOLEM_PURIFIED"
+            }, {
+                "form": "GOLEM_SHADOW"
             }],
             "type1": "Rock",
             "type2": "Ground",
@@ -2148,6 +2278,10 @@
             }, {
                 "form": "GOLEM_ALOLA",
                 "assetBundleValue": 61
+            }, {
+                "form": "GOLEM_PURIFIED"
+            }, {
+                "form": "GOLEM_SHADOW"
             }],
             "type1": "Rock",
             "type2": "Electric",
@@ -2262,7 +2396,13 @@
                 "female": false
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "MAGNEMITE_NORMAL"
+            }, {
+                "form": "MAGNEMITE_PURIFIED"
+            }, {
+                "form": "MAGNEMITE_SHADOW"
+            }],
             "type1": "Electric",
             "type2": "Steel",
             "hp": 93,
@@ -2281,7 +2421,13 @@
                 "female": false
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "MAGNETON_NORMAL"
+            }, {
+                "form": "MAGNETON_PURIFIED"
+            }, {
+                "form": "MAGNETON_SHADOW"
+            }],
             "type1": "Electric",
             "type2": "Steel",
             "hp": 137,
@@ -2507,7 +2653,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "SHELLDER_NORMAL"
+            }, {
+                "form": "SHELLDER_PURIFIED"
+            }, {
+                "form": "SHELLDER_SHADOW"
+            }],
             "type1": "Water",
             "type2": "",
             "hp": 102,
@@ -2526,7 +2678,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "CLOYSTER_NORMAL"
+            }, {
+                "form": "CLOYSTER_PURIFIED"
+            }, {
+                "form": "CLOYSTER_SHADOW"
+            }],
             "type1": "Water",
             "type2": "Ice",
             "hp": 137,
@@ -2621,7 +2779,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "ONIX_NORMAL"
+            }, {
+                "form": "ONIX_PURIFIED"
+            }, {
+                "form": "ONIX_SHADOW"
+            }],
             "type1": "Rock",
             "type2": "Ground",
             "hp": 111,
@@ -2690,7 +2854,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "KRABBY_NORMAL"
+            }, {
+                "form": "KRABBY_PURIFIED"
+            }, {
+                "form": "KRABBY_SHADOW"
+            }],
             "type1": "Water",
             "type2": "",
             "hp": 102,
@@ -2709,7 +2879,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "KINGLER_NORMAL"
+            }, {
+                "form": "KINGLER_PURIFIED"
+            }, {
+                "form": "KINGLER_SHADOW"
+            }],
             "type1": "Water",
             "type2": "",
             "hp": 146,
@@ -2902,8 +3078,8 @@
             "attack": 144,
             "defense": 186,
             "maxCP": 1835,
-            "quickMoves": ["HEX_FAST", "ROCK_SMASH_FAST"],
-            "chargedMoves": ["BONE_CLUB", "SHADOW_BALL", "FIRE_BLAST"],
+            "quickMoves": ["HEX_FAST", "ROCK_SMASH_FAST", "FIRE_SPIN_FAST"],
+            "chargedMoves": ["BONE_CLUB", "SHADOW_BALL", "FIRE_BLAST", "FLAME_WHEEL"],
             "quickLegacy": "",
             "chargedLegacy": ""
         }, {
@@ -2914,7 +3090,13 @@
                 "female": false
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "HITMONLEE_NORMAL"
+            }, {
+                "form": "HITMONLEE_PURIFIED"
+            }, {
+                "form": "HITMONLEE_SHADOW"
+            }],
             "type1": "Fighting",
             "type2": "",
             "hp": 137,
@@ -2977,7 +3159,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "KOFFING_NORMAL"
+            }, {
+                "form": "KOFFING_PURIFIED"
+            }, {
+                "form": "KOFFING_SHADOW"
+            }],
             "type1": "Poison",
             "type2": "",
             "hp": 120,
@@ -2996,7 +3184,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "WEEZING_NORMAL"
+            }, {
+                "form": "WEEZING_PURIFIED"
+            }, {
+                "form": "WEEZING_SHADOW"
+            }],
             "type1": "Poison",
             "type2": "",
             "hp": 163,
@@ -3015,7 +3209,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "RHYHORN_NORMAL"
+            }, {
+                "form": "RHYHORN_PURIFIED"
+            }, {
+                "form": "RHYHORN_SHADOW"
+            }],
             "type1": "Ground",
             "type2": "Rock",
             "hp": 190,
@@ -3034,7 +3234,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "RHYDON_NORMAL"
+            }, {
+                "form": "RHYDON_PURIFIED"
+            }, {
+                "form": "RHYDON_SHADOW"
+            }],
             "type1": "Ground",
             "type2": "Rock",
             "hp": 233,
@@ -3091,7 +3297,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "KANGASKHAN_NORMAL"
+            }, {
+                "form": "KANGASKHAN_PURIFIED"
+            }, {
+                "form": "KANGASKHAN_SHADOW"
+            }],
             "type1": "Normal",
             "type2": "",
             "hp": 233,
@@ -3306,7 +3518,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "ELECTABUZZ_NORMAL"
+            }, {
+                "form": "ELECTABUZZ_SHADOW"
+            }, {
+                "form": "ELECTABUZZ_PURIFIED"
+            }],
             "type1": "Electric",
             "type2": "",
             "hp": 163,
@@ -3325,7 +3543,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "MAGMAR_NORMAL"
+            }, {
+                "form": "MAGMAR_SHADOW"
+            }, {
+                "form": "MAGMAR_PURIFIED"
+            }],
             "type1": "Fire",
             "type2": "",
             "hp": 163,
@@ -3590,7 +3814,13 @@
                 "female": false
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "PORYGON_NORMAL"
+            }, {
+                "form": "PORYGON_PURIFIED"
+            }, {
+                "form": "PORYGON_SHADOW"
+            }],
             "type1": "Normal",
             "type2": "",
             "hp": 163,
@@ -3748,7 +3978,13 @@
                 "female": false
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "ARTICUNO_NORMAL"
+            }, {
+                "form": "ARTICUNO_PURIFIED"
+            }, {
+                "form": "ARTICUNO_SHADOW"
+            }],
             "type1": "Ice",
             "type2": "Flying",
             "hp": 207,
@@ -4509,7 +4745,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "MAREEP_NORMAL"
+            }, {
+                "form": "MAREEP_SHADOW"
+            }, {
+                "form": "MAREEP_PURIFIED"
+            }],
             "type1": "Electric",
             "type2": "",
             "hp": 146,
@@ -4528,7 +4770,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "FLAAFFY_NORMAL"
+            }, {
+                "form": "FLAAFFY_SHADOW"
+            }, {
+                "form": "FLAAFFY_PURIFIED"
+            }],
             "type1": "Electric",
             "type2": "",
             "hp": 172,
@@ -4547,7 +4795,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "AMPHAROS_NORMAL"
+            }, {
+                "form": "AMPHAROS_SHADOW"
+            }, {
+                "form": "AMPHAROS_PURIFIED"
+            }],
             "type1": "Electric",
             "type2": "",
             "hp": 207,
@@ -4584,7 +4838,7 @@
                 "male": true,
                 "female": true
             },
-            "shiny": false,
+            "shiny": true,
             "forms": [{
                 "form": "BELLOSSOM_NORMAL"
             }, {
@@ -4901,7 +5155,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "MURKROW_NORMAL"
+            }, {
+                "form": "MURKROW_PURIFIED"
+            }, {
+                "form": "MURKROW_SHADOW"
+            }],
             "type1": "Dark",
             "type2": "Flying",
             "hp": 155,
@@ -5061,7 +5321,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "WOBBUFFET_NORMAL"
+            }, {
+                "form": "WOBBUFFET_PURIFIED"
+            }, {
+                "form": "WOBBUFFET_SHADOW"
+            }],
             "type1": "Psychic",
             "type2": "",
             "hp": 382,
@@ -5175,14 +5441,20 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "STEELIX_NORMAL"
+            }, {
+                "form": "STEELIX_PURIFIED"
+            }, {
+                "form": "STEELIX_SHADOW"
+            }],
             "type1": "Steel",
             "type2": "Ground",
             "hp": 181,
             "attack": 148,
             "defense": 272,
             "maxCP": 2414,
-            "quickMoves": ["IRON_TAIL_FAST", "DRAGON_TAIL_FAST"],
+            "quickMoves": ["IRON_TAIL_FAST", "DRAGON_TAIL_FAST", "THUNDER_FANG_FAST"],
             "chargedMoves": ["EARTHQUAKE", "HEAVY_SLAM", "CRUNCH"],
             "quickLegacy": "",
             "chargedLegacy": ""
@@ -5371,7 +5643,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "SNEASEL_NORMAL"
+            }, {
+                "form": "SNEASEL_PURIFIED"
+            }, {
+                "form": "SNEASEL_SHADOW"
+            }],
             "type1": "Dark",
             "type2": "Ice",
             "hp": 146,
@@ -5588,7 +5866,7 @@
             "defense": 226,
             "maxCP": 2320,
             "quickMoves": ["BUBBLE_FAST", "WING_ATTACK_FAST", "BULLET_SEED_FAST"],
-            "chargedMoves": ["WATER_PULSE", "ICE_BEAM", "AERIAL_ACE"],
+            "chargedMoves": ["WATER_PULSE", "ICE_BEAM", "AERIAL_ACE", "BUBBLE_BEAM"],
             "quickLegacy": "",
             "chargedLegacy": ""
         }, {
@@ -5598,7 +5876,7 @@
                 "male": true,
                 "female": true
             },
-            "shiny": false,
+            "shiny": true,
             "forms": [],
             "type1": "Steel",
             "type2": "Flying",
@@ -5744,7 +6022,13 @@
                 "female": false
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "PORYGON2_NORMAL"
+            }, {
+                "form": "PORYGON2_PURIFIED"
+            }, {
+                "form": "PORYGON2_SHADOW"
+            }],
             "type1": "Normal",
             "type2": "",
             "hp": 198,
@@ -5979,7 +6263,7 @@
             "attack": 180,
             "defense": 235,
             "maxCP": 2983,
-            "quickMoves": ["EXTRASENSORY_FAST", "SNARL_FAST"],
+            "quickMoves": ["EXTRASENSORY_FAST", "SNARL_FAST", "ICE_FANG_FAST"],
             "chargedMoves": ["HYDRO_PUMP", "BUBBLE_BEAM", "WATER_PULSE", "ICE_BEAM"],
             "quickLegacy": ["HIDDEN_POWER_FAST"],
             "chargedLegacy": ""
@@ -6419,7 +6703,7 @@
             "attack": 171,
             "defense": 132,
             "maxCP": 1926,
-            "quickMoves": ["BITE_FAST", "FIRE_FANG_FAST"],
+            "quickMoves": ["BITE_FAST", "FIRE_FANG_FAST", "THUNDER_FANG_FAST", "ICE_FANG_FAST"],
             "chargedMoves": ["CRUNCH", "PLAY_ROUGH", "POISON_FANG"],
             "quickLegacy": "",
             "chargedLegacy": ""
@@ -6621,7 +6905,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "SEEDOT_NORMAL"
+            }, {
+                "form": "SEEDOT_SHADOW"
+            }, {
+                "form": "SEEDOT_PURIFIED"
+            }],
             "type1": "Grass",
             "type2": "",
             "hp": 120,
@@ -6640,7 +6930,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "NUZLEAF_NORMAL"
+            }, {
+                "form": "NUZLEAF_SHADOW"
+            }, {
+                "form": "NUZLEAF_PURIFIED"
+            }],
             "type1": "Grass",
             "type2": "Dark",
             "hp": 172,
@@ -6659,7 +6955,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "SHIFTRY_NORMAL"
+            }, {
+                "form": "SHIFTRY_SHADOW"
+            }, {
+                "form": "SHIFTRY_PURIFIED"
+            }],
             "type1": "Grass",
             "type2": "Dark",
             "hp": 207,
@@ -7209,7 +7511,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "SABLEYE_NORMAL"
+            }, {
+                "form": "SABLEYE_SHADOW"
+            }, {
+                "form": "SABLEYE_PURIFIED"
+            }],
             "type1": "Dark",
             "type2": "Ghost",
             "hp": 137,
@@ -7254,8 +7562,8 @@
             "attack": 155,
             "defense": 141,
             "maxCP": 1634,
-            "quickMoves": ["BITE_FAST", "ASTONISH_FAST"],
-            "chargedMoves": ["PLAY_ROUGH", "VICE_GRIP", "IRON_HEAD"],
+            "quickMoves": ["BITE_FAST", "ASTONISH_FAST", "ICE_FANG_FAST", "FIRE_FANG_FAST"],
+            "chargedMoves": ["PLAY_ROUGH", "VICE_GRIP", "IRON_HEAD", "POWER_UP_PUNCH"],
             "quickLegacy": "",
             "chargedLegacy": ""
         }, {
@@ -7895,8 +8203,14 @@
                 "male": true,
                 "female": true
             },
-            "shiny": false,
-            "forms": [],
+            "shiny": true,
+            "forms": [{
+                "form": "TRAPINCH_NORMAL"
+            }, {
+                "form": "TRAPINCH_SHADOW"
+            }, {
+                "form": "TRAPINCH_PURIFIED"
+            }],
             "type1": "Ground",
             "type2": "",
             "hp": 128,
@@ -7914,8 +8228,14 @@
                 "male": true,
                 "female": true
             },
-            "shiny": false,
-            "forms": [],
+            "shiny": true,
+            "forms": [{
+                "form": "VIBRAVA_NORMAL"
+            }, {
+                "form": "VIBRAVA_SHADOW"
+            }, {
+                "form": "VIBRAVA_PURIFIED"
+            }],
             "type1": "Ground",
             "type2": "Dragon",
             "hp": 137,
@@ -7933,8 +8253,14 @@
                 "male": true,
                 "female": true
             },
-            "shiny": false,
-            "forms": [],
+            "shiny": true,
+            "forms": [{
+                "form": "FLYGON_NORMAL"
+            }, {
+                "form": "FLYGON_SHADOW"
+            }, {
+                "form": "FLYGON_PURIFIED"
+            }],
             "type1": "Ground",
             "type2": "Dragon",
             "hp": 190,
@@ -7944,7 +8270,7 @@
             "quickMoves": ["MUD_SHOT_FAST", "DRAGON_TAIL_FAST"],
             "chargedMoves": ["EARTHQUAKE", "DRAGON_CLAW", "STONE_EDGE"],
             "quickLegacy": "",
-            "chargedLegacy": ""
+            "chargedLegacy": ["EARTH_POWER"]
         }, {
             "id": 331,
             "name": "Cacnea",
@@ -7953,7 +8279,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "CACNEA_NORMAL"
+            }, {
+                "form": "CACNEA_SHADOW"
+            }, {
+                "form": "CACNEA_PURIFIED"
+            }],
             "type1": "Grass",
             "type2": "",
             "hp": 137,
@@ -7972,7 +8304,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "CACTURNE_NORMAL"
+            }, {
+                "form": "CACTURNE_SHADOW"
+            }, {
+                "form": "CACTURNE_PURIFIED"
+            }],
             "type1": "Grass",
             "type2": "Dark",
             "hp": 172,
@@ -8495,7 +8833,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "SHUPPET_NORMAL"
+            }, {
+                "form": "SHUPPET_SHADOW"
+            }, {
+                "form": "SHUPPET_PURIFIED"
+            }],
             "type1": "Ghost",
             "type2": "",
             "hp": 127,
@@ -8514,7 +8858,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "BANETTE_NORMAL"
+            }, {
+                "form": "BANETTE_SHADOW"
+            }, {
+                "form": "BANETTE_PURIFIED"
+            }],
             "type1": "Ghost",
             "type2": "",
             "hp": 162,
@@ -8552,7 +8902,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "DUSKULL_NORMAL"
+            }, {
+                "form": "DUSKULL_SHADOW"
+            }, {
+                "form": "DUSKULL_PURIFIED"
+            }],
             "type1": "Ghost",
             "type2": "",
             "hp": 85,
@@ -8571,7 +8927,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "DUSCLOPS_NORMAL"
+            }, {
+                "form": "DUSCLOPS_SHADOW"
+            }, {
+                "form": "DUSCLOPS_PURIFIED"
+            }],
             "type1": "Ghost",
             "type2": "",
             "hp": 120,
@@ -9045,7 +9407,7 @@
                 "male": false,
                 "female": false
             },
-            "shiny": false,
+            "shiny": true,
             "forms": [],
             "type1": "Rock",
             "type2": "",
@@ -9053,7 +9415,7 @@
             "attack": 179,
             "defense": 309,
             "maxCP": 3122,
-            "quickMoves": ["ROCK_THROW_FAST", "ROCK_SMASH_FAST"],
+            "quickMoves": ["ROCK_THROW_FAST", "ROCK_SMASH_FAST", "LOCK_ON_FAST"],
             "chargedMoves": ["STONE_EDGE", "ZAP_CANNON", "FOCUS_BLAST"],
             "quickLegacy": "",
             "chargedLegacy": ""
@@ -9064,7 +9426,7 @@
                 "male": false,
                 "female": false
             },
-            "shiny": false,
+            "shiny": true,
             "forms": [],
             "type1": "Ice",
             "type2": "",
@@ -9072,7 +9434,7 @@
             "attack": 179,
             "defense": 309,
             "maxCP": 3122,
-            "quickMoves": ["FROST_BREATH_FAST", "ROCK_SMASH_FAST"],
+            "quickMoves": ["FROST_BREATH_FAST", "ROCK_SMASH_FAST", "LOCK_ON_FAST"],
             "chargedMoves": ["BLIZZARD", "EARTHQUAKE", "FOCUS_BLAST"],
             "quickLegacy": "",
             "chargedLegacy": ""
@@ -9083,7 +9445,7 @@
                 "male": false,
                 "female": false
             },
-            "shiny": false,
+            "shiny": true,
             "forms": [],
             "type1": "Steel",
             "type2": "",
@@ -9091,7 +9453,7 @@
             "attack": 143,
             "defense": 285,
             "maxCP": 2447,
-            "quickMoves": ["METAL_CLAW_FAST", "ROCK_SMASH_FAST"],
+            "quickMoves": ["METAL_CLAW_FAST", "ROCK_SMASH_FAST", "LOCK_ON_FAST"],
             "chargedMoves": ["FLASH_CANNON", "HYPER_BEAM", "FOCUS_BLAST"],
             "quickLegacy": "",
             "chargedLegacy": ""
@@ -9516,7 +9878,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "CHIMCHAR_NORMAL"
+            }, {
+                "form": "CHIMCHAR_PURIFIED"
+            }, {
+                "form": "CHIMCHAR_SHADOW"
+            }],
             "type1": "Fire",
             "type2": "",
             "hp": 127,
@@ -9535,7 +9903,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "MONFERNO_NORMAL"
+            }, {
+                "form": "MONFERNO_PURIFIED"
+            }, {
+                "form": "MONFERNO_SHADOW"
+            }],
             "type1": "Fire",
             "type2": "Fighting",
             "hp": 162,
@@ -9554,7 +9928,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "INFERNAPE_NORMAL"
+            }, {
+                "form": "INFERNAPE_PURIFIED"
+            }, {
+                "form": "INFERNAPE_SHADOW"
+            }],
             "type1": "Fire",
             "type2": "Fighting",
             "hp": 183,
@@ -10387,7 +10767,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "HONCHKROW_NORMAL"
+            }, {
+                "form": "HONCHKROW_PURIFIED"
+            }, {
+                "form": "HONCHKROW_SHADOW"
+            }],
             "type1": "Dark",
             "type2": "Flying",
             "hp": 225,
@@ -10557,7 +10943,7 @@
                 "male": true,
                 "female": true
             },
-            "shiny": false,
+            "shiny": true,
             "forms": [],
             "type1": "Psychic",
             "type2": "Fairy",
@@ -10634,7 +11020,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "GIBLE_NORMAL"
+            }, {
+                "form": "GIBLE_PURIFIED"
+            }, {
+                "form": "GIBLE_SHADOW"
+            }],
             "type1": "Dragon",
             "type2": "Ground",
             "hp": 151,
@@ -10653,7 +11045,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "GABITE_NORMAL"
+            }, {
+                "form": "GABITE_PURIFIED"
+            }, {
+                "form": "GABITE_SHADOW"
+            }],
             "type1": "Dragon",
             "type2": "Ground",
             "hp": 169,
@@ -10672,7 +11070,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "GARCHOMP_NORMAL"
+            }, {
+                "form": "GARCHOMP_PURIFIED"
+            }, {
+                "form": "GARCHOMP_SHADOW"
+            }],
             "type1": "Dragon",
             "type2": "Ground",
             "hp": 239,
@@ -10786,7 +11190,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "HIPPOPOTAS_NORMAL"
+            }, {
+                "form": "HIPPOPOTAS_PURIFIED"
+            }, {
+                "form": "HIPPOPOTAS_SHADOW"
+            }],
             "type1": "Ground",
             "type2": "",
             "hp": 169,
@@ -10805,14 +11215,20 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "HIPPOWDON_NORMAL"
+            }, {
+                "form": "HIPPOWDON_PURIFIED"
+            }, {
+                "form": "HIPPOWDON_SHADOW"
+            }],
             "type1": "Ground",
             "type2": "",
             "hp": 239,
             "attack": 201,
             "defense": 191,
             "maxCP": 3085,
-            "quickMoves": ["FIRE_FANG_FAST", "BITE_FAST"],
+            "quickMoves": ["FIRE_FANG_FAST", "BITE_FAST", "THUNDER_FANG_FAST", "ICE_FANG_FAST"],
             "chargedMoves": ["EARTHQUAKE", "STONE_EDGE", "BODY_SLAM", "EARTH_POWER"],
             "quickLegacy": "",
             "chargedLegacy": ""
@@ -10850,7 +11266,7 @@
             "attack": 180,
             "defense": 202,
             "maxCP": 2453,
-            "quickMoves": ["POISON_STING_FAST", "INFESTATION_FAST", "BITE_FAST"],
+            "quickMoves": ["POISON_STING_FAST", "INFESTATION_FAST", "BITE_FAST", "ICE_FANG_FAST"],
             "chargedMoves": ["CRUNCH", "AQUA_TAIL", "SLUDGE_BOMB"],
             "quickLegacy": "",
             "chargedLegacy": ""
@@ -11033,14 +11449,20 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "WEAVILE_NORMAL"
+            }, {
+                "form": "WEAVILE_PURIFIED"
+            }, {
+                "form": "WEAVILE_SHADOW"
+            }],
             "type1": "Dark",
             "type2": "Ice",
             "hp": 172,
             "attack": 243,
             "defense": 171,
             "maxCP": 3005,
-            "quickMoves": ["ICE_SHARD_FAST", "FEINT_ATTACK_FAST"],
+            "quickMoves": ["ICE_SHARD_FAST", "FEINT_ATTACK_FAST", "SNARL_FAST"],
             "chargedMoves": ["AVALANCHE", "FOCUS_BLAST", "FOUL_PLAY"],
             "quickLegacy": "",
             "chargedLegacy": ""
@@ -11052,7 +11474,13 @@
                 "female": false
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "MAGNEZONE_NORMAL"
+            }, {
+                "form": "MAGNEZONE_PURIFIED"
+            }, {
+                "form": "MAGNEZONE_SHADOW"
+            }],
             "type1": "Electric",
             "type2": "Steel",
             "hp": 172,
@@ -11090,7 +11518,13 @@
                 "female": true
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "RHYPERIOR_NORMAL"
+            }, {
+                "form": "RHYPERIOR_PURIFIED"
+            }, {
+                "form": "RHYPERIOR_SHADOW"
+            }],
             "type1": "Ground",
             "type2": "Rock",
             "hp": 251,
@@ -11128,7 +11562,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "ELECTIVIRE_NORMAL"
+            }, {
+                "form": "ELECTIVIRE_SHADOW"
+            }, {
+                "form": "ELECTIVIRE_PURIFIED"
+            }],
             "type1": "Electric",
             "type2": "",
             "hp": 181,
@@ -11147,7 +11587,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "MAGMORTAR_NORMAL"
+            }, {
+                "form": "MAGMORTAR_SHADOW"
+            }, {
+                "form": "MAGMORTAR_PURIFIED"
+            }],
             "type1": "Fire",
             "type2": "",
             "hp": 181,
@@ -11280,7 +11726,13 @@
                 "female": false
             },
             "shiny": false,
-            "forms": [],
+            "forms": [{
+                "form": "PORYGON_Z_NORMAL"
+            }, {
+                "form": "PORYGON_Z_PURIFIED"
+            }, {
+                "form": "PORYGON_Z_SHADOW"
+            }],
             "type1": "Normal",
             "type2": "",
             "hp": 198,
@@ -11362,7 +11814,13 @@
                 "female": true
             },
             "shiny": true,
-            "forms": [],
+            "forms": [{
+                "form": "DUSKNOIR_NORMAL"
+            }, {
+                "form": "DUSKNOIR_SHADOW"
+            }, {
+                "form": "DUSKNOIR_PURIFIED"
+            }],
             "type1": "Ghost",
             "type2": "",
             "hp": 128,
@@ -11743,8 +12201,8 @@
             "attack": 287,
             "defense": 210,
             "maxCP": 4337,
-            "quickMoves": ["ZEN_HEADBUTT_FAST", "ROCK_SMASH_FAST"],
-            "chargedMoves": ["STONE_EDGE", "AVALANCHE", "HEAVY_SLAM"],
+            "quickMoves": ["ZEN_HEADBUTT_FAST", "HIDDEN_POWER_FAST"],
+            "chargedMoves": ["GIGA_IMPACT", "FOCUS_BLAST", "THUNDER"],
             "quickLegacy": "",
             "chargedLegacy": ""
         }, {
@@ -13356,7 +13814,7 @@
                 "male": true,
                 "female": true
             },
-            "shiny": false,
+            "shiny": true,
             "forms": [],
             "type1": "Ghost",
             "type2": "",
@@ -13375,7 +13833,7 @@
                 "male": true,
                 "female": true
             },
-            "shiny": false,
+            "shiny": true,
             "forms": [],
             "type1": "Ghost",
             "type2": "",
